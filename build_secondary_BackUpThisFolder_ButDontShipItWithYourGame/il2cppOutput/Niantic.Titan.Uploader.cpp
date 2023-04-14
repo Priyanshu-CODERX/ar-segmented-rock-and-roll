@@ -1,0 +1,8396 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+#include <stdint.h>
+
+
+template <typename T1, typename T2>
+struct VirtualActionInvoker2
+{
+	typedef void (*Action)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct InterfaceActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2>
+struct InterfaceFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+template <typename T1, typename T2>
+struct InvokerActionInvoker2
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1 p1, T2 p2)
+	{
+		void* params[2] = { &p1, &p2 };
+		method->invoker_method(methodPtr, method, obj, params, NULL);
+	}
+};
+template <typename T1, typename T2>
+struct InvokerActionInvoker2<T1, T2*>
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1 p1, T2* p2)
+	{
+		void* params[2] = { &p1, p2 };
+		method->invoker_method(methodPtr, method, obj, params, NULL);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct InvokerActionInvoker3;
+template <typename T1, typename T2, typename T3>
+struct InvokerActionInvoker3<T1*, T2, T3>
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2 p2, T3 p3)
+	{
+		void* params[3] = { p1, &p2, &p3 };
+		method->invoker_method(methodPtr, method, obj, params, NULL);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct InvokerActionInvoker3<T1*, T2, T3*>
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2 p2, T3* p3)
+	{
+		void* params[3] = { p1, &p2, p3 };
+		method->invoker_method(methodPtr, method, obj, params, NULL);
+	}
+};
+
+// System.Action`1<System.Threading.Tasks.Task`1<System.Boolean>>
+struct Action_1_t12D515BBBDB69A29DC0C4812555D0A8A51D6B856;
+// System.Action`1<System.Object>
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+// System.Action`1<System.Single>
+struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A;
+// System.Action`3<System.Object,System.Object,System.Single>
+struct Action_3_t850613A5C1D9CA712ADADCE36ED2E7D25DF3B109;
+// System.Action`3<System.String,System.String,System.Single>
+struct Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8;
+// System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,System.Object>
+struct ConcurrentDictionary_2_tFDF36D27CABA72215EF949C34ADEAA5CC43B8B0E;
+// System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,Niantic.Titan.Uploader.Internal.UploadCallbackScope>
+struct ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D;
+// System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>
+struct Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task>
+struct Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Object>
+struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
+// System.Func`1<System.Threading.Tasks.Task/ContingentProperties>
+struct Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1;
+// System.Collections.Generic.IDictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>
+struct IDictionary_2_t687E9AC2D34CB5FF10ABCB4A9F3C6959A344192C;
+// System.Collections.Generic.IDictionary`2<System.Object,System.Object>
+struct IDictionary_2_t823399AD16F88CDEB25958D8CB61771376A5ADED;
+// System.Collections.Generic.IEnumerable`1<Niantic.Titan.Uploader.IChunkInfo>
+struct IEnumerable_1_t120E59536DB6CFF6302A81E51A60EC7ABE218586;
+// System.Collections.Generic.IEnumerable`1<System.Object>
+struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
+// System.Collections.Generic.IEqualityComparer`1<Niantic.Titan.Uploader.IChunkedFileUploadRequest>
+struct IEqualityComparer_1_t4E4443392417BB201354E5234AF0E252E4F51B3A;
+// System.Collections.Generic.IEqualityComparer`1<System.Int32>
+struct IEqualityComparer_1_tDBFC8496F14612776AF930DBF84AFE7D06D1F0E9;
+// System.Collections.Generic.IList`1<Niantic.Titan.Uploader.IChunkInfo>
+struct IList_1_t1FF323862A09611B0D1D3E7C0CC45B443E0A1C3D;
+// System.Collections.Generic.IList`1<System.Object>
+struct IList_1_t6EE90D273EFCF5E7E4C37FAB712E70BB6F1B4BFF;
+// System.Collections.Generic.Dictionary`2/KeyCollection<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>
+struct KeyCollection_t73E109FED91E5319C67D424F5DCDC0023B117A2C;
+// System.Collections.Generic.List`1<Niantic.Titan.Uploader.IChunkInfo>
+struct List_1_t3C1AFE53BF2037DD24B0120A46F3B74F6C399CE0;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+// System.Predicate`1<System.Object>
+struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
+// System.Predicate`1<System.Threading.Tasks.Task>
+struct Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.Titan.Uploader.IChunkInfo>
+struct ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
+struct ReadOnlyCollection_1_t5397DF0DB61D1090E7BBC89395CECB8D020CED92;
+// System.Collections.Concurrent.ConcurrentDictionary`2/Tables<System.Int32,Niantic.Titan.Uploader.Internal.UploadCallbackScope>
+struct Tables_tCE335417C5AA3A21FCAFA0EE4D5C30015A1F8932;
+// System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>
+struct TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14;
+// System.Threading.Tasks.TaskFactory`1<System.Boolean>
+struct TaskFactory_1_tFAEAC22A1E986463E6956C344A78A7C7197288E0;
+// System.Threading.Tasks.TaskFactory`1<Niantic.Titan.Uploader.UploadResult>
+struct TaskFactory_1_t6E2B7D349567AD7A2B35919F6BEFA0A324498EC3;
+// System.Threading.Tasks.Task`1<System.Boolean>
+struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043;
+// System.Threading.Tasks.Task`1<System.Int32Enum>
+struct Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB;
+// System.Threading.Tasks.Task`1<Niantic.Titan.Uploader.UploadResult>
+struct Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856;
+// System.Collections.Generic.Dictionary`2/ValueCollection<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>
+struct ValueCollection_tD1AF3EBE4CCC19B2689517548006DF99B57E4136;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>
+struct ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA;
+// System.Collections.Generic.Dictionary`2/Entry<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>[]
+struct EntryU5BU5D_t86FAA74AEA3909945AA428DC26AE5C512C9CC883;
+// System.Collections.Generic.KeyValuePair`2<System.Int32,Niantic.Titan.Uploader.Internal.UploadCallbackScope>[]
+struct KeyValuePair_2U5BU5D_tD60ADB8EA992B8A42DEC643606743BD1CE062AD8;
+// System.Delegate[]
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+// Niantic.Titan.Uploader.IChunkInfo[]
+struct IChunkInfoU5BU5D_t80665F80E4555F420CEC5D63CE501057097B9FAF;
+// System.Int32[]
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+// System.IntPtr[]
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+// System.Diagnostics.StackTrace[]
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+// System.String[]
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+// System.Action
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+// System.ArgumentException
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
+// System.AsyncCallback
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
+// Niantic.Titan.Uploader.AuthenticationInfo
+struct AuthenticationInfo_tBFDB52908F23240704D8A9FCE9FD9FF5F9D5DA92;
+// Niantic.Titan.Uploader.Internal.ChannelLogger
+struct ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF;
+// Niantic.Titan.Uploader.ChunkInfo
+struct ChunkInfo_tBDADA1F5DC29A3AAEAA84CE4A015102DCD411207;
+// Niantic.Titan.Uploader.ChunkedFileUploadClient
+struct ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD;
+// Niantic.Titan.Uploader.ChunkedFileUploadRequest
+struct ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9;
+// Niantic.Titan.Uploader.ChunkedFileUploadService
+struct ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688;
+// Niantic.Titan.Uploader.ChunkedFileUploadSession
+struct ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A;
+// Niantic.Titan.Uploader.ComposeInfo
+struct ComposeInfo_t8CF635B423B5692D9703C66CC07F39349A80F466;
+// System.Threading.ContextCallback
+struct ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007;
+// System.Delegate
+struct Delegate_t;
+// System.DelegateData
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+// Niantic.Titan.Uploader.Internal.DelegateHandle
+struct DelegateHandle_t178FA19A89EB38DCE6D7F7D67EE046349705FB1A;
+// System.Exception
+struct Exception_t;
+// UnityEngine.GameObject
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+// System.IAsyncResult
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
+// System.Runtime.CompilerServices.IAsyncStateMachine
+struct IAsyncStateMachine_t0680C7F905C553076B552D5A1A6E39E2F0F36AA2;
+// Niantic.Titan.Uploader.IAuthenticationInfo
+struct IAuthenticationInfo_tECF4F7CE95A4D349D8AAB7FB780B51484A0B4EB7;
+// Niantic.Titan.Uploader.IChunkInfo
+struct IChunkInfo_t3ED0F239D237C84B85DED01FDD404601E88426C2;
+// Niantic.Titan.Uploader.IChunkedFileUploadClient
+struct IChunkedFileUploadClient_t3F9635DBEBBE8058489EA3A96A29AF7551E3F8A7;
+// Niantic.Titan.Uploader.IChunkedFileUploadRequest
+struct IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6;
+// Niantic.Titan.Uploader.IChunkedFileUploadSession
+struct IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5;
+// Niantic.Titan.Uploader.IComposeInfo
+struct IComposeInfo_t6F27A8243E16042C2F7D17A55018CE1C65587486;
+// System.Collections.IDictionary
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+// System.InvalidOperationException
+struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
+// System.Reflection.MethodInfo
+struct MethodInfo_t;
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+// System.Runtime.Serialization.SafeSerializationManager
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+// System.Threading.SendOrPostCallback
+struct SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E;
+// System.Threading.Tasks.StackGuard
+struct StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352;
+// System.String
+struct String_t;
+// System.Threading.SynchronizationContext
+struct SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0;
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572;
+// System.Threading.Tasks.TaskFactory
+struct TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0;
+// System.Threading.Tasks.TaskScheduler
+struct TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E;
+// System.Type
+struct Type_t;
+// Niantic.Titan.Uploader.Internal.UploadCallbackScope
+struct UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3;
+// Niantic.Titan.Uploader.Internal.UploadCompleteDelegate
+struct UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB;
+// Niantic.Titan.Uploader.Internal.UploadProgressDelegate
+struct UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF;
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+// Niantic.Titan.Uploader.Internal.ApplicationLifecycle/AppLifecycleHook
+struct AppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA;
+// Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass17_0
+struct U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC;
+// Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass18_0
+struct U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C;
+// Niantic.Titan.Uploader.ChunkedFileUploadSession/<>c__DisplayClass32_0
+struct U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3;
+// System.Threading.Tasks.Task/ContingentProperties
+struct ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540;
+// Niantic.Titan.Uploader.Internal.UnitySynchronizationContext/<>c__DisplayClass3_0
+struct U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761;
+// Niantic.Titan.Uploader.NativeLogger/Native/LogCallback
+struct LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t12D515BBBDB69A29DC0C4812555D0A8A51D6B856_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IAuthenticationInfo_tECF4F7CE95A4D349D8AAB7FB780B51484A0B4EB7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IChunkInfo_t3ED0F239D237C84B85DED01FDD404601E88426C2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IChunkedFileUploadClient_t3F9635DBEBBE8058489EA3A96A29AF7551E3F8A7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IComposeInfo_t6F27A8243E16042C2F7D17A55018CE1C65587486_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IntPtr_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t3C1AFE53BF2037DD24B0120A46F3B74F6C399CE0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* LogLevel_t5186EB299DA356C0F9974D8730DF9118687019F9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral0062BDB7606D5B26FEAED5B6DAAA5E80A587D6DC;
+IL2CPP_EXTERN_C String_t* _stringLiteral2A2B45A4027AC936B0549C3C35C0B1F76490B137;
+IL2CPP_EXTERN_C String_t* _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D;
+IL2CPP_EXTERN_C String_t* _stringLiteral456E79E729CD3B37971F071A1D8642A11FE5D51F;
+IL2CPP_EXTERN_C String_t* _stringLiteral55EA20DC091CA397E51C3EB989766E5B4D02935C;
+IL2CPP_EXTERN_C String_t* _stringLiteral5F058D8CD37D55F1AF4E0B7853D21F857898A918;
+IL2CPP_EXTERN_C String_t* _stringLiteral634FD00ACA377643630CCBAC54101FE8E718CE84;
+IL2CPP_EXTERN_C String_t* _stringLiteral6CBD4DAA2392016FFCC63DA6EFB4E3B483120D86;
+IL2CPP_EXTERN_C String_t* _stringLiteral80F13ED5AAA2375ACD1C8F21AFEB8A3D88D1E49B;
+IL2CPP_EXTERN_C String_t* _stringLiteral8DEBEEEAA971E88219143BEC864CA0EBB88F24A4;
+IL2CPP_EXTERN_C String_t* _stringLiteral9F5970FF2D79B31DD81A8857D8C2DCD453E2DA50;
+IL2CPP_EXTERN_C String_t* _stringLiteralA73C767BD5557493B08AD33943BDC53FC73FE823;
+IL2CPP_EXTERN_C String_t* _stringLiteralA8FF8C665F4FEFAD1B137FE535FFF20D423CE67D;
+IL2CPP_EXTERN_C String_t* _stringLiteralCAC4A517B754545BFB63570F29893D05D49905A9;
+IL2CPP_EXTERN_C String_t* _stringLiteralD553D3B7921CB53DC9C9A665F768CEA003D24740;
+IL2CPP_EXTERN_C String_t* _stringLiteralE1A522FBA49BDFBD60EA366BA456858B72544C2C;
+IL2CPP_EXTERN_C String_t* _stringLiteralE961A6B0FE8750CD0FF8E98723DDE3037E801C95;
+IL2CPP_EXTERN_C String_t* _stringLiteralF5DB226C47A4E53B8999A1D8290EE49389E01244;
+IL2CPP_EXTERN_C String_t* _stringLiteralFD2A0B0B117B9D59D70EB595A62A2FE88E65743E;
+IL2CPP_EXTERN_C const RuntimeMethod* ApplicationLifecycle_OnApplicationIsShuttingDown_mD61042EC70BD85376AF4053DEF6D5D3FA10CF88E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ApplicationLifecycle_OnApplicationUnloading_m844E2A20E9EDB007E5FA350366402DA1F6A56463_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m9E12A46382D4DF9BA5195FFDE0609727846B3DD0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mE6F4B1DDD05F02842D3884DD4FF244DAB31BE5EA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_mC8AFF66FCE4D397C9ED726E45A451F12F68065F2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Create_m270B01E4F237A5001EE9C8DA76F0F1DF3B78B6D3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetException_m6190A58E358B6484F441ED43A324E11079D47482_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetException_mB8F5D5EF18A12CBFF3C7D54CE6382DBB1640C0FD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetResult_m1A953BA90FB271FA9BB0CF75D4A79EE252459E09_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetStateMachine_m8E968F01916102F8AC8692AB6BBC5C0C95C34B4F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mBA37AC94CEE4028DF7FCF6ABF8C8E277F51E5060_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m121717528A797E11095349FC8A84BC7570AE5775_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_Start_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_m9722CC48D025C095AE9EA029E4619CE3FB51F03D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_get_Task_m07A60A8884E1E70E64CF27F6F3CC5E2CEB559386_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ChunkedFileUploadClient_ThrowOnInvalidPointer_mF6173AB3BCA263886B49F806B23D1ACDC3474C11_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ChunkedFileUploadService_OnApplicationPaused_mB163A01B8EB405D645E3764A686DB27069E43DD3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ChunkedFileUploadService_OnApplicationUnpaused_m4542ECF08550E79C3C309536917FFCF55BFC5AA3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ChunkedFileUploadSession_OnProgressUpdated_mABCA71568C7FC43E08AB454585E9BD543472EB83_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ChunkedFileUploadSession_U3CUploadAsyncU3Eb__31_0_mAC3560DF414DE005440E9B12460B2486BC77EF69_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConcurrentDictionary_2_TryAdd_m2DA3A0ABB5A41D404CAE49AD70B96A6B5E7FA8F2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConcurrentDictionary_2_TryGetValue_m145B534F9AE9F8BC65E67A62C9A11EF6E421AB41_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConcurrentDictionary_2_TryRemove_m301AEFECA5AB21D3156386BECF3CC15A8708DB7E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConcurrentDictionary_2__ctor_m68A530CD77F2A9C5F3890808C81F64DEFEBD6BC3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfiguredTaskAwaitable_1_GetAwaiter_m3D8C463996184A1FE94D1B59A379F3ACB425C7CF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfiguredTaskAwaitable_1_GetAwaiter_m749FE382423DFEA14C8F6A4A3C78DD5770732C76_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfiguredTaskAwaiter_GetResult_m4FAD4E22CDD41F29252E07EC439092C8B2B19B9B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfiguredTaskAwaiter_GetResult_mA0D0419EF40E9DF864B87B495FFE05C08475C00B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfiguredTaskAwaiter_get_IsCompleted_m163553DF59F0AB3C1F2335293455DF075A4D202F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfiguredTaskAwaiter_get_IsCompleted_mC2024766896945A56978CF121456A78A6F054190_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_mFD369662BBED9064B50FD11E6C481C3CADCDB489_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m8F85F8953DED3178E382F07D603940C97464AE6E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_m64D5993CDCB307C9BAE3E7E7D5D2231912C0B624_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mB9031E9930A29FE067EF02870D69A975399B0D2B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mB97A7EDE0263EF308A85FC6646BCB14D5D9C9620_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Count_m15FDDC6E8466DE7E89792F8348002EF82EDF2837_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Values_m64DA6B6AF8D1F14F34A991B5B2F73D9B7DCAA962_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m0FF6AD75640DCF2F743F2CF42F5C45E351DD91DC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m06BF5637EA285B82F34890F3D5ED485D60B2341D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m934AFAA0331934ED5AA06C31978D1C0AC838B99A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mE78E6F0618AC03B6A78C09C04419DDAFFD786D45_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisAppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA_mAFF784CC53B662F1FD5E8F4B2239F0DDCAA727D1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mD1CE74FA3B86CD505E22E2BA6B46C5D9AD58E77C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeLogger_HandleNativeLog_mE4D4F63BB37FBA2EEC0F1A59E32B17E81E2C8E13_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1__ctor_m60462C4731BCD8446055D91B5ED9AF1DCF9C9657_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_get_Count_m6DAA756E6756003F71C6957423F265ACDBF82CAE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyCollection_1_get_Item_m5887D8792DDFD4AAC399ED92E86EBDCB9F53B763_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1__ctor_m8B45657B899BBC1E2F287FC119B8EC38083EF30A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ConfigureAwait_m351359280D7DAA3C867CAF0C7D9EFF600F8BCE02_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_ContinueWith_mBD33AE3971992759A43EF4B06D8458C7BC548E3B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1_get_Result_m48902D0529EDB4646DFE6B5A7631AE15911E87B9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass17_0_U3CCreateSessionU3Eb__0_mB0EE2DADE5B9FF6BD957D03B0D74FA155753C269_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass18_0_U3CUploadFileToCloudStorageU3Eb__0_m972C406F8602FAB9BE9D384B1430734A8E4264D4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass32_0_U3COnProgressUpdatedU3Eb__0_m855D41639C15B8FA8ACFDC9B859EBE18B16D6BDE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass3_0_U3CPostToMainThreadU3Eb__0_mFC0271A889B6F80B2801AE716CEAC95E56326535_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UploadCallbackScope_UploadCompleteCallback_m94B019EB19A889B570947EFBF0D195AC4A7E078E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UploadCallbackScope_UploadProgressCallback_mA2F6F71D236FC06059DC7398ADD562FC7862134A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ValueCollection_GetEnumerator_mAF707170BF5CFBBC2D261C6D83B65F27C6D6F8EA_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <Module>
+struct U3CModuleU3E_t79D1CA583016001E4F684D761341563ACF1DACF6 
+{
+};
+
+// System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,Niantic.Titan.Uploader.Internal.UploadCallbackScope>
+struct ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D  : public RuntimeObject
+{
+	// System.Collections.Concurrent.ConcurrentDictionary`2/Tables<TKey,TValue> modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Concurrent.ConcurrentDictionary`2::_tables
+	Tables_tCE335417C5AA3A21FCAFA0EE4D5C30015A1F8932* ____tables_0;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Concurrent.ConcurrentDictionary`2::_comparer
+	RuntimeObject* ____comparer_1;
+	// System.Boolean System.Collections.Concurrent.ConcurrentDictionary`2::_growLockArray
+	bool ____growLockArray_2;
+	// System.Int32 System.Collections.Concurrent.ConcurrentDictionary`2::_budget
+	int32_t ____budget_3;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] System.Collections.Concurrent.ConcurrentDictionary`2::_serializationArray
+	KeyValuePair_2U5BU5D_tD60ADB8EA992B8A42DEC643606743BD1CE062AD8* ____serializationArray_4;
+	// System.Int32 System.Collections.Concurrent.ConcurrentDictionary`2::_serializationConcurrencyLevel
+	int32_t ____serializationConcurrencyLevel_5;
+	// System.Int32 System.Collections.Concurrent.ConcurrentDictionary`2::_serializationCapacity
+	int32_t ____serializationCapacity_6;
+};
+
+struct ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D_StaticFields
+{
+	// System.Boolean System.Collections.Concurrent.ConcurrentDictionary`2::s_isValueWriteAtomic
+	bool ___s_isValueWriteAtomic_7;
+};
+
+// System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>
+struct Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_t86FAA74AEA3909945AA428DC26AE5C512C9CC883* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_t73E109FED91E5319C67D424F5DCDC0023B117A2C* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_tD1AF3EBE4CCC19B2689517548006DF99B57E4136* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
+// System.Collections.Generic.List`1<Niantic.Titan.Uploader.IChunkInfo>
+struct List_1_t3C1AFE53BF2037DD24B0120A46F3B74F6C399CE0  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	IChunkInfoU5BU5D_t80665F80E4555F420CEC5D63CE501057097B9FAF* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_t3C1AFE53BF2037DD24B0120A46F3B74F6C399CE0_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	IChunkInfoU5BU5D_t80665F80E4555F420CEC5D63CE501057097B9FAF* ___s_emptyArray_5;
+};
+
+// System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.Titan.Uploader.IChunkInfo>
+struct ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998  : public RuntimeObject
+{
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
+	RuntimeObject* ___list_0;
+	// System.Object System.Collections.ObjectModel.ReadOnlyCollection`1::_syncRoot
+	RuntimeObject* ____syncRoot_1;
+};
+
+// System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>
+struct TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14  : public RuntimeObject
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1::_task
+	Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ____task_0;
+};
+
+// System.Collections.Generic.Dictionary`2/ValueCollection<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>
+struct ValueCollection_tD1AF3EBE4CCC19B2689517548006DF99B57E4136  : public RuntimeObject
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::_dictionary
+	Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* ____dictionary_0;
+};
+
+// Niantic.Titan.Uploader.Internal.ApplicationLifecycle
+struct ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8  : public RuntimeObject
+{
+};
+
+struct ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields
+{
+	// System.Action Niantic.Titan.Uploader.Internal.ApplicationLifecycle::ApplicationGainedFocus
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___ApplicationGainedFocus_0;
+	// System.Action Niantic.Titan.Uploader.Internal.ApplicationLifecycle::ApplicationLostFocus
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___ApplicationLostFocus_1;
+	// System.Action Niantic.Titan.Uploader.Internal.ApplicationLifecycle::ApplicationPaused
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___ApplicationPaused_2;
+	// System.Action Niantic.Titan.Uploader.Internal.ApplicationLifecycle::ApplicationUnpaused
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___ApplicationUnpaused_3;
+	// System.Action Niantic.Titan.Uploader.Internal.ApplicationLifecycle::ApplicationIsShuttingDown
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___ApplicationIsShuttingDown_4;
+	// System.Action Niantic.Titan.Uploader.Internal.ApplicationLifecycle::ApplicationIsUnloading
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___ApplicationIsUnloading_5;
+	// Niantic.Titan.Uploader.Internal.ChannelLogger Niantic.Titan.Uploader.Internal.ApplicationLifecycle::<Log>k__BackingField
+	ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* ___U3CLogU3Ek__BackingField_6;
+};
+struct Il2CppArrayBounds;
+
+// Niantic.Titan.Uploader.AuthenticationInfo
+struct AuthenticationInfo_tBFDB52908F23240704D8A9FCE9FD9FF5F9D5DA92  : public RuntimeObject
+{
+	// System.String Niantic.Titan.Uploader.AuthenticationInfo::<AuthString>k__BackingField
+	String_t* ___U3CAuthStringU3Ek__BackingField_0;
+	// System.String Niantic.Titan.Uploader.AuthenticationInfo::<AuthDate>k__BackingField
+	String_t* ___U3CAuthDateU3Ek__BackingField_1;
+};
+
+// Niantic.Titan.Uploader.Internal.ChannelLogger
+struct ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF  : public RuntimeObject
+{
+	// System.String Niantic.Titan.Uploader.Internal.ChannelLogger::<ChannelName>k__BackingField
+	String_t* ___U3CChannelNameU3Ek__BackingField_0;
+	// Niantic.Titan.Uploader.Internal.ChannelLogger/LogLevel Niantic.Titan.Uploader.Internal.ChannelLogger::MaxLogLevel
+	int32_t ___MaxLogLevel_1;
+};
+
+// Niantic.Titan.Uploader.ChunkInfo
+struct ChunkInfo_tBDADA1F5DC29A3AAEAA84CE4A015102DCD411207  : public RuntimeObject
+{
+	// System.String Niantic.Titan.Uploader.ChunkInfo::<ObjectPath>k__BackingField
+	String_t* ___U3CObjectPathU3Ek__BackingField_0;
+	// Niantic.Titan.Uploader.IAuthenticationInfo Niantic.Titan.Uploader.ChunkInfo::<UploadAuth>k__BackingField
+	RuntimeObject* ___U3CUploadAuthU3Ek__BackingField_1;
+	// Niantic.Titan.Uploader.IAuthenticationInfo Niantic.Titan.Uploader.ChunkInfo::<DeleteAuth>k__BackingField
+	RuntimeObject* ___U3CDeleteAuthU3Ek__BackingField_2;
+};
+
+// Niantic.Titan.Uploader.ChunkedFileUploadRequest
+struct ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9  : public RuntimeObject
+{
+	// System.String Niantic.Titan.Uploader.ChunkedFileUploadRequest::<Id>k__BackingField
+	String_t* ___U3CIdU3Ek__BackingField_0;
+	// System.String Niantic.Titan.Uploader.ChunkedFileUploadRequest::<SubmissionId>k__BackingField
+	String_t* ___U3CSubmissionIdU3Ek__BackingField_1;
+	// System.String Niantic.Titan.Uploader.ChunkedFileUploadRequest::<LocalFilePath>k__BackingField
+	String_t* ___U3CLocalFilePathU3Ek__BackingField_2;
+	// System.String Niantic.Titan.Uploader.ChunkedFileUploadRequest::<Context>k__BackingField
+	String_t* ___U3CContextU3Ek__BackingField_3;
+	// System.String Niantic.Titan.Uploader.ChunkedFileUploadRequest::<BucketName>k__BackingField
+	String_t* ___U3CBucketNameU3Ek__BackingField_4;
+	// System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.Titan.Uploader.IChunkInfo> Niantic.Titan.Uploader.ChunkedFileUploadRequest::<Chunks>k__BackingField
+	ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* ___U3CChunksU3Ek__BackingField_5;
+	// Niantic.Titan.Uploader.IComposeInfo Niantic.Titan.Uploader.ChunkedFileUploadRequest::<ComposeInfo>k__BackingField
+	RuntimeObject* ___U3CComposeInfoU3Ek__BackingField_6;
+};
+
+// Niantic.Titan.Uploader.ChunkedFileUploadService
+struct ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688  : public RuntimeObject
+{
+	// System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession> Niantic.Titan.Uploader.ChunkedFileUploadService::_sessions
+	Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* ____sessions_1;
+	// System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession> Niantic.Titan.Uploader.ChunkedFileUploadService::_suspendedSessions
+	Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* ____suspendedSessions_2;
+	// System.UInt32 Niantic.Titan.Uploader.ChunkedFileUploadService::<UploadWorkerThreadCount>k__BackingField
+	uint32_t ___U3CUploadWorkerThreadCountU3Ek__BackingField_3;
+};
+
+struct ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_StaticFields
+{
+	// Niantic.Titan.Uploader.Internal.ChannelLogger Niantic.Titan.Uploader.ChunkedFileUploadService::<Log>k__BackingField
+	ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* ___U3CLogU3Ek__BackingField_0;
+};
+
+// Niantic.Titan.Uploader.ChunkedFileUploadSession
+struct ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A  : public RuntimeObject
+{
+	// Niantic.Titan.Uploader.IChunkedFileUploadClient Niantic.Titan.Uploader.ChunkedFileUploadSession::_client
+	RuntimeObject* ____client_0;
+	// System.UInt32 Niantic.Titan.Uploader.ChunkedFileUploadSession::_uploadWorkerThreadCount
+	uint32_t ____uploadWorkerThreadCount_1;
+	// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadSession::<IsComplete>k__BackingField
+	bool ___U3CIsCompleteU3Ek__BackingField_2;
+	// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadSession::<IsSuccessful>k__BackingField
+	bool ___U3CIsSuccessfulU3Ek__BackingField_3;
+	// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadSession::<IsCanceled>k__BackingField
+	bool ___U3CIsCanceledU3Ek__BackingField_4;
+	// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadSession::<IsPaused>k__BackingField
+	bool ___U3CIsPausedU3Ek__BackingField_5;
+	// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadSession::<IsActive>k__BackingField
+	bool ___U3CIsActiveU3Ek__BackingField_6;
+	// System.Action`1<System.Single> Niantic.Titan.Uploader.ChunkedFileUploadSession::ProgressUpdated
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___ProgressUpdated_7;
+	// System.Action Niantic.Titan.Uploader.ChunkedFileUploadSession::Disposing
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___Disposing_8;
+};
+
+// Niantic.Titan.Uploader.ComposeInfo
+struct ComposeInfo_t8CF635B423B5692D9703C66CC07F39349A80F466  : public RuntimeObject
+{
+	// System.String Niantic.Titan.Uploader.ComposeInfo::<ObjectPath>k__BackingField
+	String_t* ___U3CObjectPathU3Ek__BackingField_0;
+	// Niantic.Titan.Uploader.IAuthenticationInfo Niantic.Titan.Uploader.ComposeInfo::<Auth>k__BackingField
+	RuntimeObject* ___U3CAuthU3Ek__BackingField_1;
+	// System.String Niantic.Titan.Uploader.ComposeInfo::<AuthPayload>k__BackingField
+	String_t* ___U3CAuthPayloadU3Ek__BackingField_2;
+};
+
+// Niantic.Titan.Uploader.Internal.Constants
+struct Constants_t35D34676FA5BBB799095724FE5BF8B0570A42ADC  : public RuntimeObject
+{
+};
+
+struct Constants_t35D34676FA5BBB799095724FE5BF8B0570A42ADC_StaticFields
+{
+	// System.Boolean Niantic.Titan.Uploader.Internal.Constants::NATIVE_TESTS_ENABLED
+	bool ___NATIVE_TESTS_ENABLED_4;
+};
+
+// Niantic.Titan.Uploader.NativeLogger
+struct NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017  : public RuntimeObject
+{
+};
+
+struct NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_StaticFields
+{
+	// Niantic.Titan.Uploader.Internal.ChannelLogger Niantic.Titan.Uploader.NativeLogger::<Log>k__BackingField
+	ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* ___U3CLogU3Ek__BackingField_0;
+	// System.Boolean Niantic.Titan.Uploader.NativeLogger::hasInit
+	bool ___hasInit_1;
+};
+
+// System.String
+struct String_t  : public RuntimeObject
+{
+	// System.Int32 System.String::_stringLength
+	int32_t ____stringLength_4;
+	// System.Char System.String::_firstChar
+	Il2CppChar ____firstChar_5;
+};
+
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.Threading.SynchronizationContext
+struct SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0  : public RuntimeObject
+{
+	// System.Threading.SynchronizationContextProperties System.Threading.SynchronizationContext::_props
+	int32_t ____props_0;
+};
+
+struct SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0_StaticFields
+{
+	// System.Type System.Threading.SynchronizationContext::s_cachedPreparedType1
+	Type_t* ___s_cachedPreparedType1_1;
+	// System.Type System.Threading.SynchronizationContext::s_cachedPreparedType2
+	Type_t* ___s_cachedPreparedType2_2;
+	// System.Type System.Threading.SynchronizationContext::s_cachedPreparedType3
+	Type_t* ___s_cachedPreparedType3_3;
+	// System.Type System.Threading.SynchronizationContext::s_cachedPreparedType4
+	Type_t* ___s_cachedPreparedType4_4;
+	// System.Type System.Threading.SynchronizationContext::s_cachedPreparedType5
+	Type_t* ___s_cachedPreparedType5_5;
+};
+
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
+{
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_taskId
+	int32_t ___m_taskId_1;
+	// System.Delegate System.Threading.Tasks.Task::m_action
+	Delegate_t* ___m_action_2;
+	// System.Object System.Threading.Tasks.Task::m_stateObject
+	RuntimeObject* ___m_stateObject_3;
+	// System.Threading.Tasks.TaskScheduler System.Threading.Tasks.Task::m_taskScheduler
+	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_taskScheduler_4;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::m_parent
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_parent_5;
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
+	int32_t ___m_stateFlags_6;
+	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
+	RuntimeObject* ___m_continuationObject_23;
+	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
+};
+
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
+{
+	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
+	int32_t ___s_taskIdCounter_0;
+	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
+	RuntimeObject* ___s_taskCompletionSentinel_24;
+	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
+	bool ___s_asyncDebuggingEnabled_25;
+	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
+	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
+	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
+	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
+	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
+	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
+	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
+	RuntimeObject* ___s_activeTasksLock_37;
+};
+
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
+{
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
+	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
+};
+
+// Niantic.Titan.Uploader.Internal.UnitySynchronizationContext
+struct UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1  : public RuntimeObject
+{
+};
+
+struct UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_StaticFields
+{
+	// System.Threading.SynchronizationContext Niantic.Titan.Uploader.Internal.UnitySynchronizationContext::_synchronizationContext
+	SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* ____synchronizationContext_0;
+};
+
+// Niantic.Titan.Uploader.Internal.UploadCallbackScope
+struct UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3  : public RuntimeObject
+{
+	// System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> Niantic.Titan.Uploader.Internal.UploadCallbackScope::_tcs
+	TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* ____tcs_2;
+	// System.Action`1<System.Single> Niantic.Titan.Uploader.Internal.UploadCallbackScope::_onProgress
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ____onProgress_3;
+	// System.Int32 Niantic.Titan.Uploader.Internal.UploadCallbackScope::<Id>k__BackingField
+	int32_t ___U3CIdU3Ek__BackingField_4;
+};
+
+struct UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_StaticFields
+{
+	// System.Int32 Niantic.Titan.Uploader.Internal.UploadCallbackScope::_currentScopeId
+	int32_t ____currentScopeId_0;
+	// System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,Niantic.Titan.Uploader.Internal.UploadCallbackScope> Niantic.Titan.Uploader.Internal.UploadCallbackScope::_scopes
+	ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D* ____scopes_1;
+};
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// Niantic.Titan.Uploader.ChunkedFileUploadClient/Native
+struct Native_t9627877B5873F3CD7BE22314B2D0F83C0E69D40B  : public RuntimeObject
+{
+};
+
+// Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass17_0
+struct U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC  : public RuntimeObject
+{
+	// Niantic.Titan.Uploader.ChunkedFileUploadService Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass17_0::<>4__this
+	ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* ___U3CU3E4__this_0;
+	// Niantic.Titan.Uploader.IChunkedFileUploadRequest Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass17_0::uploadRequest
+	RuntimeObject* ___uploadRequest_1;
+};
+
+// Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass18_0
+struct U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C  : public RuntimeObject
+{
+	// System.Action`3<System.String,System.String,System.Single> Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass18_0::onChunkUploadPercentageUpdate
+	Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8* ___onChunkUploadPercentageUpdate_0;
+	// Niantic.Titan.Uploader.IChunkedFileUploadRequest Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass18_0::uploadRequest
+	RuntimeObject* ___uploadRequest_1;
+};
+
+// Niantic.Titan.Uploader.ChunkedFileUploadSession/<>c__DisplayClass32_0
+struct U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3  : public RuntimeObject
+{
+	// Niantic.Titan.Uploader.ChunkedFileUploadSession Niantic.Titan.Uploader.ChunkedFileUploadSession/<>c__DisplayClass32_0::<>4__this
+	ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* ___U3CU3E4__this_0;
+	// System.Single Niantic.Titan.Uploader.ChunkedFileUploadSession/<>c__DisplayClass32_0::progress
+	float ___progress_1;
+};
+
+// Niantic.Titan.Uploader.NativeLogger/Native
+struct Native_t0C80964381E29E78F8D1E97491496B1323379F67  : public RuntimeObject
+{
+};
+
+// Niantic.Titan.Uploader.Internal.UnitySynchronizationContext/<>c__DisplayClass3_0
+struct U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761  : public RuntimeObject
+{
+	// System.Action Niantic.Titan.Uploader.Internal.UnitySynchronizationContext/<>c__DisplayClass3_0::action
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action_0;
+};
+
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean>
+struct ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4 
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter::m_task
+	Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ___m_task_0;
+	// System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter::m_continueOnCapturedContext
+	bool ___m_continueOnCapturedContext_1;
+};
+
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Int32Enum>
+struct ConfiguredTaskAwaiter_tDED7237EFF0427AECED9D7549E9AF9F7E568C39B 
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter::m_task
+	Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB* ___m_task_0;
+	// System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter::m_continueOnCapturedContext
+	bool ___m_continueOnCapturedContext_1;
+};
+
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Niantic.Titan.Uploader.UploadResult>
+struct ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540 
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter::m_task
+	Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856* ___m_task_0;
+	// System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter::m_continueOnCapturedContext
+	bool ___m_continueOnCapturedContext_1;
+};
+
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>
+struct Enumerator_t413F9BE85760C84E60B4E1A81DFFAFC0200B330E 
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::_dictionary
+	Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* ____dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::_index
+	int32_t ____index_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::_version
+	int32_t ____version_2;
+	// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::_currentValue
+	RuntimeObject* ____currentValue_3;
+};
+
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Object>
+struct Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB 
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::_dictionary
+	Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* ____dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::_index
+	int32_t ____index_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::_version
+	int32_t ____version_2;
+	// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::_currentValue
+	RuntimeObject* ____currentValue_3;
+};
+
+// System.Collections.Generic.KeyValuePair`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>
+struct KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	RuntimeObject* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	RuntimeObject* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+struct KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	RuntimeObject* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	RuntimeObject* ___value_1;
+};
+
+// System.Threading.Tasks.Task`1<System.Boolean>
+struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	bool ___m_result_38;
+};
+
+struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_tFAEAC22A1E986463E6956C344A78A7C7197288E0* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<Niantic.Titan.Uploader.UploadResult>
+struct Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	int32_t ___m_result_38;
+};
+
+struct Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_t6E2B7D349567AD7A2B35919F6BEFA0A324498EC3* ___s_defaultFactory_39;
+};
+
+// System.Runtime.CompilerServices.AsyncMethodBuilderCore
+struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF 
+{
+	// System.Runtime.CompilerServices.IAsyncStateMachine System.Runtime.CompilerServices.AsyncMethodBuilderCore::m_stateMachine
+	RuntimeObject* ___m_stateMachine_0;
+	// System.Action System.Runtime.CompilerServices.AsyncMethodBuilderCore::m_defaultContextAction
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___m_defaultContextAction_1;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.AsyncMethodBuilderCore
+struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_pinvoke
+{
+	RuntimeObject* ___m_stateMachine_0;
+	Il2CppMethodPointer ___m_defaultContextAction_1;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.AsyncMethodBuilderCore
+struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_com
+{
+	RuntimeObject* ___m_stateMachine_0;
+	Il2CppMethodPointer ___m_defaultContextAction_1;
+};
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_0;
+};
+
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Int32
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_0;
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.Single
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	// System.Single System.Single::m_value
+	float ___m_value_0;
+};
+
+// System.UInt32
+struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+{
+	// System.UInt32 System.UInt32::m_value
+	uint32_t ___m_value_0;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter
+struct ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 
+{
+	// System.Threading.Tasks.Task System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter::m_task
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_0;
+	// System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter::m_continueOnCapturedContext
+	bool ___m_continueOnCapturedContext_1;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter
+struct ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_marshaled_pinvoke
+{
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_0;
+	int32_t ___m_continueOnCapturedContext_1;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter
+struct ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_marshaled_com
+{
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_0;
+	int32_t ___m_continueOnCapturedContext_1;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>
+struct AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA 
+{
+	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
+	Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ___m_task_2;
+};
+
+struct AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_StaticFields
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
+	Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ___s_defaultResultTask_0;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>
+struct AsyncTaskMethodBuilder_1_tB63B23CE5211A1439A08AE69DF9BF403502D3FE9 
+{
+	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
+	Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB* ___m_task_2;
+};
+
+struct AsyncTaskMethodBuilder_1_tB63B23CE5211A1439A08AE69DF9BF403502D3FE9_StaticFields
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
+	Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB* ___s_defaultResultTask_0;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Niantic.Titan.Uploader.UploadResult>
+struct AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50 
+{
+	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
+	Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856* ___m_task_2;
+};
+
+struct AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50_StaticFields
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
+	Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856* ___s_defaultResultTask_0;
+};
+
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Boolean>
+struct ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C 
+{
+	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::m_configuredTaskAwaiter
+	ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4 ___m_configuredTaskAwaiter_0;
+};
+
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Int32Enum>
+struct ConfiguredTaskAwaitable_1_tE948E6A9D82D7E1E26885E7CE5ED6256AA5BBBD8 
+{
+	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::m_configuredTaskAwaiter
+	ConfiguredTaskAwaiter_tDED7237EFF0427AECED9D7549E9AF9F7E568C39B ___m_configuredTaskAwaiter_0;
+};
+
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<Niantic.Titan.Uploader.UploadResult>
+struct ConfiguredTaskAwaitable_1_t83E43BB2F39794110024FAD423366A1E5287FA64 
+{
+	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::m_configuredTaskAwaiter
+	ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540 ___m_configuredTaskAwaiter_0;
+};
+
+// System.Collections.Generic.Dictionary`2/Enumerator<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>
+struct Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460 
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_dictionary
+	Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* ____dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_version
+	int32_t ____version_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_index
+	int32_t ____index_2;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
+	KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A ____current_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
+	int32_t ____getEnumeratorRetType_4;
+};
+
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
+struct Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_dictionary
+	Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* ____dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_version
+	int32_t ____version_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_index
+	int32_t ____index_2;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
+	KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 ____current_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
+	int32_t ____getEnumeratorRetType_4;
+};
+
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable
+struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C 
+{
+	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter System.Runtime.CompilerServices.ConfiguredTaskAwaitable::m_configuredTaskAwaiter
+	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___m_configuredTaskAwaiter_0;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.ConfiguredTaskAwaitable
+struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C_marshaled_pinvoke
+{
+	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_marshaled_pinvoke ___m_configuredTaskAwaiter_0;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.ConfiguredTaskAwaitable
+struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C_marshaled_com
+{
+	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_marshaled_com ___m_configuredTaskAwaiter_0;
+};
+
+// System.Delegate
+struct Delegate_t  : public RuntimeObject
+{
+	// System.IntPtr System.Delegate::method_ptr
+	Il2CppMethodPointer ___method_ptr_0;
+	// System.IntPtr System.Delegate::invoke_impl
+	intptr_t ___invoke_impl_1;
+	// System.Object System.Delegate::m_target
+	RuntimeObject* ___m_target_2;
+	// System.IntPtr System.Delegate::method
+	intptr_t ___method_3;
+	// System.IntPtr System.Delegate::delegate_trampoline
+	intptr_t ___delegate_trampoline_4;
+	// System.IntPtr System.Delegate::extra_arg
+	intptr_t ___extra_arg_5;
+	// System.IntPtr System.Delegate::method_code
+	intptr_t ___method_code_6;
+	// System.IntPtr System.Delegate::interp_method
+	intptr_t ___interp_method_7;
+	// System.IntPtr System.Delegate::interp_invoke_impl
+	intptr_t ___interp_invoke_impl_8;
+	// System.Reflection.MethodInfo System.Delegate::method_info
+	MethodInfo_t* ___method_info_9;
+	// System.Reflection.MethodInfo System.Delegate::original_method_info
+	MethodInfo_t* ___original_method_info_10;
+	// System.DelegateData System.Delegate::data
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	// System.Boolean System.Delegate::method_is_virtual
+	bool ___method_is_virtual_12;
+};
+// Native definition for P/Invoke marshalling of System.Delegate
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+// Native definition for COM marshalling of System.Delegate
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+
+// System.Exception
+struct Exception_t  : public RuntimeObject
+{
+	// System.String System.Exception::_className
+	String_t* ____className_1;
+	// System.String System.Exception::_message
+	String_t* ____message_2;
+	// System.Collections.IDictionary System.Exception::_data
+	RuntimeObject* ____data_3;
+	// System.Exception System.Exception::_innerException
+	Exception_t* ____innerException_4;
+	// System.String System.Exception::_helpURL
+	String_t* ____helpURL_5;
+	// System.Object System.Exception::_stackTrace
+	RuntimeObject* ____stackTrace_6;
+	// System.String System.Exception::_stackTraceString
+	String_t* ____stackTraceString_7;
+	// System.String System.Exception::_remoteStackTraceString
+	String_t* ____remoteStackTraceString_8;
+	// System.Int32 System.Exception::_remoteStackIndex
+	int32_t ____remoteStackIndex_9;
+	// System.Object System.Exception::_dynamicMethods
+	RuntimeObject* ____dynamicMethods_10;
+	// System.Int32 System.Exception::_HResult
+	int32_t ____HResult_11;
+	// System.String System.Exception::_source
+	String_t* ____source_12;
+	// System.Runtime.Serialization.SafeSerializationManager System.Exception::_safeSerializationManager
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	// System.Diagnostics.StackTrace[] System.Exception::captured_traces
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	// System.IntPtr[] System.Exception::native_trace_ips
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips_15;
+	// System.Int32 System.Exception::caught_in_unmanaged
+	int32_t ___caught_in_unmanaged_16;
+};
+
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+// Native definition for P/Invoke marshalling of System.Exception
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className_1;
+	char* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_pinvoke* ____innerException_4;
+	char* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	char* ____stackTraceString_7;
+	char* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	char* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+// Native definition for COM marshalling of System.Exception
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className_1;
+	Il2CppChar* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_com* ____innerException_4;
+	Il2CppChar* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	Il2CppChar* ____stackTraceString_7;
+	Il2CppChar* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	Il2CppChar* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+
+// System.Runtime.InteropServices.GCHandle
+struct GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC 
+{
+	// System.IntPtr System.Runtime.InteropServices.GCHandle::handle
+	intptr_t ___handle_0;
+};
+
+// System.Runtime.InteropServices.HandleRef
+struct HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F 
+{
+	// System.Object System.Runtime.InteropServices.HandleRef::_wrapper
+	RuntimeObject* ____wrapper_0;
+	// System.IntPtr System.Runtime.InteropServices.HandleRef::_handle
+	intptr_t ____handle_1;
+};
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Object::m_CachedPtr
+	intptr_t ___m_CachedPtr_0;
+};
+
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr_0;
+};
+
+// Niantic.Titan.Uploader.ChunkedFileUploadClient
+struct ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD  : public RuntimeObject
+{
+	// System.Runtime.InteropServices.HandleRef Niantic.Titan.Uploader.ChunkedFileUploadClient::_nativeHandle
+	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ____nativeHandle_0;
+	// Niantic.Titan.Uploader.IChunkedFileUploadRequest Niantic.Titan.Uploader.ChunkedFileUploadClient::_uploadRequest
+	RuntimeObject* ____uploadRequest_1;
+};
+
+// UnityEngine.Component
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// Niantic.Titan.Uploader.Internal.DelegateHandle
+struct DelegateHandle_t178FA19A89EB38DCE6D7F7D67EE046349705FB1A  : public RuntimeObject
+{
+	// System.Delegate Niantic.Titan.Uploader.Internal.DelegateHandle::_delegate
+	Delegate_t* ____delegate_0;
+	// System.IntPtr Niantic.Titan.Uploader.Internal.DelegateHandle::_delegatePointer
+	intptr_t ____delegatePointer_1;
+	// System.Runtime.InteropServices.GCHandle Niantic.Titan.Uploader.Internal.DelegateHandle::_gcHandle
+	GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ____gcHandle_2;
+	// System.Boolean Niantic.Titan.Uploader.Internal.DelegateHandle::_isDisposed
+	bool ____isDisposed_3;
+};
+
+// UnityEngine.GameObject
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// System.MulticastDelegate
+struct MulticastDelegate_t  : public Delegate_t
+{
+	// System.Delegate[] System.MulticastDelegate::delegates
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
+};
+// Native definition for P/Invoke marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates_13;
+};
+// Native definition for COM marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates_13;
+};
+
+// System.SystemException
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+
+// Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10
+struct U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818 
+{
+	// System.Int32 Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean> Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10::<>t__builder
+	AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA ___U3CU3Et__builder_1;
+	// Niantic.Titan.Uploader.ChunkedFileUploadClient Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10::<>4__this
+	ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* ___U3CU3E4__this_2;
+	// System.Action`1<System.Single> Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10::onUploadProgress
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onUploadProgress_3;
+	// System.UInt32 Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10::workerThreadCount
+	uint32_t ___workerThreadCount_4;
+	// Niantic.Titan.Uploader.Internal.UploadCallbackScope Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10::<callbackScope>5__2
+	UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* ___U3CcallbackScopeU3E5__2_5;
+	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean> Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10::<>u__1
+	ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4 ___U3CU3Eu__1_6;
+};
+
+// Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18
+struct U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401 
+{
+	// System.Int32 Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Niantic.Titan.Uploader.UploadResult> Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18::<>t__builder
+	AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50 ___U3CU3Et__builder_1;
+	// System.Action`3<System.String,System.String,System.Single> Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18::onChunkUploadPercentageUpdate
+	Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8* ___onChunkUploadPercentageUpdate_2;
+	// Niantic.Titan.Uploader.IChunkedFileUploadRequest Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18::uploadRequest
+	RuntimeObject* ___uploadRequest_3;
+	// Niantic.Titan.Uploader.ChunkedFileUploadService Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18::<>4__this
+	ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* ___U3CU3E4__this_4;
+	// Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass18_0 Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18::<>8__1
+	U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C* ___U3CU3E8__1_5;
+	// Niantic.Titan.Uploader.IChunkedFileUploadSession Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18::<session>5__2
+	RuntimeObject* ___U3CsessionU3E5__2_6;
+	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Niantic.Titan.Uploader.UploadResult> Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18::<>u__1
+	ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540 ___U3CU3Eu__1_7;
+};
+
+// Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31
+struct U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840 
+{
+	// System.Int32 Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Niantic.Titan.Uploader.UploadResult> Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31::<>t__builder
+	AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50 ___U3CU3Et__builder_1;
+	// Niantic.Titan.Uploader.ChunkedFileUploadSession Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31::<>4__this
+	ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31::<>u__1
+	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___U3CU3Eu__1_3;
+};
+
+// System.Action`1<System.Threading.Tasks.Task`1<System.Boolean>>
+struct Action_1_t12D515BBBDB69A29DC0C4812555D0A8A51D6B856  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<System.Single>
+struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A  : public MulticastDelegate_t
+{
+};
+
+// System.Action`3<System.Object,System.Object,System.Single>
+struct Action_3_t850613A5C1D9CA712ADADCE36ED2E7D25DF3B109  : public MulticastDelegate_t
+{
+};
+
+// System.Action`3<System.String,System.String,System.Single>
+struct Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8  : public MulticastDelegate_t
+{
+};
+
+// System.Action
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+
+// System.ArgumentException
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	// System.String System.ArgumentException::_paramName
+	String_t* ____paramName_18;
+};
+
+// System.AsyncCallback
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.Behaviour
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+
+// System.InvalidOperationException
+struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+
+// System.Threading.SendOrPostCallback
+struct SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E  : public MulticastDelegate_t
+{
+};
+
+// Niantic.Titan.Uploader.Internal.UploadCompleteDelegate
+struct UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB  : public MulticastDelegate_t
+{
+};
+
+// Niantic.Titan.Uploader.Internal.UploadProgressDelegate
+struct UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF  : public MulticastDelegate_t
+{
+};
+
+// Niantic.Titan.Uploader.NativeLogger/Native/LogCallback
+struct LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA  : public MulticastDelegate_t
+{
+};
+
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
+// Niantic.Titan.Uploader.Internal.ApplicationLifecycle/AppLifecycleHook
+struct AppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// System.String[]
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// System.Delegate[]
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Delegate_t* m_Items[1];
+
+	inline Delegate_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Delegate_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Delegate_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Delegate_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Delegate_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Delegate_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>::get_Count()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ReadOnlyCollection_1_get_Count_mE6BED30C94187FC8CC2C7E5CAF0163455240223C_gshared (ReadOnlyCollection_1_t5397DF0DB61D1090E7BBC89395CECB8D020CED92* __this, const RuntimeMethod* method) ;
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>::get_Item(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ReadOnlyCollection_1_get_Item_m88FE6EF1106EAB22F63554956C77E25339159136_gshared (ReadOnlyCollection_1_t5397DF0DB61D1090E7BBC89395CECB8D020CED92* __this, int32_t ___index0, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::Create()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D_gshared (const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::Start<Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10>(TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mBA37AC94CEE4028DF7FCF6ABF8C8E277F51E5060_gshared (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::get_Task()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943_gshared (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<TResult> System.Threading.Tasks.Task`1<System.Boolean>::ConfigureAwait(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA_gshared (Task_1_t824317F4B958F7512E8F7300511752937A6C6043* __this, bool ___continueOnCapturedContext0, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Boolean>::GetAwaiter()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4 ConfiguredTaskAwaitable_1_GetAwaiter_m3D8C463996184A1FE94D1B59A379F3ACB425C7CF_gshared_inline (ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean>::get_IsCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConfiguredTaskAwaiter_get_IsCompleted_mC2024766896945A56978CF121456A78A6F054190_gshared (ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean>,Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mE6F4B1DDD05F02842D3884DD4FF244DAB31BE5EA_gshared (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4* ___awaiter0, U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818* ___stateMachine1, const RuntimeMethod* method) ;
+// TResult System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean>::GetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConfiguredTaskAwaiter_GetResult_mA0D0419EF40E9DF864B87B495FFE05C08475C00B_gshared (ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetException(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetException_mB8F5D5EF18A12CBFF3C7D54CE6382DBB1640C0FD_gshared (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, Exception_t* ___exception0, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetResult(TResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046_gshared (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, bool ___result0, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8_gshared (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mE097DBD72433D1AFC11733F5678602603A756424_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) ;
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>::.ctor(System.Collections.Generic.IList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadOnlyCollection_1__ctor_mF2D2ACE0752C3B97343B72328D49200F45C14B65_gshared (ReadOnlyCollection_1_t5397DF0DB61D1090E7BBC89395CECB8D020CED92* __this, RuntimeObject* ___list0, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Count()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Dictionary_2_get_Count_m4DDA9442C238A443489115E22B026AD366851549_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Values()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA* Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB ValueCollection_GetEnumerator_m025EE28BE2F31676E08BC3D7C8E39D8232BDBBF8_gshared (ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Object>::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mFD8FAB8D9FF5EDF9AE3B14CF539A8A34AA9527A8_gshared (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) ;
+// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Object>::get_Current()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_mB407E755F3B4C51C54D24338D00A352E5B16E7F3_gshared_inline (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Object>::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mBE11DA1DAFC756EB87E884AADC5EDC4BB72FB032_gshared (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m623BF34EB93B2B3A3B7D46743B508E2E2958939E_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___dictionary0, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 Dictionary_2_GetEnumerator_m52AB12790B0B9B46B1DFB1F861C9DBEAB07C1FDA_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mEA5E01B81EB943B7003D87CEC1B6040524F0402C_gshared (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::get_Current()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) ;
+// TValue System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Value()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Value_mC6BD8075F9C9DDEF7B4D731E5C38EC19103988E7_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) ;
+// TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Key()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Add(TKey,TValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mCD4950A75FFADD54AF354D48C6C0DB0B5A22A5F4_gshared (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::ContainsKey(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::set_Item(TKey,TValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>::Create()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_1_tB63B23CE5211A1439A08AE69DF9BF403502D3FE9 AsyncTaskMethodBuilder_1_Create_mA40B8A53C4AB16DDDC272E1BD7361CEB160C2A03_gshared (const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>::Start<Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18>(TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_Start_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_m862511017FCA6C3C7848112ABB19DA92A571C7B6_gshared (AsyncTaskMethodBuilder_1_tB63B23CE5211A1439A08AE69DF9BF403502D3FE9* __this, U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>::get_Task()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB* AsyncTaskMethodBuilder_1_get_Task_m228C453A630CC50C7517D9F9A31BFAFBBD0DDBA8_gshared (AsyncTaskMethodBuilder_1_tB63B23CE5211A1439A08AE69DF9BF403502D3FE9* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Remove(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
+// System.Void System.Action`3<System.Object,System.Object,System.Single>::Invoke(T1,T2,T3)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_mCCB27455CFC6A92DE481D9B3F0215D861DD1A8C5_gshared_inline (Action_3_t850613A5C1D9CA712ADADCE36ED2E7D25DF3B109* __this, RuntimeObject* ___arg10, RuntimeObject* ___arg21, float ___arg32, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Single>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859_gshared (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<TResult> System.Threading.Tasks.Task`1<System.Int32Enum>::ConfigureAwait(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfiguredTaskAwaitable_1_tE948E6A9D82D7E1E26885E7CE5ED6256AA5BBBD8 Task_1_ConfigureAwait_m7A676C8AADCF52C5863D10DCE7E340B08893FA02_gshared (Task_1_t8DED34447688BFCF5112B0D05D5A80CED94E4BFB* __this, bool ___continueOnCapturedContext0, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Int32Enum>::GetAwaiter()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_tDED7237EFF0427AECED9D7549E9AF9F7E568C39B ConfiguredTaskAwaitable_1_GetAwaiter_m447B2323EADC587DE0ABFEA2FEF3AF3342F75186_gshared_inline (ConfiguredTaskAwaitable_1_tE948E6A9D82D7E1E26885E7CE5ED6256AA5BBBD8* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Int32Enum>::get_IsCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConfiguredTaskAwaiter_get_IsCompleted_m6658F40E7404D6C45086F4151F673A3E831A0517_gshared (ConfiguredTaskAwaiter_tDED7237EFF0427AECED9D7549E9AF9F7E568C39B* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Int32Enum>,Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tDED7237EFF0427AECED9D7549E9AF9F7E568C39B_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_m2FCAB11ED1B8264C06F314065CE45E6FBF52ED2F_gshared (AsyncTaskMethodBuilder_1_tB63B23CE5211A1439A08AE69DF9BF403502D3FE9* __this, ConfiguredTaskAwaiter_tDED7237EFF0427AECED9D7549E9AF9F7E568C39B* ___awaiter0, U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401* ___stateMachine1, const RuntimeMethod* method) ;
+// TResult System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Int32Enum>::GetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConfiguredTaskAwaiter_GetResult_mF8CBBA5B63DB7FC72FA27688B4CBA3A556F128B0_gshared (ConfiguredTaskAwaiter_tDED7237EFF0427AECED9D7549E9AF9F7E568C39B* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>::SetException(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetException_m2E575629BCD46EA73D32EA85764E79315C353E13_gshared (AsyncTaskMethodBuilder_1_tB63B23CE5211A1439A08AE69DF9BF403502D3FE9* __this, Exception_t* ___exception0, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>::SetResult(TResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetResult_m718D4EE45CDBF257976C193933CBE5478FFC14E3_gshared (AsyncTaskMethodBuilder_1_tB63B23CE5211A1439A08AE69DF9BF403502D3FE9* __this, int32_t ___result0, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_SetStateMachine_mBE5F26838D7801B8250806F352A6915A7F9AA2E5_gshared (AsyncTaskMethodBuilder_1_tB63B23CE5211A1439A08AE69DF9BF403502D3FE9* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>::Start<Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31>(TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m30CA9EAF25108735232C692A8875EA36BDCA9617_gshared (AsyncTaskMethodBuilder_1_tB63B23CE5211A1439A08AE69DF9BF403502D3FE9* __this, U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840* ___stateMachine0, const RuntimeMethod* method) ;
+// TResult System.Threading.Tasks.Task`1<System.Boolean>::get_Result()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_1_get_Result_m48902D0529EDB4646DFE6B5A7631AE15911E87B9_gshared (Task_1_t824317F4B958F7512E8F7300511752937A6C6043* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Boolean>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<TResult>>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_1_ContinueWith_mBD33AE3971992759A43EF4B06D8458C7BC548E3B_gshared (Task_1_t824317F4B958F7512E8F7300511752937A6C6043* __this, Action_1_t12D515BBBDB69A29DC0C4812555D0A8A51D6B856* ___continuationAction0, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter,Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m53A1CCDF783BAB9CA7E59530B6C46F3988DB9694_gshared (AsyncTaskMethodBuilder_1_tB63B23CE5211A1439A08AE69DF9BF403502D3FE9* __this, ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618* ___awaiter0, U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840* ___stateMachine1, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Single>::Invoke(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_gshared_inline (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, float ___obj0, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::AddComponent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>::get_Task()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_gshared_inline (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>::.ctor(System.Threading.Tasks.TaskCreationOptions)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionSource_1__ctor_m8B45657B899BBC1E2F287FC119B8EC38083EF30A_gshared (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, int32_t ___creationOptions0, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,System.Object>::TryAdd(TKey,TValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConcurrentDictionary_2_TryAdd_m3C7E3E20207671FB7043DF36388E23482425FB2D_gshared (ConcurrentDictionary_2_tFDF36D27CABA72215EF949C34ADEAA5CC43B8B0E* __this, int32_t ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,System.Object>::TryRemove(TKey,TValue&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConcurrentDictionary_2_TryRemove_mDF151BBD4692A66AC879FB6DEEB5AAB2F3DC888E_gshared (ConcurrentDictionary_2_tFDF36D27CABA72215EF949C34ADEAA5CC43B8B0E* __this, int32_t ___key0, RuntimeObject** ___value1, const RuntimeMethod* method) ;
+// System.Boolean System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>::TrySetResult(TResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1_gshared (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, bool ___result0, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,System.Object>::TryGetValue(TKey,TValue&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConcurrentDictionary_2_TryGetValue_mC0F07143484C16BCD71E439F9F6DEC2790B5059E_gshared (ConcurrentDictionary_2_tFDF36D27CABA72215EF949C34ADEAA5CC43B8B0E* __this, int32_t ___key0, RuntimeObject** ___value1, const RuntimeMethod* method) ;
+// System.Void System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConcurrentDictionary_2__ctor_mD5102CFBD6856EE48F1176D95DC2228C73539C85_gshared (ConcurrentDictionary_2_tFDF36D27CABA72215EF949C34ADEAA5CC43B8B0E* __this, const RuntimeMethod* method) ;
+
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.Titan.Uploader.IChunkInfo>::get_Count()
+inline int32_t ReadOnlyCollection_1_get_Count_m6DAA756E6756003F71C6957423F265ACDBF82CAE (ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998*, const RuntimeMethod*))ReadOnlyCollection_1_get_Count_mE6BED30C94187FC8CC2C7E5CAF0163455240223C_gshared)(__this, method);
+}
+// T System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.Titan.Uploader.IChunkInfo>::get_Item(System.Int32)
+inline RuntimeObject* ReadOnlyCollection_1_get_Item_m5887D8792DDFD4AAC399ED92E86EBDCB9F53B763 (ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998*, int32_t, const RuntimeMethod*))ReadOnlyCollection_1_get_Item_m88FE6EF1106EAB22F63554956C77E25339159136_gshared)(__this, ___index0, method);
+}
+// System.IntPtr Niantic.Titan.Uploader.ChunkedFileUploadClient/Native::ChunkedUploadClient_New(System.String,System.String,System.UInt32,System.String,System.String,System.String,System.String,System.String[],System.String[],System.String[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_ChunkedUploadClient_New_m2DC39C112B3D232313B04983E6315D84E16F8393 (String_t* ___localFilePath0, String_t* ___bucketName1, uint32_t ___chunkCount2, String_t* ___composedObjectPath3, String_t* ___composeAuthorization4, String_t* ___composeDate5, String_t* ___composeSignedPayload6, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___chunkObjectPaths7, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___chunkAuthorizations8, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___chunkDates9, const RuntimeMethod* method) ;
+// System.Void System.Runtime.InteropServices.HandleRef::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F* __this, RuntimeObject* ___wrapper0, intptr_t ___handle1, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient::ReleaseUnmanagedResources()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadClient_ReleaseUnmanagedResources_m90644C2E499FC27DA84E94BAB6F66144C7557932 (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, const RuntimeMethod* method) ;
+// System.Void System.GC::SuppressFinalize(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65 (RuntimeObject* ___obj0, const RuntimeMethod* method) ;
+// System.Void System.Object::Finalize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.IntPtr System.Runtime.InteropServices.HandleRef::get_Handle()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t HandleRef_get_Handle_m2055005E349E895499E1B3B826C89228FFAC4C17_inline (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F* __this, const RuntimeMethod* method) ;
+// System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient/Native::ChunkedUploadClient_Delete(System.Runtime.InteropServices.HandleRef)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_ChunkedUploadClient_Delete_mB040E7A0F68D9669E40AA8BDF32C378773DDB1FC (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___nativeHandle0, const RuntimeMethod* method) ;
+// System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method) ;
+// System.Void System.ArgumentException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::Create()
+inline AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D (const RuntimeMethod* method)
+{
+	return ((  AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA (*) (const RuntimeMethod*))AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D_gshared)(method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::Start<Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10>(TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mBA37AC94CEE4028DF7FCF6ABF8C8E277F51E5060 (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818* ___stateMachine0, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*, U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mBA37AC94CEE4028DF7FCF6ABF8C8E277F51E5060_gshared)(__this, ___stateMachine0, method);
+}
+// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::get_Task()
+inline Task_1_t824317F4B958F7512E8F7300511752937A6C6043* AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943 (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, const RuntimeMethod* method)
+{
+	return ((  Task_1_t824317F4B958F7512E8F7300511752937A6C6043* (*) (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943_gshared)(__this, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient::ThrowOnInvalidPointer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadClient_ThrowOnInvalidPointer_mF6173AB3BCA263886B49F806B23D1ACDC3474C11 (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient/Native::ChunkedUploadClient_CancelUpload(System.Runtime.InteropServices.HandleRef)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_ChunkedUploadClient_CancelUpload_mAB5CEF5E5604A66E6E134CB11481190169BA23DB (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___nativeHandle0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient/Native::ChunkedUploadClient_PauseUpload(System.Runtime.InteropServices.HandleRef)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_ChunkedUploadClient_PauseUpload_m195BB145E89A5868D60420E999C4E89DE639522E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___nativeHandle0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient/Native::ChunkedUploadClient_ResumeUpload(System.Runtime.InteropServices.HandleRef)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_ChunkedUploadClient_ResumeUpload_mB778A9A01DD3DC53BCC2ABE7A3D2A4C597EB4B1C (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___nativeHandle0, const RuntimeMethod* method) ;
+// Niantic.Titan.Uploader.Internal.UploadCallbackScope Niantic.Titan.Uploader.Internal.UploadCallbackScope::Create(System.Action`1<System.Single>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* UploadCallbackScope_Create_mA530220038F40B7FA870904799F027A2E489BC92 (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.UploadCompleteDelegate::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadCompleteDelegate__ctor_m85FFD6CA73EB0EBEBA9708B3FD7C815A51489B81 (UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.UploadProgressDelegate::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadProgressDelegate__ctor_mE0C096E0DBA95FFBAC16FE90310D5C1C7DD2EA16 (UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Int32 Niantic.Titan.Uploader.Internal.UploadCallbackScope::get_Id()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UploadCallbackScope_get_Id_m8B24F88F7C1B73C521CDBA753FC1FD0180FF2285_inline (UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* __this, const RuntimeMethod* method) ;
+// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadClient/Native::ChunkedUploadClient_UploadAsync(System.Runtime.InteropServices.HandleRef,System.UInt32,Niantic.Titan.Uploader.Internal.UploadCompleteDelegate,Niantic.Titan.Uploader.Internal.UploadProgressDelegate,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_ChunkedUploadClient_UploadAsync_m5D2433A3FA7BE2B9F04FD65C12AD69E40788E659 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___nativeHandle0, uint32_t ___numUploadThreadsToCreate1, UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* ___uploadCompletedCallback2, UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* ___uploadProgressCallback3, int32_t ___callbackId4, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<System.Boolean> Niantic.Titan.Uploader.Internal.UploadCallbackScope::get_Task()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* UploadCallbackScope_get_Task_m0A5E691EC9E1952DC6A39BBA00ED5FF0B9E4274D (UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* __this, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<TResult> System.Threading.Tasks.Task`1<System.Boolean>::ConfigureAwait(System.Boolean)
+inline ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA (Task_1_t824317F4B958F7512E8F7300511752937A6C6043* __this, bool ___continueOnCapturedContext0, const RuntimeMethod* method)
+{
+	return ((  ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C (*) (Task_1_t824317F4B958F7512E8F7300511752937A6C6043*, bool, const RuntimeMethod*))Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA_gshared)(__this, ___continueOnCapturedContext0, method);
+}
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Boolean>::GetAwaiter()
+inline ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4 ConfiguredTaskAwaitable_1_GetAwaiter_m3D8C463996184A1FE94D1B59A379F3ACB425C7CF_inline (ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C* __this, const RuntimeMethod* method)
+{
+	return ((  ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4 (*) (ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C*, const RuntimeMethod*))ConfiguredTaskAwaitable_1_GetAwaiter_m3D8C463996184A1FE94D1B59A379F3ACB425C7CF_gshared_inline)(__this, method);
+}
+// System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean>::get_IsCompleted()
+inline bool ConfiguredTaskAwaiter_get_IsCompleted_mC2024766896945A56978CF121456A78A6F054190 (ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4*, const RuntimeMethod*))ConfiguredTaskAwaiter_get_IsCompleted_mC2024766896945A56978CF121456A78A6F054190_gshared)(__this, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean>,Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mE6F4B1DDD05F02842D3884DD4FF244DAB31BE5EA (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4* ___awaiter0, U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818* ___stateMachine1, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*, ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4*, U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mE6F4B1DDD05F02842D3884DD4FF244DAB31BE5EA_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+}
+// TResult System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Boolean>::GetResult()
+inline bool ConfiguredTaskAwaiter_GetResult_mA0D0419EF40E9DF864B87B495FFE05C08475C00B (ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4*, const RuntimeMethod*))ConfiguredTaskAwaiter_GetResult_mA0D0419EF40E9DF864B87B495FFE05C08475C00B_gshared)(__this, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetException(System.Exception)
+inline void AsyncTaskMethodBuilder_1_SetException_mB8F5D5EF18A12CBFF3C7D54CE6382DBB1640C0FD (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, Exception_t* ___exception0, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*, Exception_t*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetException_mB8F5D5EF18A12CBFF3C7D54CE6382DBB1640C0FD_gshared)(__this, ___exception0, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetResult(TResult)
+inline void AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046 (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, bool ___result0, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*, bool, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046_gshared)(__this, ___result0, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadAsyncU3Ed__10_MoveNext_mBCB8D2D8C677AF25E2809E00FB99776A0FAB12A7 (U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+inline void AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8 (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*, RuntimeObject*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8_gshared)(__this, ___stateMachine0, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadAsyncU3Ed__10_SetStateMachine_mA6F59690240027363C032C7713FFE81D43064165 (U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<Niantic.Titan.Uploader.IChunkInfo>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+inline void List_1__ctor_mD1CE74FA3B86CD505E22E2BA6B46C5D9AD58E77C (List_1_t3C1AFE53BF2037DD24B0120A46F3B74F6C399CE0* __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t3C1AFE53BF2037DD24B0120A46F3B74F6C399CE0*, RuntimeObject*, const RuntimeMethod*))List_1__ctor_mE097DBD72433D1AFC11733F5678602603A756424_gshared)(__this, ___collection0, method);
+}
+// System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.Titan.Uploader.IChunkInfo>::.ctor(System.Collections.Generic.IList`1<T>)
+inline void ReadOnlyCollection_1__ctor_m60462C4731BCD8446055D91B5ED9AF1DCF9C9657 (ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* __this, RuntimeObject* ___list0, const RuntimeMethod* method)
+{
+	((  void (*) (ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998*, RuntimeObject*, const RuntimeMethod*))ReadOnlyCollection_1__ctor_mF2D2ACE0752C3B97343B72328D49200F45C14B65_gshared)(__this, ___list0, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadRequest::set_Chunks(System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.Titan.Uploader.IChunkInfo>)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChunkedFileUploadRequest_set_Chunks_m50AC9E0BD93637958F5F3B1B7C9E286B66039934_inline (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* ___value0, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::get_Count()
+inline int32_t Dictionary_2_get_Count_m15FDDC6E8466DE7E89792F8348002EF82EDF2837 (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*, const RuntimeMethod*))Dictionary_2_get_Count_m4DDA9442C238A443489115E22B026AD366851549_gshared)(__this, method);
+}
+// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::get_Values()
+inline ValueCollection_tD1AF3EBE4CCC19B2689517548006DF99B57E4136* Dictionary_2_get_Values_m64DA6B6AF8D1F14F34A991B5B2F73D9B7DCAA962 (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* __this, const RuntimeMethod* method)
+{
+	return ((  ValueCollection_tD1AF3EBE4CCC19B2689517548006DF99B57E4136* (*) (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*, const RuntimeMethod*))Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared)(__this, method);
+}
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::GetEnumerator()
+inline Enumerator_t413F9BE85760C84E60B4E1A81DFFAFC0200B330E ValueCollection_GetEnumerator_mAF707170BF5CFBBC2D261C6D83B65F27C6D6F8EA (ValueCollection_tD1AF3EBE4CCC19B2689517548006DF99B57E4136* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t413F9BE85760C84E60B4E1A81DFFAFC0200B330E (*) (ValueCollection_tD1AF3EBE4CCC19B2689517548006DF99B57E4136*, const RuntimeMethod*))ValueCollection_GetEnumerator_m025EE28BE2F31676E08BC3D7C8E39D8232BDBBF8_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::Dispose()
+inline void Enumerator_Dispose_m06BF5637EA285B82F34890F3D5ED485D60B2341D (Enumerator_t413F9BE85760C84E60B4E1A81DFFAFC0200B330E* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t413F9BE85760C84E60B4E1A81DFFAFC0200B330E*, const RuntimeMethod*))Enumerator_Dispose_mFD8FAB8D9FF5EDF9AE3B14CF539A8A34AA9527A8_gshared)(__this, method);
+}
+// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::get_Current()
+inline RuntimeObject* Enumerator_get_Current_mE78E6F0618AC03B6A78C09C04419DDAFFD786D45_inline (Enumerator_t413F9BE85760C84E60B4E1A81DFFAFC0200B330E* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (Enumerator_t413F9BE85760C84E60B4E1A81DFFAFC0200B330E*, const RuntimeMethod*))Enumerator_get_Current_mB407E755F3B4C51C54D24338D00A352E5B16E7F3_gshared_inline)(__this, method);
+}
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::MoveNext()
+inline bool Enumerator_MoveNext_m934AFAA0331934ED5AA06C31978D1C0AC838B99A (Enumerator_t413F9BE85760C84E60B4E1A81DFFAFC0200B330E* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t413F9BE85760C84E60B4E1A81DFFAFC0200B330E*, const RuntimeMethod*))Enumerator_MoveNext_mBE11DA1DAFC756EB87E884AADC5EDC4BB72FB032_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::.ctor()
+inline void Dictionary_2__ctor_mB97A7EDE0263EF308A85FC6646BCB14D5D9C9620 (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+// System.Void System.Action::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::add_ApplicationPaused(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_add_ApplicationPaused_m73509C7AD02F07D1B94EF121E82F190B86F0EB9C (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::add_ApplicationUnpaused(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_add_ApplicationUnpaused_m27FF0915F00186BA7100E52AC6AE88C091C0780F (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::add_ApplicationIsShuttingDown(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_add_ApplicationIsShuttingDown_mE93555EA23F56C0AAB33C00DC9F5632C04C50039 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::add_ApplicationIsUnloading(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_add_ApplicationIsUnloading_m42C84B8B44BEFB23E5091A09BCD38BEF8070CC15 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.NativeLogger::Initialize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeLogger_Initialize_mD0C4CCD808867104B14B1F709CCC5B0321041753 (const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
+inline void Dictionary_2__ctor_mB9031E9930A29FE067EF02870D69A975399B0D2B (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* __this, RuntimeObject* ___dictionary0, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*, RuntimeObject*, const RuntimeMethod*))Dictionary_2__ctor_m623BF34EB93B2B3A3B7D46743B508E2E2958939E_gshared)(__this, ___dictionary0, method);
+}
+// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::GetEnumerator()
+inline Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460 Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460 (*) (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*, const RuntimeMethod*))Dictionary_2_GetEnumerator_m52AB12790B0B9B46B1DFB1F861C9DBEAB07C1FDA_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::Dispose()
+inline void Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF (Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460*, const RuntimeMethod*))Enumerator_Dispose_mEA5E01B81EB943B7003D87CEC1B6040524F0402C_gshared)(__this, method);
+}
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::get_Current()
+inline KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_inline (Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460* __this, const RuntimeMethod* method)
+{
+	return ((  KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A (*) (Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460*, const RuntimeMethod*))Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline)(__this, method);
+}
+// TValue System.Collections.Generic.KeyValuePair`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::get_Value()
+inline RuntimeObject* KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_inline (KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A*, const RuntimeMethod*))KeyValuePair_2_get_Value_mC6BD8075F9C9DDEF7B4D731E5C38EC19103988E7_gshared_inline)(__this, method);
+}
+// Niantic.Titan.Uploader.Internal.ChannelLogger Niantic.Titan.Uploader.ChunkedFileUploadService::get_Log()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* ChunkedFileUploadService_get_Log_mAC25296E177A55E7006DE0B5AB0F8BE1D00E1E97_inline (const RuntimeMethod* method) ;
+// TKey System.Collections.Generic.KeyValuePair`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::get_Key()
+inline RuntimeObject* KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_inline (KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A*, const RuntimeMethod*))KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_gshared_inline)(__this, method);
+}
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::Info(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger_Info_mF504DE96ED32615BEC9214F51572206CB88CD86B (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::Add(TKey,TValue)
+inline void Dictionary_2_Add_mFD369662BBED9064B50FD11E6C481C3CADCDB489 (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::MoveNext()
+inline bool Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19 (Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460*, const RuntimeMethod*))Enumerator_MoveNext_mCD4950A75FFADD54AF354D48C6C0DB0B5A22A5F4_gshared)(__this, method);
+}
+// System.Boolean System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::ContainsKey(TKey)
+inline bool Dictionary_2_ContainsKey_m8F85F8953DED3178E382F07D603940C97464AE6E (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* __this, RuntimeObject* ___key0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*, RuntimeObject*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___key0, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass17_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0__ctor_mFEFFAE81C0BA7CFEAD8149D1BD8F642144F61139 (U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC* __this, const RuntimeMethod* method) ;
+// System.UInt32 Niantic.Titan.Uploader.ChunkedFileUploadService::get_UploadWorkerThreadCount()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t ChunkedFileUploadService_get_UploadWorkerThreadCount_m6CDE65C66B15D3499E1B092A89440D7FE5575C72_inline (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::.ctor(Niantic.Titan.Uploader.IChunkedFileUploadRequest,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession__ctor_mE4446E67D6A5586810FE45D30679F8D7FF2BF45D (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, RuntimeObject* ___uploadRequest0, uint32_t ___uploadWorkerThreadCount1, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::add_Disposing(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_add_Disposing_mE00A07218A8CF8BD5615ADEF4EF11723D00032B4 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::set_Item(TKey,TValue)
+inline void Dictionary_2_set_Item_m0FF6AD75640DCF2F743F2CF42F5C45E351DD91DC (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Niantic.Titan.Uploader.UploadResult>::Create()
+inline AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50 AsyncTaskMethodBuilder_1_Create_m270B01E4F237A5001EE9C8DA76F0F1DF3B78B6D3 (const RuntimeMethod* method)
+{
+	return ((  AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50 (*) (const RuntimeMethod*))AsyncTaskMethodBuilder_1_Create_mA40B8A53C4AB16DDDC272E1BD7361CEB160C2A03_gshared)(method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Niantic.Titan.Uploader.UploadResult>::Start<Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18>(TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_Start_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_m9722CC48D025C095AE9EA029E4619CE3FB51F03D (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* __this, U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401* ___stateMachine0, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50*, U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_Start_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_m862511017FCA6C3C7848112ABB19DA92A571C7B6_gshared)(__this, ___stateMachine0, method);
+}
+// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Niantic.Titan.Uploader.UploadResult>::get_Task()
+inline Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856* AsyncTaskMethodBuilder_1_get_Task_m07A60A8884E1E70E64CF27F6F3CC5E2CEB559386 (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* __this, const RuntimeMethod* method)
+{
+	return ((  Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856* (*) (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_get_Task_m228C453A630CC50C7517D9F9A31BFAFBBD0DDBA8_gshared)(__this, method);
+}
+// System.Boolean System.String::op_Equality(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService::CancelAllUploadsInternal(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadService_CancelAllUploadsInternal_m90DFB3269C2052EA3B063DD4BD4F9C079C8A5F95 (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, bool ___suppressWarning0, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::Warning(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger_Warning_m373598FD562FEF936BFFD3E98A6B923D71C470CB (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger__ctor_m858326D7CE3B9D110D00A02BA9FE76BC38DE6512 (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, String_t* ___logChannel0, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<Niantic.Titan.Uploader.IChunkedFileUploadRequest,Niantic.Titan.Uploader.IChunkedFileUploadSession>::Remove(TKey)
+inline bool Dictionary_2_Remove_m64D5993CDCB307C9BAE3E7E7D5D2231912C0B624 (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* __this, RuntimeObject* ___key0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*, RuntimeObject*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___key0, method);
+}
+// System.Void System.Action`3<System.String,System.String,System.Single>::Invoke(T1,T2,T3)
+inline void Action_3_Invoke_m941BE7DBD39307683D47E7445D4E09CDA1B6BBFE_inline (Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8* __this, String_t* ___arg10, String_t* ___arg21, float ___arg32, const RuntimeMethod* method)
+{
+	((  void (*) (Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8*, String_t*, String_t*, float, const RuntimeMethod*))Action_3_Invoke_mCCB27455CFC6A92DE481D9B3F0215D861DD1A8C5_gshared_inline)(__this, ___arg10, ___arg21, ___arg32, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass18_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_m5DF0F84C9679B496C2C24609123C9F48956FA2B6 (U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C* __this, const RuntimeMethod* method) ;
+// Niantic.Titan.Uploader.IChunkedFileUploadSession Niantic.Titan.Uploader.ChunkedFileUploadService::CreateSession(Niantic.Titan.Uploader.IChunkedFileUploadRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChunkedFileUploadService_CreateSession_mC97F48BEDF654E052D0181CF24C649869DE7958D (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, RuntimeObject* ___uploadRequest0, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Single>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859 (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<TResult> System.Threading.Tasks.Task`1<Niantic.Titan.Uploader.UploadResult>::ConfigureAwait(System.Boolean)
+inline ConfiguredTaskAwaitable_1_t83E43BB2F39794110024FAD423366A1E5287FA64 Task_1_ConfigureAwait_m351359280D7DAA3C867CAF0C7D9EFF600F8BCE02 (Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856* __this, bool ___continueOnCapturedContext0, const RuntimeMethod* method)
+{
+	return ((  ConfiguredTaskAwaitable_1_t83E43BB2F39794110024FAD423366A1E5287FA64 (*) (Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856*, bool, const RuntimeMethod*))Task_1_ConfigureAwait_m7A676C8AADCF52C5863D10DCE7E340B08893FA02_gshared)(__this, ___continueOnCapturedContext0, method);
+}
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<Niantic.Titan.Uploader.UploadResult>::GetAwaiter()
+inline ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540 ConfiguredTaskAwaitable_1_GetAwaiter_m749FE382423DFEA14C8F6A4A3C78DD5770732C76_inline (ConfiguredTaskAwaitable_1_t83E43BB2F39794110024FAD423366A1E5287FA64* __this, const RuntimeMethod* method)
+{
+	return ((  ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540 (*) (ConfiguredTaskAwaitable_1_t83E43BB2F39794110024FAD423366A1E5287FA64*, const RuntimeMethod*))ConfiguredTaskAwaitable_1_GetAwaiter_m447B2323EADC587DE0ABFEA2FEF3AF3342F75186_gshared_inline)(__this, method);
+}
+// System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Niantic.Titan.Uploader.UploadResult>::get_IsCompleted()
+inline bool ConfiguredTaskAwaiter_get_IsCompleted_m163553DF59F0AB3C1F2335293455DF075A4D202F (ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540*, const RuntimeMethod*))ConfiguredTaskAwaiter_get_IsCompleted_m6658F40E7404D6C45086F4151F673A3E831A0517_gshared)(__this, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Niantic.Titan.Uploader.UploadResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Niantic.Titan.Uploader.UploadResult>,Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_mC8AFF66FCE4D397C9ED726E45A451F12F68065F2 (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* __this, ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540* ___awaiter0, U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401* ___stateMachine1, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50*, ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540*, U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tDED7237EFF0427AECED9D7549E9AF9F7E568C39B_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_m2FCAB11ED1B8264C06F314065CE45E6FBF52ED2F_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+}
+// TResult System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Niantic.Titan.Uploader.UploadResult>::GetResult()
+inline int32_t ConfiguredTaskAwaiter_GetResult_m4FAD4E22CDD41F29252E07EC439092C8B2B19B9B (ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540*, const RuntimeMethod*))ConfiguredTaskAwaiter_GetResult_mF8CBBA5B63DB7FC72FA27688B4CBA3A556F128B0_gshared)(__this, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Niantic.Titan.Uploader.UploadResult>::SetException(System.Exception)
+inline void AsyncTaskMethodBuilder_1_SetException_m6190A58E358B6484F441ED43A324E11079D47482 (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* __this, Exception_t* ___exception0, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50*, Exception_t*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetException_m2E575629BCD46EA73D32EA85764E79315C353E13_gshared)(__this, ___exception0, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Niantic.Titan.Uploader.UploadResult>::SetResult(TResult)
+inline void AsyncTaskMethodBuilder_1_SetResult_m1A953BA90FB271FA9BB0CF75D4A79EE252459E09 (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* __this, int32_t ___result0, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50*, int32_t, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetResult_m718D4EE45CDBF257976C193933CBE5478FFC14E3_gshared)(__this, ___result0, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadFileToCloudStorageU3Ed__18_MoveNext_m5FDEA442290C827D7B8EDBDD6DDE460EA985586D (U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Niantic.Titan.Uploader.UploadResult>::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+inline void AsyncTaskMethodBuilder_1_SetStateMachine_m8E968F01916102F8AC8692AB6BBC5C0C95C34B4F (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50*, RuntimeObject*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_SetStateMachine_mBE5F26838D7801B8250806F352A6915A7F9AA2E5_gshared)(__this, ___stateMachine0, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadFileToCloudStorageU3Ed__18_SetStateMachine_m3FEF298EF4DA5E4D8908A876EC94E2EB23430A8E (U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+// System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient::.ctor(Niantic.Titan.Uploader.IChunkedFileUploadRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadClient__ctor_m65693D85DDD85FD71D815BCB0D0267CF827EB27B (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, RuntimeObject* ___uploadRequest0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::set_IsActive(System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsActive_mB455BF071C6C9A1464D8736F2DB9F234968D757B_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) ;
+// System.Void System.Action::Invoke()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Niantic.Titan.Uploader.UploadResult>::Start<Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31>(TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m121717528A797E11095349FC8A84BC7570AE5775 (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* __this, U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840* ___stateMachine0, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50*, U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m30CA9EAF25108735232C692A8875EA36BDCA9617_gshared)(__this, ___stateMachine0, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession/<>c__DisplayClass32_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0__ctor_m5F9CB963C8E7A1141445C81640D84E5ADF670198 (U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.UnitySynchronizationContext::RunOnMainThread(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySynchronizationContext_RunOnMainThread_m487702490101AA8198D07843F9955FA8AF8B14B4 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::set_IsPaused(System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsPaused_mF1A68074216BCC83A34D65CED498AD81845191CA_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::set_IsCanceled(System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsCanceled_m2F57B50E6985F0BE1C317B7CB3304039CF5D6DC5_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) ;
+// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadSession::get_IsCanceled()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ChunkedFileUploadSession_get_IsCanceled_m5009C0FA2F2AFE1D096BDCA69FF48A44C26E57A7_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::set_IsComplete(System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsComplete_m6CB60680E75AE044E4102E7D7D2906BC5BD25F31_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) ;
+// System.Boolean System.Threading.Tasks.Task::get_IsCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Threading.Tasks.Task::get_IsFaulted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsFaulted_mC0AD3EA4EAF3B47C1F5FE9624541F0A00B9426D9 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Threading.Tasks.Task::get_IsCanceled()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsCanceled_m96A8D3F85158A9CB3AEA50A00A55BE4E0F0E21FA (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
+// TResult System.Threading.Tasks.Task`1<System.Boolean>::get_Result()
+inline bool Task_1_get_Result_m48902D0529EDB4646DFE6B5A7631AE15911E87B9 (Task_1_t824317F4B958F7512E8F7300511752937A6C6043* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Task_1_t824317F4B958F7512E8F7300511752937A6C6043*, const RuntimeMethod*))Task_1_get_Result_m48902D0529EDB4646DFE6B5A7631AE15911E87B9_gshared)(__this, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::set_IsSuccessful(System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsSuccessful_mBB55374771F60451D7C7B35B88A6EBE151713EFC_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Threading.Tasks.Task`1<System.Boolean>>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_m8DB17142BC5CB34C561C3A08FF3390CC83C7D94F (Action_1_t12D515BBBDB69A29DC0C4812555D0A8A51D6B856* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t12D515BBBDB69A29DC0C4812555D0A8A51D6B856*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Boolean>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<TResult>>)
+inline Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* Task_1_ContinueWith_mBD33AE3971992759A43EF4B06D8458C7BC548E3B (Task_1_t824317F4B958F7512E8F7300511752937A6C6043* __this, Action_1_t12D515BBBDB69A29DC0C4812555D0A8A51D6B856* ___continuationAction0, const RuntimeMethod* method)
+{
+	return ((  Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* (*) (Task_1_t824317F4B958F7512E8F7300511752937A6C6043*, Action_1_t12D515BBBDB69A29DC0C4812555D0A8A51D6B856*, const RuntimeMethod*))Task_1_ContinueWith_mBD33AE3971992759A43EF4B06D8458C7BC548E3B_gshared)(__this, ___continuationAction0, method);
+}
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable System.Threading.Tasks.Task::ConfigureAwait(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C Task_ConfigureAwait_m0DD682B1D29B85067C993734C12E26554D6CBFF4 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, bool ___continueOnCapturedContext0, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter System.Runtime.CompilerServices.ConfiguredTaskAwaitable::GetAwaiter()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ConfiguredTaskAwaitable_GetAwaiter_m3F163D24211147E68FC5799A7D2D2BE7C07A60B5_inline (ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter::get_IsCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConfiguredTaskAwaiter_get_IsCompleted_mB189574F29658A59CC4C890B70538A9C5E835850 (ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Niantic.Titan.Uploader.UploadResult>::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter,Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31>(TAwaiter&,TStateMachine&)
+inline void AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m9E12A46382D4DF9BA5195FFDE0609727846B3DD0 (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* __this, ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618* ___awaiter0, U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840* ___stateMachine1, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50*, ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618*, U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840*, const RuntimeMethod*))AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m53A1CCDF783BAB9CA7E59530B6C46F3988DB9694_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+}
+// System.Void System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter::GetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfiguredTaskAwaiter_GetResult_mD51FDD775D0CF7511FEE2B6C144DB003DE73AC26 (ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618* __this, const RuntimeMethod* method) ;
+// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadSession::get_IsSuccessful()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ChunkedFileUploadSession_get_IsSuccessful_mB9EC372514C705C146A7187ECEA25B27A41E32F4_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadAsyncU3Ed__31_MoveNext_m5884D1CF4DAA620E27953CAE60CE372963A5A679 (U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadAsyncU3Ed__31_SetStateMachine_mB2AE77F96A1CC638A6A50414142530717AAD0A31 (U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Single>::Invoke(T)
+inline void Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_inline (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, float ___obj0, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*, float, const RuntimeMethod*))Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_gshared_inline)(__this, ___obj0, method);
+}
+// System.Void Niantic.Titan.Uploader.NativeLogger::HandleNativeLog(Niantic.Titan.Uploader.Internal.ChannelLogger/LogLevel,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeLogger_HandleNativeLog_mE4D4F63BB37FBA2EEC0F1A59E32B17E81E2C8E13 (int32_t ___logPriority0, String_t* ___message1, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.NativeLogger/Native/LogCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LogCallback__ctor_mBF449BFBB19AC037CBD4430F0D32C72575F59464 (LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.NativeLogger/Native::Logger_Initialize(Niantic.Titan.Uploader.NativeLogger/Native/LogCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_Logger_Initialize_m171735208F6A3206179FECF8818E0D9C5331D63C (LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* ___logCallback0, const RuntimeMethod* method) ;
+// Niantic.Titan.Uploader.Internal.ChannelLogger Niantic.Titan.Uploader.NativeLogger::get_Log()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* NativeLogger_get_Log_m37CB7D279B165718D4D1E372E9A725BADE4C1535_inline (const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::LogMessage(Niantic.Titan.Uploader.Internal.ChannelLogger/LogLevel,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger_LogMessage_m77AF6FBC771DE2C9B0F9DEB0E7B68B4CEA2A3912 (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, int32_t ___logLevel0, String_t* ___message1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.GameObject::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Object::set_hideFlags(UnityEngine.HideFlags)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::AddComponent<Niantic.Titan.Uploader.Internal.ApplicationLifecycle/AppLifecycleHook>()
+inline AppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA* GameObject_AddComponent_TisAppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA_mAFF784CC53B662F1FD5E8F4B2239F0DDCAA727D1 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  AppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+// System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___target0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Application::add_quitting(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_add_quitting_m5767AC63F23ABFD5BC3D60710906643BA536CCC5 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Application::add_unloading(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_add_unloading_mC9667BD2FEAFE20C5D08183FF450F3FE27D27131 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+// Niantic.Titan.Uploader.Internal.ChannelLogger Niantic.Titan.Uploader.Internal.ApplicationLifecycle::get_Log()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* ApplicationLifecycle_get_Log_m0CA54FE80F35765220104F8DCBD995BB66EDEDC1_inline (const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::LogTrace(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger_LogTrace_m3DB711F0EE6F1B5E90F037CD7556745FAFE26E54 (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::OnApplicationFocusChanged(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_OnApplicationFocusChanged_mEE848534D6242F82EFCA0E042AEF6533E5395EC0 (bool ___hasFocus0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::OnApplicationPauseChanged(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_OnApplicationPauseChanged_m409D86AC0FC7481F40F833F96BD858499894FB1A (bool ___isPaused0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::LogError(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::LogWarning(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::Log(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::Error(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger_Error_mA1A19AF9DD5C7DAF84B5156667CF98A15CD7AFA2 (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.IntPtr System.Runtime.InteropServices.Marshal::GetFunctionPointerForDelegate(System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Marshal_GetFunctionPointerForDelegate_mEFF0CF3BFDD35C4EFDE471D48182C149EE7B99E2 (Delegate_t* ___d0, const RuntimeMethod* method) ;
+// System.Runtime.InteropServices.GCHandle System.Runtime.InteropServices.GCHandle::Alloc(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC GCHandle_Alloc_m845AB5ED62859B099C023F34C05BEAEDB4AFE27D (RuntimeObject* ___value0, const RuntimeMethod* method) ;
+// System.Void System.Runtime.InteropServices.GCHandle::Free()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3 (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* __this, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.DelegateHandle::ReleaseUnmanagedResources()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateHandle_ReleaseUnmanagedResources_m2D67F3F260DB7D2D4B764CD892747B064D5CD1D5 (DelegateHandle_t178FA19A89EB38DCE6D7F7D67EE046349705FB1A* __this, const RuntimeMethod* method) ;
+// System.Threading.SynchronizationContext System.Threading.SynchronizationContext::get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* SynchronizationContext_get_Current_m8DE6D3020745B7955249A2470A23EC0ECBB02A82 (const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.UnitySynchronizationContext::PostToMainThread(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySynchronizationContext_PostToMainThread_m6E35E7536D6A02E23BBDEB8B6388547BE21170BE (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.UnitySynchronizationContext/<>c__DisplayClass3_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m8FFBFC0C2AF9E41649EF131040872DBDBDF8AE1C (U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761* __this, const RuntimeMethod* method) ;
+// System.Void System.Threading.SendOrPostCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendOrPostCallback__ctor_mE6F9D9606A00C3C18AEA057422ECF4106C80DA37 (SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.UploadCallbackScope::UploadProgressCallback(System.Single,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadCallbackScope_UploadProgressCallback_mA2F6F71D236FC06059DC7398ADD562FC7862134A (float ___progress0, int32_t ___callbackId1, const RuntimeMethod* method) ;
+// System.Void Niantic.Titan.Uploader.Internal.UploadCallbackScope::UploadCompleteCallback(System.Boolean,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadCallbackScope_UploadCompleteCallback_m94B019EB19A889B570947EFBF0D195AC4A7E078E (bool ___success0, int32_t ___callbackId1, const RuntimeMethod* method) ;
+// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>::get_Task()
+inline Task_1_t824317F4B958F7512E8F7300511752937A6C6043* TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_inline (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, const RuntimeMethod* method)
+{
+	return ((  Task_1_t824317F4B958F7512E8F7300511752937A6C6043* (*) (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*, const RuntimeMethod*))TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_gshared_inline)(__this, method);
+}
+// System.Int32 System.Threading.Interlocked::Increment(System.Int32&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309 (int32_t* ___location0, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>::.ctor(System.Threading.Tasks.TaskCreationOptions)
+inline void TaskCompletionSource_1__ctor_m8B45657B899BBC1E2F287FC119B8EC38083EF30A (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, int32_t ___creationOptions0, const RuntimeMethod* method)
+{
+	((  void (*) (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*, int32_t, const RuntimeMethod*))TaskCompletionSource_1__ctor_m8B45657B899BBC1E2F287FC119B8EC38083EF30A_gshared)(__this, ___creationOptions0, method);
+}
+// System.Void Niantic.Titan.Uploader.Internal.UploadCallbackScope::.ctor(System.Action`1<System.Single>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadCallbackScope__ctor_m220592810D943C2F9A31A19AC1B530F19E5EB46C (UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* __this, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress0, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,Niantic.Titan.Uploader.Internal.UploadCallbackScope>::TryAdd(TKey,TValue)
+inline bool ConcurrentDictionary_2_TryAdd_m2DA3A0ABB5A41D404CAE49AD70B96A6B5E7FA8F2 (ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D* __this, int32_t ___key0, UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* ___value1, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D*, int32_t, UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3*, const RuntimeMethod*))ConcurrentDictionary_2_TryAdd_m3C7E3E20207671FB7043DF36388E23482425FB2D_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Boolean System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,Niantic.Titan.Uploader.Internal.UploadCallbackScope>::TryRemove(TKey,TValue&)
+inline bool ConcurrentDictionary_2_TryRemove_m301AEFECA5AB21D3156386BECF3CC15A8708DB7E (ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D* __this, int32_t ___key0, UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3** ___value1, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D*, int32_t, UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3**, const RuntimeMethod*))ConcurrentDictionary_2_TryRemove_mDF151BBD4692A66AC879FB6DEEB5AAB2F3DC888E_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Boolean System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>::TrySetResult(TResult)
+inline bool TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1 (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, bool ___result0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*, bool, const RuntimeMethod*))TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1_gshared)(__this, ___result0, method);
+}
+// System.Boolean System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,Niantic.Titan.Uploader.Internal.UploadCallbackScope>::TryGetValue(TKey,TValue&)
+inline bool ConcurrentDictionary_2_TryGetValue_m145B534F9AE9F8BC65E67A62C9A11EF6E421AB41 (ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D* __this, int32_t ___key0, UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3** ___value1, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D*, int32_t, UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3**, const RuntimeMethod*))ConcurrentDictionary_2_TryGetValue_mC0F07143484C16BCD71E439F9F6DEC2790B5059E_gshared)(__this, ___key0, ___value1, method);
+}
+// System.String System.String::Format(System.String,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, const RuntimeMethod* method) ;
+// System.Void System.InvalidOperationException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162 (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,Niantic.Titan.Uploader.Internal.UploadCallbackScope>::.ctor()
+inline void ConcurrentDictionary_2__ctor_m68A530CD77F2A9C5F3890808C81F64DEFEBD6BC3 (ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D* __this, const RuntimeMethod* method)
+{
+	((  void (*) (ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D*, const RuntimeMethod*))ConcurrentDictionary_2__ctor_mD5102CFBD6856EE48F1176D95DC2228C73539C85_gshared)(__this, method);
+}
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL ChunkedUploadClient_New(char*, char*, uint32_t, char*, char*, char*, char*, char**, char**, char**);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL ChunkedUploadClient_Delete(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL ChunkedUploadClient_UploadAsync(void*, uint32_t, Il2CppMethodPointer, Il2CppMethodPointer, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL ChunkedUploadClient_CancelUpload(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL ChunkedUploadClient_PauseUpload(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL ChunkedUploadClient_ResumeUpload(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL Logger_Initialize(Il2CppMethodPointer);
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String Niantic.Titan.Uploader.ChunkedFileUploadClient::get_SubmissionId()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChunkedFileUploadClient_get_SubmissionId_mE5A62228CF9636D8D7CCABE9F6A0022332921012 (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public string SubmissionId => _uploadRequest.SubmissionId;
+		RuntimeObject* L_0 = __this->____uploadRequest_1;
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(1 /* System.String Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_SubmissionId() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_0);
+		return L_1;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient::.ctor(Niantic.Titan.Uploader.IChunkedFileUploadRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadClient__ctor_m65693D85DDD85FD71D815BCB0D0267CF827EB27B (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, RuntimeObject* ___uploadRequest0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IAuthenticationInfo_tECF4F7CE95A4D349D8AAB7FB780B51484A0B4EB7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkInfo_t3ED0F239D237C84B85DED01FDD404601E88426C2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IComposeInfo_t6F27A8243E16042C2F7D17A55018CE1C65587486_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1_get_Count_m6DAA756E6756003F71C6957423F265ACDBF82CAE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1_get_Item_m5887D8792DDFD4AAC399ED92E86EBDCB9F53B763_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_1 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_2 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_3 = NULL;
+	intptr_t V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	int32_t V_5 = 0;
+	RuntimeObject* V_6 = NULL;
+	{
+		// public ChunkedFileUploadClient(IChunkedFileUploadRequest uploadRequest) {
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// _uploadRequest = uploadRequest;
+		RuntimeObject* L_0 = ___uploadRequest0;
+		__this->____uploadRequest_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____uploadRequest_1), (void*)L_0);
+		// var chunkCount = uploadRequest.Chunks.Count;
+		RuntimeObject* L_1 = ___uploadRequest0;
+		NullCheck(L_1);
+		ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* L_2;
+		L_2 = InterfaceFuncInvoker0< ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* >::Invoke(5 /* System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.Titan.Uploader.IChunkInfo> Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_Chunks() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_1);
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = ReadOnlyCollection_1_get_Count_m6DAA756E6756003F71C6957423F265ACDBF82CAE(L_2, ReadOnlyCollection_1_get_Count_m6DAA756E6756003F71C6957423F265ACDBF82CAE_RuntimeMethod_var);
+		V_0 = L_3;
+		// var chunkObjectPaths = new string[chunkCount];
+		int32_t L_4 = V_0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_4);
+		V_1 = L_5;
+		// var chunkAuthStrings = new string[chunkCount];
+		int32_t L_6 = V_0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_6);
+		V_2 = L_7;
+		// var chunkAuthDates = new string[chunkCount];
+		int32_t L_8 = V_0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_8);
+		V_3 = L_9;
+		// for (var i = 0; i < chunkCount; i++) {
+		V_5 = 0;
+		goto IL_0073;
+	}
+
+IL_0033:
+	{
+		// var chunk = uploadRequest.Chunks[i];
+		RuntimeObject* L_10 = ___uploadRequest0;
+		NullCheck(L_10);
+		ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* L_11;
+		L_11 = InterfaceFuncInvoker0< ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* >::Invoke(5 /* System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.Titan.Uploader.IChunkInfo> Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_Chunks() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_10);
+		int32_t L_12 = V_5;
+		NullCheck(L_11);
+		RuntimeObject* L_13;
+		L_13 = ReadOnlyCollection_1_get_Item_m5887D8792DDFD4AAC399ED92E86EBDCB9F53B763(L_11, L_12, ReadOnlyCollection_1_get_Item_m5887D8792DDFD4AAC399ED92E86EBDCB9F53B763_RuntimeMethod_var);
+		V_6 = L_13;
+		// chunkObjectPaths[i] = chunk.ObjectPath;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = V_1;
+		int32_t L_15 = V_5;
+		RuntimeObject* L_16 = V_6;
+		NullCheck(L_16);
+		String_t* L_17;
+		L_17 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Niantic.Titan.Uploader.IChunkInfo::get_ObjectPath() */, IChunkInfo_t3ED0F239D237C84B85DED01FDD404601E88426C2_il2cpp_TypeInfo_var, L_16);
+		NullCheck(L_14);
+		ArrayElementTypeCheck (L_14, L_17);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(L_15), (String_t*)L_17);
+		// chunkAuthStrings[i] = chunk.UploadAuth.AuthString;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = V_2;
+		int32_t L_19 = V_5;
+		RuntimeObject* L_20 = V_6;
+		NullCheck(L_20);
+		RuntimeObject* L_21;
+		L_21 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1 /* Niantic.Titan.Uploader.IAuthenticationInfo Niantic.Titan.Uploader.IChunkInfo::get_UploadAuth() */, IChunkInfo_t3ED0F239D237C84B85DED01FDD404601E88426C2_il2cpp_TypeInfo_var, L_20);
+		NullCheck(L_21);
+		String_t* L_22;
+		L_22 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Niantic.Titan.Uploader.IAuthenticationInfo::get_AuthString() */, IAuthenticationInfo_tECF4F7CE95A4D349D8AAB7FB780B51484A0B4EB7_il2cpp_TypeInfo_var, L_21);
+		NullCheck(L_18);
+		ArrayElementTypeCheck (L_18, L_22);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (String_t*)L_22);
+		// chunkAuthDates[i] = chunk.UploadAuth.AuthDate;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = V_3;
+		int32_t L_24 = V_5;
+		RuntimeObject* L_25 = V_6;
+		NullCheck(L_25);
+		RuntimeObject* L_26;
+		L_26 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1 /* Niantic.Titan.Uploader.IAuthenticationInfo Niantic.Titan.Uploader.IChunkInfo::get_UploadAuth() */, IChunkInfo_t3ED0F239D237C84B85DED01FDD404601E88426C2_il2cpp_TypeInfo_var, L_25);
+		NullCheck(L_26);
+		String_t* L_27;
+		L_27 = InterfaceFuncInvoker0< String_t* >::Invoke(1 /* System.String Niantic.Titan.Uploader.IAuthenticationInfo::get_AuthDate() */, IAuthenticationInfo_tECF4F7CE95A4D349D8AAB7FB780B51484A0B4EB7_il2cpp_TypeInfo_var, L_26);
+		NullCheck(L_23);
+		ArrayElementTypeCheck (L_23, L_27);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(L_24), (String_t*)L_27);
+		// for (var i = 0; i < chunkCount; i++) {
+		int32_t L_28 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+	}
+
+IL_0073:
+	{
+		// for (var i = 0; i < chunkCount; i++) {
+		int32_t L_29 = V_5;
+		int32_t L_30 = V_0;
+		if ((((int32_t)L_29) < ((int32_t)L_30)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		// var nativePtr = Native.ChunkedUploadClient_New(
+		//   uploadRequest.LocalFilePath,
+		//   uploadRequest.BucketName,
+		//   (uint)uploadRequest.Chunks.Count,
+		//   uploadRequest.ComposeInfo.ObjectPath,
+		//   uploadRequest.ComposeInfo.Auth.AuthString,
+		//   uploadRequest.ComposeInfo.Auth.AuthDate,
+		//   uploadRequest.ComposeInfo.AuthPayload,
+		//   chunkObjectPaths,
+		//   chunkAuthStrings,
+		//   chunkAuthDates);
+		RuntimeObject* L_31 = ___uploadRequest0;
+		NullCheck(L_31);
+		String_t* L_32;
+		L_32 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_LocalFilePath() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_31);
+		RuntimeObject* L_33 = ___uploadRequest0;
+		NullCheck(L_33);
+		String_t* L_34;
+		L_34 = InterfaceFuncInvoker0< String_t* >::Invoke(4 /* System.String Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_BucketName() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_33);
+		RuntimeObject* L_35 = ___uploadRequest0;
+		NullCheck(L_35);
+		ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* L_36;
+		L_36 = InterfaceFuncInvoker0< ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* >::Invoke(5 /* System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.Titan.Uploader.IChunkInfo> Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_Chunks() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_35);
+		NullCheck(L_36);
+		int32_t L_37;
+		L_37 = ReadOnlyCollection_1_get_Count_m6DAA756E6756003F71C6957423F265ACDBF82CAE(L_36, ReadOnlyCollection_1_get_Count_m6DAA756E6756003F71C6957423F265ACDBF82CAE_RuntimeMethod_var);
+		RuntimeObject* L_38 = ___uploadRequest0;
+		NullCheck(L_38);
+		RuntimeObject* L_39;
+		L_39 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(6 /* Niantic.Titan.Uploader.IComposeInfo Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_ComposeInfo() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_38);
+		NullCheck(L_39);
+		String_t* L_40;
+		L_40 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Niantic.Titan.Uploader.IComposeInfo::get_ObjectPath() */, IComposeInfo_t6F27A8243E16042C2F7D17A55018CE1C65587486_il2cpp_TypeInfo_var, L_39);
+		RuntimeObject* L_41 = ___uploadRequest0;
+		NullCheck(L_41);
+		RuntimeObject* L_42;
+		L_42 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(6 /* Niantic.Titan.Uploader.IComposeInfo Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_ComposeInfo() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_41);
+		NullCheck(L_42);
+		RuntimeObject* L_43;
+		L_43 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1 /* Niantic.Titan.Uploader.IAuthenticationInfo Niantic.Titan.Uploader.IComposeInfo::get_Auth() */, IComposeInfo_t6F27A8243E16042C2F7D17A55018CE1C65587486_il2cpp_TypeInfo_var, L_42);
+		NullCheck(L_43);
+		String_t* L_44;
+		L_44 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Niantic.Titan.Uploader.IAuthenticationInfo::get_AuthString() */, IAuthenticationInfo_tECF4F7CE95A4D349D8AAB7FB780B51484A0B4EB7_il2cpp_TypeInfo_var, L_43);
+		RuntimeObject* L_45 = ___uploadRequest0;
+		NullCheck(L_45);
+		RuntimeObject* L_46;
+		L_46 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(6 /* Niantic.Titan.Uploader.IComposeInfo Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_ComposeInfo() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_45);
+		NullCheck(L_46);
+		RuntimeObject* L_47;
+		L_47 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1 /* Niantic.Titan.Uploader.IAuthenticationInfo Niantic.Titan.Uploader.IComposeInfo::get_Auth() */, IComposeInfo_t6F27A8243E16042C2F7D17A55018CE1C65587486_il2cpp_TypeInfo_var, L_46);
+		NullCheck(L_47);
+		String_t* L_48;
+		L_48 = InterfaceFuncInvoker0< String_t* >::Invoke(1 /* System.String Niantic.Titan.Uploader.IAuthenticationInfo::get_AuthDate() */, IAuthenticationInfo_tECF4F7CE95A4D349D8AAB7FB780B51484A0B4EB7_il2cpp_TypeInfo_var, L_47);
+		RuntimeObject* L_49 = ___uploadRequest0;
+		NullCheck(L_49);
+		RuntimeObject* L_50;
+		L_50 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(6 /* Niantic.Titan.Uploader.IComposeInfo Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_ComposeInfo() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_49);
+		NullCheck(L_50);
+		String_t* L_51;
+		L_51 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Niantic.Titan.Uploader.IComposeInfo::get_AuthPayload() */, IComposeInfo_t6F27A8243E16042C2F7D17A55018CE1C65587486_il2cpp_TypeInfo_var, L_50);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_52 = V_1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_53 = V_2;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_54 = V_3;
+		intptr_t L_55;
+		L_55 = Native_ChunkedUploadClient_New_m2DC39C112B3D232313B04983E6315D84E16F8393(L_32, L_34, L_37, L_40, L_44, L_48, L_51, L_52, L_53, L_54, NULL);
+		V_4 = L_55;
+		// _nativeHandle = new HandleRef(this, nativePtr);
+		intptr_t L_56 = V_4;
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_57;
+		memset((&L_57), 0, sizeof(L_57));
+		HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7((&L_57), __this, L_56, /*hidden argument*/NULL);
+		__this->____nativeHandle_0 = L_57;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____nativeHandle_0))->____wrapper_0), (void*)NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadClient_Dispose_mEFB2F432BA1D0768D15A23B1BAE3C761233F3F45 (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// ReleaseUnmanagedResources();
+		ChunkedFileUploadClient_ReleaseUnmanagedResources_m90644C2E499FC27DA84E94BAB6F66144C7557932(__this, NULL);
+		// GC.SuppressFinalize(this);
+		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
+		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient::Finalize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadClient_Finalize_m4FD01E06EA312A6764F9AAC3956344EFFA6D1CC0 (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, const RuntimeMethod* method) 
+{
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0008:
+			{// begin finally (depth: 1)
+				// }
+				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			// ReleaseUnmanagedResources();
+			ChunkedFileUploadClient_ReleaseUnmanagedResources_m90644C2E499FC27DA84E94BAB6F66144C7557932(__this, NULL);
+			goto IL_000f;
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_000f:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient::ReleaseUnmanagedResources()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadClient_ReleaseUnmanagedResources_m90644C2E499FC27DA84E94BAB6F66144C7557932 (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (_nativeHandle.Handle != IntPtr.Zero) {
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F* L_0 = (&__this->____nativeHandle_0);
+		intptr_t L_1;
+		L_1 = HandleRef_get_Handle_m2055005E349E895499E1B3B826C89228FFAC4C17_inline(L_0, NULL);
+		intptr_t L_2 = ((IntPtr_t_StaticFields*)il2cpp_codegen_static_fields_for(IntPtr_t_il2cpp_TypeInfo_var))->___Zero_1;
+		bool L_3;
+		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B(L_1, L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		// Native.ChunkedUploadClient_Delete(_nativeHandle);
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_4 = __this->____nativeHandle_0;
+		Native_ChunkedUploadClient_Delete_mB040E7A0F68D9669E40AA8BDF32C378773DDB1FC(L_4, NULL);
+		// _nativeHandle = new HandleRef();
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F* L_5 = (&__this->____nativeHandle_0);
+		il2cpp_codegen_initobj(L_5, sizeof(HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F));
+	}
+
+IL_002e:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient::ThrowOnInvalidPointer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadClient_ThrowOnInvalidPointer_mF6173AB3BCA263886B49F806B23D1ACDC3474C11 (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (_nativeHandle.Handle == IntPtr.Zero) {
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F* L_0 = (&__this->____nativeHandle_0);
+		intptr_t L_1;
+		L_1 = HandleRef_get_Handle_m2055005E349E895499E1B3B826C89228FFAC4C17_inline(L_0, NULL);
+		intptr_t L_2 = ((IntPtr_t_StaticFields*)il2cpp_codegen_static_fields_for(IntPtr_t_il2cpp_TypeInfo_var))->___Zero_1;
+		bool L_3;
+		L_3 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271(L_1, L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// throw new ArgumentException("Invalid pointer to unmanaged memory");
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_4 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		NullCheck(L_4);
+		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA8FF8C665F4FEFAD1B137FE535FFF20D423CE67D)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ChunkedFileUploadClient_ThrowOnInvalidPointer_mF6173AB3BCA263886B49F806B23D1ACDC3474C11_RuntimeMethod_var)));
+	}
+
+IL_0022:
+	{
+		// }
+		return;
+	}
+}
+// System.Threading.Tasks.Task`1<System.Boolean> Niantic.Titan.Uploader.ChunkedFileUploadClient::UploadAsync(System.Action`1<System.Single>,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ChunkedFileUploadClient_UploadAsync_m17D7A3113C123D7770404732F7A5A3C7E552DCA1 (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onUploadProgress0, uint32_t ___workerThreadCount1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mBA37AC94CEE4028DF7FCF6ABF8C8E277F51E5060_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA L_0;
+		L_0 = AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D(AsyncTaskMethodBuilder_1_Create_mA86694527610A40A01A943B16F0ECDDD8F00982D_RuntimeMethod_var);
+		(&V_0)->___U3CU3Et__builder_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&(&V_0)->___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&(&V_0)->___U3CU3Et__builder_1))->___m_coreState_1))->___m_defaultContextAction_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&(&V_0)->___U3CU3Et__builder_1))->___m_task_2), (void*)NULL);
+		#endif
+		(&V_0)->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this_2), (void*)__this);
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_1 = ___onUploadProgress0;
+		(&V_0)->___onUploadProgress_3 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___onUploadProgress_3), (void*)L_1);
+		uint32_t L_2 = ___workerThreadCount1;
+		(&V_0)->___workerThreadCount_4 = L_2;
+		(&V_0)->___U3CU3E1__state_0 = (-1);
+		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_3 = (&(&V_0)->___U3CU3Et__builder_1);
+		AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mBA37AC94CEE4028DF7FCF6ABF8C8E277F51E5060(L_3, (&V_0), AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mBA37AC94CEE4028DF7FCF6ABF8C8E277F51E5060_RuntimeMethod_var);
+		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_4 = (&(&V_0)->___U3CU3Et__builder_1);
+		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_5;
+		L_5 = AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943(L_4, AsyncTaskMethodBuilder_1_get_Task_m09169C120A259AF1F267F54C09A92B84D9832943_RuntimeMethod_var);
+		return L_5;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient::CancelUpload()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadClient_CancelUpload_m01D50CFDC7E3C287054EA0AA2F7CD9DE4DF99956 (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, const RuntimeMethod* method) 
+{
+	{
+		// ThrowOnInvalidPointer();
+		ChunkedFileUploadClient_ThrowOnInvalidPointer_mF6173AB3BCA263886B49F806B23D1ACDC3474C11(__this, NULL);
+		// Native.ChunkedUploadClient_CancelUpload(_nativeHandle);
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->____nativeHandle_0;
+		Native_ChunkedUploadClient_CancelUpload_mAB5CEF5E5604A66E6E134CB11481190169BA23DB(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient::PauseUpload()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadClient_PauseUpload_m6CFBACB8133B68BBC251BAC521C2A5C7C145CE0C (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, const RuntimeMethod* method) 
+{
+	{
+		// ThrowOnInvalidPointer();
+		ChunkedFileUploadClient_ThrowOnInvalidPointer_mF6173AB3BCA263886B49F806B23D1ACDC3474C11(__this, NULL);
+		// Native.ChunkedUploadClient_PauseUpload(_nativeHandle);
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->____nativeHandle_0;
+		Native_ChunkedUploadClient_PauseUpload_m195BB145E89A5868D60420E999C4E89DE639522E(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient::ResumeUpload()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadClient_ResumeUpload_m458BC7C4DC1F538C8638CD98349F9F3769772018 (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* __this, const RuntimeMethod* method) 
+{
+	{
+		// ThrowOnInvalidPointer();
+		ChunkedFileUploadClient_ThrowOnInvalidPointer_mF6173AB3BCA263886B49F806B23D1ACDC3474C11(__this, NULL);
+		// Native.ChunkedUploadClient_ResumeUpload(_nativeHandle);
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->____nativeHandle_0;
+		Native_ChunkedUploadClient_ResumeUpload_mB778A9A01DD3DC53BCC2ABE7A3D2A4C597EB4B1C(L_0, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.IntPtr Niantic.Titan.Uploader.ChunkedFileUploadClient/Native::ChunkedUploadClient_New(System.String,System.String,System.UInt32,System.String,System.String,System.String,System.String,System.String[],System.String[],System.String[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_ChunkedUploadClient_New_m2DC39C112B3D232313B04983E6315D84E16F8393 (String_t* ___localFilePath0, String_t* ___bucketName1, uint32_t ___chunkCount2, String_t* ___composedObjectPath3, String_t* ___composeAuthorization4, String_t* ___composeDate5, String_t* ___composeSignedPayload6, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___chunkObjectPaths7, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___chunkAuthorizations8, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___chunkDates9, const RuntimeMethod* method) 
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (char*, char*, uint32_t, char*, char*, char*, char*, char**, char**, char**);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_geouploader_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(char*) + sizeof(char*) + sizeof(uint32_t) + sizeof(char*) + sizeof(char*) + sizeof(char*) + sizeof(char*) + sizeof(void*) + sizeof(void*) + sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("geouploader"), "ChunkedUploadClient_New", IL2CPP_CALL_DEFAULT, CHARSET_ANSI, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___localFilePath0' to native representation
+	char* ____localFilePath0_marshaled = NULL;
+	____localFilePath0_marshaled = il2cpp_codegen_marshal_string(___localFilePath0);
+
+	// Marshaling of parameter '___bucketName1' to native representation
+	char* ____bucketName1_marshaled = NULL;
+	____bucketName1_marshaled = il2cpp_codegen_marshal_string(___bucketName1);
+
+	// Marshaling of parameter '___composedObjectPath3' to native representation
+	char* ____composedObjectPath3_marshaled = NULL;
+	____composedObjectPath3_marshaled = il2cpp_codegen_marshal_string(___composedObjectPath3);
+
+	// Marshaling of parameter '___composeAuthorization4' to native representation
+	char* ____composeAuthorization4_marshaled = NULL;
+	____composeAuthorization4_marshaled = il2cpp_codegen_marshal_string(___composeAuthorization4);
+
+	// Marshaling of parameter '___composeDate5' to native representation
+	char* ____composeDate5_marshaled = NULL;
+	____composeDate5_marshaled = il2cpp_codegen_marshal_string(___composeDate5);
+
+	// Marshaling of parameter '___composeSignedPayload6' to native representation
+	char* ____composeSignedPayload6_marshaled = NULL;
+	____composeSignedPayload6_marshaled = il2cpp_codegen_marshal_string(___composeSignedPayload6);
+
+	// Marshaling of parameter '___chunkObjectPaths7' to native representation
+	char** ____chunkObjectPaths7_marshaled = NULL;
+	if (___chunkObjectPaths7 != NULL)
+	{
+		il2cpp_array_size_t ____chunkObjectPaths7_Length = (___chunkObjectPaths7)->max_length;
+		____chunkObjectPaths7_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____chunkObjectPaths7_Length + 1);
+		(____chunkObjectPaths7_marshaled)[____chunkObjectPaths7_Length] = NULL;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____chunkObjectPaths7_Length); i++)
+		{
+			(____chunkObjectPaths7_marshaled)[i] = il2cpp_codegen_marshal_string((___chunkObjectPaths7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+	else
+	{
+		____chunkObjectPaths7_marshaled = NULL;
+	}
+
+	// Marshaling of parameter '___chunkAuthorizations8' to native representation
+	char** ____chunkAuthorizations8_marshaled = NULL;
+	if (___chunkAuthorizations8 != NULL)
+	{
+		il2cpp_array_size_t ____chunkAuthorizations8_Length = (___chunkAuthorizations8)->max_length;
+		____chunkAuthorizations8_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____chunkAuthorizations8_Length + 1);
+		(____chunkAuthorizations8_marshaled)[____chunkAuthorizations8_Length] = NULL;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____chunkAuthorizations8_Length); i++)
+		{
+			(____chunkAuthorizations8_marshaled)[i] = il2cpp_codegen_marshal_string((___chunkAuthorizations8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+	else
+	{
+		____chunkAuthorizations8_marshaled = NULL;
+	}
+
+	// Marshaling of parameter '___chunkDates9' to native representation
+	char** ____chunkDates9_marshaled = NULL;
+	if (___chunkDates9 != NULL)
+	{
+		il2cpp_array_size_t ____chunkDates9_Length = (___chunkDates9)->max_length;
+		____chunkDates9_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____chunkDates9_Length + 1);
+		(____chunkDates9_marshaled)[____chunkDates9_Length] = NULL;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____chunkDates9_Length); i++)
+		{
+			(____chunkDates9_marshaled)[i] = il2cpp_codegen_marshal_string((___chunkDates9)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+	else
+	{
+		____chunkDates9_marshaled = NULL;
+	}
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(ChunkedUploadClient_New)(____localFilePath0_marshaled, ____bucketName1_marshaled, ___chunkCount2, ____composedObjectPath3_marshaled, ____composeAuthorization4_marshaled, ____composeDate5_marshaled, ____composeSignedPayload6_marshaled, ____chunkObjectPaths7_marshaled, ____chunkAuthorizations8_marshaled, ____chunkDates9_marshaled);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(____localFilePath0_marshaled, ____bucketName1_marshaled, ___chunkCount2, ____composedObjectPath3_marshaled, ____composeAuthorization4_marshaled, ____composeDate5_marshaled, ____composeSignedPayload6_marshaled, ____chunkObjectPaths7_marshaled, ____chunkAuthorizations8_marshaled, ____chunkDates9_marshaled);
+	#endif
+
+	// Marshaling cleanup of parameter '___localFilePath0' native representation
+	il2cpp_codegen_marshal_free(____localFilePath0_marshaled);
+	____localFilePath0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___bucketName1' native representation
+	il2cpp_codegen_marshal_free(____bucketName1_marshaled);
+	____bucketName1_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___composedObjectPath3' native representation
+	il2cpp_codegen_marshal_free(____composedObjectPath3_marshaled);
+	____composedObjectPath3_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___composeAuthorization4' native representation
+	il2cpp_codegen_marshal_free(____composeAuthorization4_marshaled);
+	____composeAuthorization4_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___composeDate5' native representation
+	il2cpp_codegen_marshal_free(____composeDate5_marshaled);
+	____composeDate5_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___composeSignedPayload6' native representation
+	il2cpp_codegen_marshal_free(____composeSignedPayload6_marshaled);
+	____composeSignedPayload6_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___chunkObjectPaths7' native representation
+	if (____chunkObjectPaths7_marshaled != NULL)
+	{
+		const il2cpp_array_size_t ____chunkObjectPaths7_marshaled_CleanupLoopCount = (___chunkObjectPaths7 != NULL) ? (___chunkObjectPaths7)->max_length : 0;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____chunkObjectPaths7_marshaled_CleanupLoopCount); i++)
+		{
+			il2cpp_codegen_marshal_free((____chunkObjectPaths7_marshaled)[i]);
+			(____chunkObjectPaths7_marshaled)[i] = NULL;
+		}
+		il2cpp_codegen_marshal_free(____chunkObjectPaths7_marshaled);
+		____chunkObjectPaths7_marshaled = NULL;
+	}
+
+	// Marshaling cleanup of parameter '___chunkAuthorizations8' native representation
+	if (____chunkAuthorizations8_marshaled != NULL)
+	{
+		const il2cpp_array_size_t ____chunkAuthorizations8_marshaled_CleanupLoopCount = (___chunkAuthorizations8 != NULL) ? (___chunkAuthorizations8)->max_length : 0;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____chunkAuthorizations8_marshaled_CleanupLoopCount); i++)
+		{
+			il2cpp_codegen_marshal_free((____chunkAuthorizations8_marshaled)[i]);
+			(____chunkAuthorizations8_marshaled)[i] = NULL;
+		}
+		il2cpp_codegen_marshal_free(____chunkAuthorizations8_marshaled);
+		____chunkAuthorizations8_marshaled = NULL;
+	}
+
+	// Marshaling cleanup of parameter '___chunkDates9' native representation
+	if (____chunkDates9_marshaled != NULL)
+	{
+		const il2cpp_array_size_t ____chunkDates9_marshaled_CleanupLoopCount = (___chunkDates9 != NULL) ? (___chunkDates9)->max_length : 0;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____chunkDates9_marshaled_CleanupLoopCount); i++)
+		{
+			il2cpp_codegen_marshal_free((____chunkDates9_marshaled)[i]);
+			(____chunkDates9_marshaled)[i] = NULL;
+		}
+		il2cpp_codegen_marshal_free(____chunkDates9_marshaled);
+		____chunkDates9_marshaled = NULL;
+	}
+
+	return returnValue;
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient/Native::ChunkedUploadClient_Delete(System.Runtime.InteropServices.HandleRef)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_ChunkedUploadClient_Delete_mB040E7A0F68D9669E40AA8BDF32C378773DDB1FC (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___nativeHandle0, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_geouploader_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("geouploader"), "ChunkedUploadClient_Delete", IL2CPP_CALL_DEFAULT, CHARSET_ANSI, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___nativeHandle0' to native representation
+	void* ____nativeHandle0_marshaled = NULL;
+	____nativeHandle0_marshaled = (void*)___nativeHandle0.____handle_1;
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+	reinterpret_cast<PInvokeFunc>(ChunkedUploadClient_Delete)(____nativeHandle0_marshaled);
+	#else
+	il2cppPInvokeFunc(____nativeHandle0_marshaled);
+	#endif
+
+}
+// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadClient/Native::ChunkedUploadClient_UploadAsync(System.Runtime.InteropServices.HandleRef,System.UInt32,Niantic.Titan.Uploader.Internal.UploadCompleteDelegate,Niantic.Titan.Uploader.Internal.UploadProgressDelegate,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_ChunkedUploadClient_UploadAsync_m5D2433A3FA7BE2B9F04FD65C12AD69E40788E659 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___nativeHandle0, uint32_t ___numUploadThreadsToCreate1, UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* ___uploadCompletedCallback2, UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* ___uploadProgressCallback3, int32_t ___callbackId4, const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, uint32_t, Il2CppMethodPointer, Il2CppMethodPointer, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_geouploader_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(uint32_t) + sizeof(void*) + sizeof(void*) + sizeof(int32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("geouploader"), "ChunkedUploadClient_UploadAsync", IL2CPP_CALL_DEFAULT, CHARSET_ANSI, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___nativeHandle0' to native representation
+	void* ____nativeHandle0_marshaled = NULL;
+	____nativeHandle0_marshaled = (void*)___nativeHandle0.____handle_1;
+
+	// Marshaling of parameter '___uploadCompletedCallback2' to native representation
+	Il2CppMethodPointer ____uploadCompletedCallback2_marshaled = NULL;
+	____uploadCompletedCallback2_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___uploadCompletedCallback2));
+
+	// Marshaling of parameter '___uploadProgressCallback3' to native representation
+	Il2CppMethodPointer ____uploadProgressCallback3_marshaled = NULL;
+	____uploadProgressCallback3_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___uploadProgressCallback3));
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ChunkedUploadClient_UploadAsync)(____nativeHandle0_marshaled, ___numUploadThreadsToCreate1, ____uploadCompletedCallback2_marshaled, ____uploadProgressCallback3_marshaled, ___callbackId4);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____nativeHandle0_marshaled, ___numUploadThreadsToCreate1, ____uploadCompletedCallback2_marshaled, ____uploadProgressCallback3_marshaled, ___callbackId4);
+	#endif
+
+	return static_cast<bool>(returnValue);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient/Native::ChunkedUploadClient_CancelUpload(System.Runtime.InteropServices.HandleRef)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_ChunkedUploadClient_CancelUpload_mAB5CEF5E5604A66E6E134CB11481190169BA23DB (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___nativeHandle0, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_geouploader_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("geouploader"), "ChunkedUploadClient_CancelUpload", IL2CPP_CALL_DEFAULT, CHARSET_ANSI, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___nativeHandle0' to native representation
+	void* ____nativeHandle0_marshaled = NULL;
+	____nativeHandle0_marshaled = (void*)___nativeHandle0.____handle_1;
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+	reinterpret_cast<PInvokeFunc>(ChunkedUploadClient_CancelUpload)(____nativeHandle0_marshaled);
+	#else
+	il2cppPInvokeFunc(____nativeHandle0_marshaled);
+	#endif
+
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient/Native::ChunkedUploadClient_PauseUpload(System.Runtime.InteropServices.HandleRef)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_ChunkedUploadClient_PauseUpload_m195BB145E89A5868D60420E999C4E89DE639522E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___nativeHandle0, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_geouploader_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("geouploader"), "ChunkedUploadClient_PauseUpload", IL2CPP_CALL_DEFAULT, CHARSET_ANSI, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___nativeHandle0' to native representation
+	void* ____nativeHandle0_marshaled = NULL;
+	____nativeHandle0_marshaled = (void*)___nativeHandle0.____handle_1;
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+	reinterpret_cast<PInvokeFunc>(ChunkedUploadClient_PauseUpload)(____nativeHandle0_marshaled);
+	#else
+	il2cppPInvokeFunc(____nativeHandle0_marshaled);
+	#endif
+
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient/Native::ChunkedUploadClient_ResumeUpload(System.Runtime.InteropServices.HandleRef)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_ChunkedUploadClient_ResumeUpload_mB778A9A01DD3DC53BCC2ABE7A3D2A4C597EB4B1C (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___nativeHandle0, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_geouploader_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("geouploader"), "ChunkedUploadClient_ResumeUpload", IL2CPP_CALL_DEFAULT, CHARSET_ANSI, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___nativeHandle0' to native representation
+	void* ____nativeHandle0_marshaled = NULL;
+	____nativeHandle0_marshaled = (void*)___nativeHandle0.____handle_1;
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+	reinterpret_cast<PInvokeFunc>(ChunkedUploadClient_ResumeUpload)(____nativeHandle0_marshaled);
+	#else
+	il2cppPInvokeFunc(____nativeHandle0_marshaled);
+	#endif
+
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadAsyncU3Ed__10_MoveNext_mBCB8D2D8C677AF25E2809E00FB99776A0FAB12A7 (U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mE6F4B1DDD05F02842D3884DD4FF244DAB31BE5EA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfiguredTaskAwaitable_1_GetAwaiter_m3D8C463996184A1FE94D1B59A379F3ACB425C7CF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfiguredTaskAwaiter_GetResult_mA0D0419EF40E9DF864B87B495FFE05C08475C00B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfiguredTaskAwaiter_get_IsCompleted_mC2024766896945A56978CF121456A78A6F054190_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UploadCallbackScope_UploadCompleteCallback_m94B019EB19A889B570947EFBF0D195AC4A7E078E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UploadCallbackScope_UploadProgressCallback_mA2F6F71D236FC06059DC7398ADD562FC7862134A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* V_1 = NULL;
+	bool V_2 = false;
+	bool V_3 = false;
+	ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Exception_t* V_6 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0028_1;
+			}
+		}
+		{
+			// ThrowOnInvalidPointer();
+			ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* L_3 = V_1;
+			NullCheck(L_3);
+			ChunkedFileUploadClient_ThrowOnInvalidPointer_mF6173AB3BCA263886B49F806B23D1ACDC3474C11(L_3, NULL);
+			// using (var callbackScope = UploadCallbackScope.Create(onUploadProgress)) {
+			Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_4 = __this->___onUploadProgress_3;
+			il2cpp_codegen_runtime_class_init_inline(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+			UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* L_5;
+			L_5 = UploadCallbackScope_Create_mA530220038F40B7FA870904799F027A2E489BC92(L_4, NULL);
+			__this->___U3CcallbackScopeU3E5__2_5 = L_5;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcallbackScopeU3E5__2_5), (void*)L_5);
+		}
+
+IL_0028_1:
+		{
+		}
+		{
+			auto __finallyBlock = il2cpp::utils::Finally([&]
+			{
+
+FINALLY_00d3_1:
+				{// begin finally (depth: 2)
+					{
+						int32_t L_6 = V_0;
+						if ((((int32_t)L_6) >= ((int32_t)0)))
+						{
+							goto IL_00ea_1;
+						}
+					}
+					{
+						UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* L_7 = __this->___U3CcallbackScopeU3E5__2_5;
+						if (!L_7)
+						{
+							goto IL_00ea_1;
+						}
+					}
+					{
+						UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* L_8 = __this->___U3CcallbackScopeU3E5__2_5;
+						NullCheck(L_8);
+						InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_8);
+					}
+
+IL_00ea_1:
+					{
+						return;
+					}
+				}// end finally (depth: 2)
+			});
+			try
+			{// begin try (depth: 2)
+				{
+					int32_t L_9 = V_0;
+					if (!L_9)
+					{
+						goto IL_00aa_2;
+					}
+				}
+				{
+					// var success = Native.ChunkedUploadClient_UploadAsync(
+					//   _nativeHandle,
+					//   workerThreadCount,
+					//   UploadCallbackScope.UploadCompleteCallback,
+					//   UploadCallbackScope.UploadProgressCallback,
+					//   callbackScope.Id);
+					ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* L_10 = V_1;
+					NullCheck(L_10);
+					HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_11 = L_10->____nativeHandle_0;
+					uint32_t L_12 = __this->___workerThreadCount_4;
+					UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* L_13 = (UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB*)il2cpp_codegen_object_new(UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB_il2cpp_TypeInfo_var);
+					NullCheck(L_13);
+					UploadCompleteDelegate__ctor_m85FFD6CA73EB0EBEBA9708B3FD7C815A51489B81(L_13, NULL, (intptr_t)((void*)UploadCallbackScope_UploadCompleteCallback_m94B019EB19A889B570947EFBF0D195AC4A7E078E_RuntimeMethod_var), NULL);
+					UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* L_14 = (UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF*)il2cpp_codegen_object_new(UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF_il2cpp_TypeInfo_var);
+					NullCheck(L_14);
+					UploadProgressDelegate__ctor_mE0C096E0DBA95FFBAC16FE90310D5C1C7DD2EA16(L_14, NULL, (intptr_t)((void*)UploadCallbackScope_UploadProgressCallback_mA2F6F71D236FC06059DC7398ADD562FC7862134A_RuntimeMethod_var), NULL);
+					UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* L_15 = __this->___U3CcallbackScopeU3E5__2_5;
+					NullCheck(L_15);
+					int32_t L_16;
+					L_16 = UploadCallbackScope_get_Id_m8B24F88F7C1B73C521CDBA753FC1FD0180FF2285_inline(L_15, NULL);
+					bool L_17;
+					L_17 = Native_ChunkedUploadClient_UploadAsync_m5D2433A3FA7BE2B9F04FD65C12AD69E40788E659(L_11, L_12, L_13, L_14, L_16, NULL);
+					// return success && await callbackScope.Task.ConfigureAwait(false);
+					V_3 = L_17;
+					bool L_18 = V_3;
+					if (!L_18)
+					{
+						goto IL_00cf_2;
+					}
+				}
+				{
+					UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* L_19 = __this->___U3CcallbackScopeU3E5__2_5;
+					NullCheck(L_19);
+					Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_20;
+					L_20 = UploadCallbackScope_get_Task_m0A5E691EC9E1952DC6A39BBA00ED5FF0B9E4274D(L_19, NULL);
+					NullCheck(L_20);
+					ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C L_21;
+					L_21 = Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA(L_20, (bool)0, Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA_RuntimeMethod_var);
+					V_5 = L_21;
+					ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4 L_22;
+					L_22 = ConfiguredTaskAwaitable_1_GetAwaiter_m3D8C463996184A1FE94D1B59A379F3ACB425C7CF_inline((&V_5), ConfiguredTaskAwaitable_1_GetAwaiter_m3D8C463996184A1FE94D1B59A379F3ACB425C7CF_RuntimeMethod_var);
+					V_4 = L_22;
+					bool L_23;
+					L_23 = ConfiguredTaskAwaiter_get_IsCompleted_mC2024766896945A56978CF121456A78A6F054190((&V_4), ConfiguredTaskAwaiter_get_IsCompleted_mC2024766896945A56978CF121456A78A6F054190_RuntimeMethod_var);
+					if (L_23)
+					{
+						goto IL_00c7_2;
+					}
+				}
+				{
+					int32_t L_24 = 0;
+					V_0 = L_24;
+					__this->___U3CU3E1__state_0 = L_24;
+					ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4 L_25 = V_4;
+					__this->___U3CU3Eu__1_6 = L_25;
+					Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_6))->___m_task_0), (void*)NULL);
+					AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_26 = (&__this->___U3CU3Et__builder_1);
+					AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mE6F4B1DDD05F02842D3884DD4FF244DAB31BE5EA(L_26, (&V_4), __this, AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4_TisU3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818_mE6F4B1DDD05F02842D3884DD4FF244DAB31BE5EA_RuntimeMethod_var);
+					goto IL_0118;
+				}
+
+IL_00aa_2:
+				{
+					ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4 L_27 = __this->___U3CU3Eu__1_6;
+					V_4 = L_27;
+					ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4* L_28 = (&__this->___U3CU3Eu__1_6);
+					il2cpp_codegen_initobj(L_28, sizeof(ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4));
+					int32_t L_29 = (-1);
+					V_0 = L_29;
+					__this->___U3CU3E1__state_0 = L_29;
+				}
+
+IL_00c7_2:
+				{
+					bool L_30;
+					L_30 = ConfiguredTaskAwaiter_GetResult_mA0D0419EF40E9DF864B87B495FFE05C08475C00B((&V_4), ConfiguredTaskAwaiter_GetResult_mA0D0419EF40E9DF864B87B495FFE05C08475C00B_RuntimeMethod_var);
+					V_3 = L_30;
+				}
+
+IL_00cf_2:
+				{
+					bool L_31 = V_3;
+					V_2 = L_31;
+					goto IL_0104;
+				}
+			}// end try (depth: 2)
+			catch(Il2CppExceptionWrapper& e)
+			{
+				__finallyBlock.StoreException(e.ex);
+			}
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00eb;
+		}
+		throw e;
+	}
+
+CATCH_00eb:
+	{// begin catch(System.Exception)
+		V_6 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_32 = (&__this->___U3CU3Et__builder_1);
+		Exception_t* L_33 = V_6;
+		AsyncTaskMethodBuilder_1_SetException_mB8F5D5EF18A12CBFF3C7D54CE6382DBB1640C0FD(L_32, L_33, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_SetException_mB8F5D5EF18A12CBFF3C7D54CE6382DBB1640C0FD_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_0118;
+	}// end catch (depth: 1)
+
+IL_0104:
+	{
+		// }
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_34 = (&__this->___U3CU3Et__builder_1);
+		bool L_35 = V_2;
+		AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046(L_34, L_35, AsyncTaskMethodBuilder_1_SetResult_mF21C48FC9CEC24F4E9C5975C54F87BE9CA179046_RuntimeMethod_var);
+	}
+
+IL_0118:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CUploadAsyncU3Ed__10_MoveNext_mBCB8D2D8C677AF25E2809E00FB99776A0FAB12A7_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818*>(__this + _offset);
+	U3CUploadAsyncU3Ed__10_MoveNext_mBCB8D2D8C677AF25E2809E00FB99776A0FAB12A7(_thisAdjusted, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadClient/<UploadAsync>d__10::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadAsyncU3Ed__10_SetStateMachine_mA6F59690240027363C032C7713FFE81D43064165 (U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_0 = (&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___stateMachine0;
+		AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8(L_0, L_1, AsyncTaskMethodBuilder_1_SetStateMachine_m9D382E265E211762EDB525CF74EBB7FA21DDDCE8_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CUploadAsyncU3Ed__10_SetStateMachine_mA6F59690240027363C032C7713FFE81D43064165_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+{
+	U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CUploadAsyncU3Ed__10_tAF3C6825759A2B46F3FAF55F841E422363625818*>(__this + _offset);
+	U3CUploadAsyncU3Ed__10_SetStateMachine_mA6F59690240027363C032C7713FFE81D43064165(_thisAdjusted, ___stateMachine0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String Niantic.Titan.Uploader.ChunkedFileUploadRequest::get_Id()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChunkedFileUploadRequest_get_Id_m023EAB219DC0561674FD67BC10607FE3052E5FAE (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string Id { get; set; }
+		String_t* L_0 = __this->___U3CIdU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadRequest::set_Id(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadRequest_set_Id_m5B4FC1E1FB1C9C14998BE7C9246FDF0669FAC262 (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public string Id { get; set; }
+		String_t* L_0 = ___value0;
+		__this->___U3CIdU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CIdU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+// System.String Niantic.Titan.Uploader.ChunkedFileUploadRequest::get_SubmissionId()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChunkedFileUploadRequest_get_SubmissionId_mD618DD56360278BF3EEA8CFBAB8C458495E4F5FE (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string SubmissionId { get; set; }
+		String_t* L_0 = __this->___U3CSubmissionIdU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadRequest::set_SubmissionId(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadRequest_set_SubmissionId_mB203353A0745A0680FA722862E0996BDBF31F51C (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public string SubmissionId { get; set; }
+		String_t* L_0 = ___value0;
+		__this->___U3CSubmissionIdU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSubmissionIdU3Ek__BackingField_1), (void*)L_0);
+		return;
+	}
+}
+// System.String Niantic.Titan.Uploader.ChunkedFileUploadRequest::get_LocalFilePath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChunkedFileUploadRequest_get_LocalFilePath_mE78D19436024ADA83A14ECE792646175B55F0E72 (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string LocalFilePath { get; set; }
+		String_t* L_0 = __this->___U3CLocalFilePathU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadRequest::set_LocalFilePath(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadRequest_set_LocalFilePath_m55C66292C2E2E59085FD1F96F95093829AEB1C33 (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public string LocalFilePath { get; set; }
+		String_t* L_0 = ___value0;
+		__this->___U3CLocalFilePathU3Ek__BackingField_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CLocalFilePathU3Ek__BackingField_2), (void*)L_0);
+		return;
+	}
+}
+// System.String Niantic.Titan.Uploader.ChunkedFileUploadRequest::get_Context()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChunkedFileUploadRequest_get_Context_mB89B9980C452B461A060C6D28528E9562CDFA93A (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string Context { get; set; }
+		String_t* L_0 = __this->___U3CContextU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadRequest::set_Context(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadRequest_set_Context_m1B8427B076924EC7852D6F53A0B667D47B01DF80 (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public string Context { get; set; }
+		String_t* L_0 = ___value0;
+		__this->___U3CContextU3Ek__BackingField_3 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CContextU3Ek__BackingField_3), (void*)L_0);
+		return;
+	}
+}
+// System.String Niantic.Titan.Uploader.ChunkedFileUploadRequest::get_BucketName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChunkedFileUploadRequest_get_BucketName_m8C3D9DFB9902B2631CBABAB5B5838D42029116B2 (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string BucketName { get; set; }
+		String_t* L_0 = __this->___U3CBucketNameU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadRequest::set_BucketName(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadRequest_set_BucketName_mD10F3AEAE0776627FB84ECD9CDC955182BBD1C27 (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public string BucketName { get; set; }
+		String_t* L_0 = ___value0;
+		__this->___U3CBucketNameU3Ek__BackingField_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CBucketNameU3Ek__BackingField_4), (void*)L_0);
+		return;
+	}
+}
+// System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.Titan.Uploader.IChunkInfo> Niantic.Titan.Uploader.ChunkedFileUploadRequest::get_Chunks()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* ChunkedFileUploadRequest_get_Chunks_mDD992A8B556FAE4DC5BAD84187D4646832A6378F (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, const RuntimeMethod* method) 
+{
+	{
+		// public ReadOnlyCollection<IChunkInfo> Chunks { get; private set; }
+		ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* L_0 = __this->___U3CChunksU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadRequest::set_Chunks(System.Collections.ObjectModel.ReadOnlyCollection`1<Niantic.Titan.Uploader.IChunkInfo>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadRequest_set_Chunks_m50AC9E0BD93637958F5F3B1B7C9E286B66039934 (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public ReadOnlyCollection<IChunkInfo> Chunks { get; private set; }
+		ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* L_0 = ___value0;
+		__this->___U3CChunksU3Ek__BackingField_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CChunksU3Ek__BackingField_5), (void*)L_0);
+		return;
+	}
+}
+// Niantic.Titan.Uploader.IComposeInfo Niantic.Titan.Uploader.ChunkedFileUploadRequest::get_ComposeInfo()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChunkedFileUploadRequest_get_ComposeInfo_mC004E6967AE125C5202557E91B7FBF4CC0B94A69 (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, const RuntimeMethod* method) 
+{
+	{
+		// public IComposeInfo ComposeInfo { get; set; }
+		RuntimeObject* L_0 = __this->___U3CComposeInfoU3Ek__BackingField_6;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadRequest::set_ComposeInfo(Niantic.Titan.Uploader.IComposeInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadRequest_set_ComposeInfo_m8FAB51D52105040CE26EDA22B6F830E9CFB4FF77 (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public IComposeInfo ComposeInfo { get; set; }
+		RuntimeObject* L_0 = ___value0;
+		__this->___U3CComposeInfoU3Ek__BackingField_6 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CComposeInfoU3Ek__BackingField_6), (void*)L_0);
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadRequest::set_ChunkEnumerable(System.Collections.Generic.IEnumerable`1<Niantic.Titan.Uploader.IChunkInfo>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadRequest_set_ChunkEnumerable_m33CE66A4DA3D044EA88B7C23A3C4CCAF4C905853 (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mD1CE74FA3B86CD505E22E2BA6B46C5D9AD58E77C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t3C1AFE53BF2037DD24B0120A46F3B74F6C399CE0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1__ctor_m60462C4731BCD8446055D91B5ED9AF1DCF9C9657_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// set => Chunks = new ReadOnlyCollection<IChunkInfo>(new List<IChunkInfo>(value));
+		RuntimeObject* L_0 = ___value0;
+		List_1_t3C1AFE53BF2037DD24B0120A46F3B74F6C399CE0* L_1 = (List_1_t3C1AFE53BF2037DD24B0120A46F3B74F6C399CE0*)il2cpp_codegen_object_new(List_1_t3C1AFE53BF2037DD24B0120A46F3B74F6C399CE0_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		List_1__ctor_mD1CE74FA3B86CD505E22E2BA6B46C5D9AD58E77C(L_1, L_0, List_1__ctor_mD1CE74FA3B86CD505E22E2BA6B46C5D9AD58E77C_RuntimeMethod_var);
+		ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* L_2 = (ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998*)il2cpp_codegen_object_new(ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		ReadOnlyCollection_1__ctor_m60462C4731BCD8446055D91B5ED9AF1DCF9C9657(L_2, L_1, ReadOnlyCollection_1__ctor_m60462C4731BCD8446055D91B5ED9AF1DCF9C9657_RuntimeMethod_var);
+		ChunkedFileUploadRequest_set_Chunks_m50AC9E0BD93637958F5F3B1B7C9E286B66039934_inline(__this, L_2, NULL);
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadRequest::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadRequest__ctor_mCD2C39EFA1A7BCCEB59B5BA58F09E3D4565B943D (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String Niantic.Titan.Uploader.ChunkInfo::get_ObjectPath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChunkInfo_get_ObjectPath_mD749CEF4B34FCD2E0E550C6E70C666FBF09DCC19 (ChunkInfo_tBDADA1F5DC29A3AAEAA84CE4A015102DCD411207* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string ObjectPath { get; set; }
+		String_t* L_0 = __this->___U3CObjectPathU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkInfo::set_ObjectPath(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkInfo_set_ObjectPath_m5549DFEA00F70D5413A646F50B6AEB244335BC9A (ChunkInfo_tBDADA1F5DC29A3AAEAA84CE4A015102DCD411207* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public string ObjectPath { get; set; }
+		String_t* L_0 = ___value0;
+		__this->___U3CObjectPathU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CObjectPathU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+// Niantic.Titan.Uploader.IAuthenticationInfo Niantic.Titan.Uploader.ChunkInfo::get_UploadAuth()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChunkInfo_get_UploadAuth_m25CA28CD12C5CCA1D1E83771EECB88A2034360A6 (ChunkInfo_tBDADA1F5DC29A3AAEAA84CE4A015102DCD411207* __this, const RuntimeMethod* method) 
+{
+	{
+		// public IAuthenticationInfo UploadAuth { get; set; }
+		RuntimeObject* L_0 = __this->___U3CUploadAuthU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkInfo::set_UploadAuth(Niantic.Titan.Uploader.IAuthenticationInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkInfo_set_UploadAuth_m7FE17645F510E2C06F8584356BE537EFA0A0AFD6 (ChunkInfo_tBDADA1F5DC29A3AAEAA84CE4A015102DCD411207* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public IAuthenticationInfo UploadAuth { get; set; }
+		RuntimeObject* L_0 = ___value0;
+		__this->___U3CUploadAuthU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUploadAuthU3Ek__BackingField_1), (void*)L_0);
+		return;
+	}
+}
+// Niantic.Titan.Uploader.IAuthenticationInfo Niantic.Titan.Uploader.ChunkInfo::get_DeleteAuth()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChunkInfo_get_DeleteAuth_mAAF9E303304D2BF1A63599CAD5F776C3D527BAE0 (ChunkInfo_tBDADA1F5DC29A3AAEAA84CE4A015102DCD411207* __this, const RuntimeMethod* method) 
+{
+	{
+		// public IAuthenticationInfo DeleteAuth { get; set; }
+		RuntimeObject* L_0 = __this->___U3CDeleteAuthU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkInfo::set_DeleteAuth(Niantic.Titan.Uploader.IAuthenticationInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkInfo_set_DeleteAuth_mF7795905AB129D3BCB4B4F4A7EB5D65EC597B11A (ChunkInfo_tBDADA1F5DC29A3AAEAA84CE4A015102DCD411207* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public IAuthenticationInfo DeleteAuth { get; set; }
+		RuntimeObject* L_0 = ___value0;
+		__this->___U3CDeleteAuthU3Ek__BackingField_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDeleteAuthU3Ek__BackingField_2), (void*)L_0);
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkInfo::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkInfo__ctor_m1FEBCB56ECA147E0E45E57D78EA2AB86DBC311C1 (ChunkInfo_tBDADA1F5DC29A3AAEAA84CE4A015102DCD411207* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String Niantic.Titan.Uploader.ComposeInfo::get_ObjectPath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ComposeInfo_get_ObjectPath_m34217FB51679B27897CFFAF0EDCF0179B1B8DACC (ComposeInfo_t8CF635B423B5692D9703C66CC07F39349A80F466* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string ObjectPath { get; set; }
+		String_t* L_0 = __this->___U3CObjectPathU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ComposeInfo::set_ObjectPath(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComposeInfo_set_ObjectPath_mC5AAADEB89A89806F3213D3332CE3C76486128FF (ComposeInfo_t8CF635B423B5692D9703C66CC07F39349A80F466* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public string ObjectPath { get; set; }
+		String_t* L_0 = ___value0;
+		__this->___U3CObjectPathU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CObjectPathU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+// Niantic.Titan.Uploader.IAuthenticationInfo Niantic.Titan.Uploader.ComposeInfo::get_Auth()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ComposeInfo_get_Auth_m8F231017A272E85AC823E5D6173F2D418A57AC03 (ComposeInfo_t8CF635B423B5692D9703C66CC07F39349A80F466* __this, const RuntimeMethod* method) 
+{
+	{
+		// public IAuthenticationInfo Auth { get; set; }
+		RuntimeObject* L_0 = __this->___U3CAuthU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ComposeInfo::set_Auth(Niantic.Titan.Uploader.IAuthenticationInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComposeInfo_set_Auth_mA8E3D0D404650EACDBBCCF21C47E523F74EC6893 (ComposeInfo_t8CF635B423B5692D9703C66CC07F39349A80F466* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public IAuthenticationInfo Auth { get; set; }
+		RuntimeObject* L_0 = ___value0;
+		__this->___U3CAuthU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAuthU3Ek__BackingField_1), (void*)L_0);
+		return;
+	}
+}
+// System.String Niantic.Titan.Uploader.ComposeInfo::get_AuthPayload()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ComposeInfo_get_AuthPayload_m801A0AFA06B24D35FFD29E74DC6D8543BA30BE55 (ComposeInfo_t8CF635B423B5692D9703C66CC07F39349A80F466* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string AuthPayload { get; set; }
+		String_t* L_0 = __this->___U3CAuthPayloadU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ComposeInfo::set_AuthPayload(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComposeInfo_set_AuthPayload_m722FD6B03A845F8B921D6E178DA91FC986A5A142 (ComposeInfo_t8CF635B423B5692D9703C66CC07F39349A80F466* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public string AuthPayload { get; set; }
+		String_t* L_0 = ___value0;
+		__this->___U3CAuthPayloadU3Ek__BackingField_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAuthPayloadU3Ek__BackingField_2), (void*)L_0);
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ComposeInfo::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComposeInfo__ctor_mA30247D875001B030989360991F5C65BE1DB8988 (ComposeInfo_t8CF635B423B5692D9703C66CC07F39349A80F466* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String Niantic.Titan.Uploader.AuthenticationInfo::get_AuthString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthenticationInfo_get_AuthString_mB6429FFC8C7F52499A3DBD72B7FA7E51CEF67A40 (AuthenticationInfo_tBFDB52908F23240704D8A9FCE9FD9FF5F9D5DA92* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string AuthString { get; set; }
+		String_t* L_0 = __this->___U3CAuthStringU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.AuthenticationInfo::set_AuthString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthenticationInfo_set_AuthString_m50E0CFCF3F5ADF386E58B2C4F3C45DBBEF3F5E7A (AuthenticationInfo_tBFDB52908F23240704D8A9FCE9FD9FF5F9D5DA92* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public string AuthString { get; set; }
+		String_t* L_0 = ___value0;
+		__this->___U3CAuthStringU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAuthStringU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+// System.String Niantic.Titan.Uploader.AuthenticationInfo::get_AuthDate()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthenticationInfo_get_AuthDate_mB0C4C89CEDBB8CA161D6A8CE14FA00E54C233D50 (AuthenticationInfo_tBFDB52908F23240704D8A9FCE9FD9FF5F9D5DA92* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string AuthDate { get; set; }
+		String_t* L_0 = __this->___U3CAuthDateU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.AuthenticationInfo::set_AuthDate(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthenticationInfo_set_AuthDate_m621A49F04F36B3A7DB98A8C2BBC5B2B51CECFF05 (AuthenticationInfo_tBFDB52908F23240704D8A9FCE9FD9FF5F9D5DA92* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public string AuthDate { get; set; }
+		String_t* L_0 = ___value0;
+		__this->___U3CAuthDateU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAuthDateU3Ek__BackingField_1), (void*)L_0);
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.AuthenticationInfo::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthenticationInfo__ctor_mFBAE4C2913214EDF5B99F10F610D3FBD6F3338E0 (AuthenticationInfo_tBFDB52908F23240704D8A9FCE9FD9FF5F9D5DA92* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Niantic.Titan.Uploader.Internal.ChannelLogger Niantic.Titan.Uploader.ChunkedFileUploadService::get_Log()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* ChunkedFileUploadService_get_Log_mAC25296E177A55E7006DE0B5AB0F8BE1D00E1E97 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private static ChannelLogger Log { get; } =
+		il2cpp_codegen_runtime_class_init_inline(ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_0 = ((ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_StaticFields*)il2cpp_codegen_static_fields_for(ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var))->___U3CLogU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Int32 Niantic.Titan.Uploader.ChunkedFileUploadService::get_SessionCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ChunkedFileUploadService_get_SessionCount_mD5DF498C76713B907C81EE1AB2BE7C2E303BBD12 (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Count_m15FDDC6E8466DE7E89792F8348002EF82EDF2837_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// get => _sessions.Count;
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_0 = __this->____sessions_1;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Dictionary_2_get_Count_m15FDDC6E8466DE7E89792F8348002EF82EDF2837(L_0, Dictionary_2_get_Count_m15FDDC6E8466DE7E89792F8348002EF82EDF2837_RuntimeMethod_var);
+		return L_1;
+	}
+}
+// System.UInt32 Niantic.Titan.Uploader.ChunkedFileUploadService::get_UploadWorkerThreadCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t ChunkedFileUploadService_get_UploadWorkerThreadCount_m6CDE65C66B15D3499E1B092A89440D7FE5575C72 (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, const RuntimeMethod* method) 
+{
+	{
+		// public uint UploadWorkerThreadCount { get; set; } =
+		uint32_t L_0 = __this->___U3CUploadWorkerThreadCountU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService::set_UploadWorkerThreadCount(System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadService_set_UploadWorkerThreadCount_m76F66B516982CE6A474A760F54D567155DC04455 (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, uint32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public uint UploadWorkerThreadCount { get; set; } =
+		uint32_t L_0 = ___value0;
+		__this->___U3CUploadWorkerThreadCountU3Ek__BackingField_3 = L_0;
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService::set_IsFileUploadPaused(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadService_set_IsFileUploadPaused_m0DD85CF93DA12CFBFA7BEF45C4B8757FB63B165E (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Values_m64DA6B6AF8D1F14F34A991B5B2F73D9B7DCAA962_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m06BF5637EA285B82F34890F3D5ED485D60B2341D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m934AFAA0331934ED5AA06C31978D1C0AC838B99A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mE78E6F0618AC03B6A78C09C04419DDAFFD786D45_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueCollection_GetEnumerator_mAF707170BF5CFBBC2D261C6D83B65F27C6D6F8EA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t413F9BE85760C84E60B4E1A81DFFAFC0200B330E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	RuntimeObject* V_1 = NULL;
+	{
+		// foreach (var session in _sessions.Values) {
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_0 = __this->____sessions_1;
+		NullCheck(L_0);
+		ValueCollection_tD1AF3EBE4CCC19B2689517548006DF99B57E4136* L_1;
+		L_1 = Dictionary_2_get_Values_m64DA6B6AF8D1F14F34A991B5B2F73D9B7DCAA962(L_0, Dictionary_2_get_Values_m64DA6B6AF8D1F14F34A991B5B2F73D9B7DCAA962_RuntimeMethod_var);
+		NullCheck(L_1);
+		Enumerator_t413F9BE85760C84E60B4E1A81DFFAFC0200B330E L_2;
+		L_2 = ValueCollection_GetEnumerator_mAF707170BF5CFBBC2D261C6D83B65F27C6D6F8EA(L_1, ValueCollection_GetEnumerator_mAF707170BF5CFBBC2D261C6D83B65F27C6D6F8EA_RuntimeMethod_var);
+		V_0 = L_2;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_003f:
+			{// begin finally (depth: 1)
+				Enumerator_Dispose_m06BF5637EA285B82F34890F3D5ED485D60B2341D((&V_0), Enumerator_Dispose_m06BF5637EA285B82F34890F3D5ED485D60B2341D_RuntimeMethod_var);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				goto IL_0034_1;
+			}
+
+IL_0013_1:
+			{
+				// foreach (var session in _sessions.Values) {
+				RuntimeObject* L_3;
+				L_3 = Enumerator_get_Current_mE78E6F0618AC03B6A78C09C04419DDAFFD786D45_inline((&V_0), Enumerator_get_Current_mE78E6F0618AC03B6A78C09C04419DDAFFD786D45_RuntimeMethod_var);
+				V_1 = L_3;
+				// if (value) {
+				bool L_4 = ___value0;
+				if (!L_4)
+				{
+					goto IL_0026_1;
+				}
+			}
+			{
+				// session.Pause();
+				RuntimeObject* L_5 = V_1;
+				NullCheck(L_5);
+				InterfaceActionInvoker0::Invoke(8 /* System.Void Niantic.Titan.Uploader.IChunkedFileUploadSession::Pause() */, IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var, L_5);
+				goto IL_0034_1;
+			}
+
+IL_0026_1:
+			{
+				// else if (session.IsPaused) {
+				RuntimeObject* L_6 = V_1;
+				NullCheck(L_6);
+				bool L_7;
+				L_7 = InterfaceFuncInvoker0< bool >::Invoke(3 /* System.Boolean Niantic.Titan.Uploader.IChunkedFileUploadSession::get_IsPaused() */, IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var, L_6);
+				if (!L_7)
+				{
+					goto IL_0034_1;
+				}
+			}
+			{
+				// session.Resume();
+				RuntimeObject* L_8 = V_1;
+				NullCheck(L_8);
+				InterfaceActionInvoker0::Invoke(9 /* System.Void Niantic.Titan.Uploader.IChunkedFileUploadSession::Resume() */, IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var, L_8);
+			}
+
+IL_0034_1:
+			{
+				// foreach (var session in _sessions.Values) {
+				bool L_9;
+				L_9 = Enumerator_MoveNext_m934AFAA0331934ED5AA06C31978D1C0AC838B99A((&V_0), Enumerator_MoveNext_m934AFAA0331934ED5AA06C31978D1C0AC838B99A_RuntimeMethod_var);
+				if (L_9)
+				{
+					goto IL_0013_1;
+				}
+			}
+			{
+				goto IL_004d;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_004d:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadService__ctor_m00772DC3F186B1B5F3D2CAD3F17DEBF6B4F4FEE8 (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadService_OnApplicationPaused_mB163A01B8EB405D645E3764A686DB27069E43DD3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadService_OnApplicationUnpaused_m4542ECF08550E79C3C309536917FFCF55BFC5AA3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mB97A7EDE0263EF308A85FC6646BCB14D5D9C9620_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private readonly SessionDictionary _sessions = new SessionDictionary();
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_0 = (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*)il2cpp_codegen_object_new(Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Dictionary_2__ctor_mB97A7EDE0263EF308A85FC6646BCB14D5D9C9620(L_0, Dictionary_2__ctor_mB97A7EDE0263EF308A85FC6646BCB14D5D9C9620_RuntimeMethod_var);
+		__this->____sessions_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____sessions_1), (void*)L_0);
+		// private SessionDictionary _suspendedSessions = new SessionDictionary();
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_1 = (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*)il2cpp_codegen_object_new(Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Dictionary_2__ctor_mB97A7EDE0263EF308A85FC6646BCB14D5D9C9620(L_1, Dictionary_2__ctor_mB97A7EDE0263EF308A85FC6646BCB14D5D9C9620_RuntimeMethod_var);
+		__this->____suspendedSessions_2 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____suspendedSessions_2), (void*)L_1);
+		// Constants.DEFAULT_CHUNK_UPLOAD_THREAD_COUNT;
+		__this->___U3CUploadWorkerThreadCountU3Ek__BackingField_3 = 8;
+		// public ChunkedFileUploadService() {
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// ApplicationLifecycle.ApplicationPaused += OnApplicationPaused;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_2, __this, (intptr_t)((void*)ChunkedFileUploadService_OnApplicationPaused_mB163A01B8EB405D645E3764A686DB27069E43DD3_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		ApplicationLifecycle_add_ApplicationPaused_m73509C7AD02F07D1B94EF121E82F190B86F0EB9C(L_2, NULL);
+		// ApplicationLifecycle.ApplicationUnpaused += OnApplicationUnpaused;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_3, __this, (intptr_t)((void*)ChunkedFileUploadService_OnApplicationUnpaused_m4542ECF08550E79C3C309536917FFCF55BFC5AA3_RuntimeMethod_var), NULL);
+		ApplicationLifecycle_add_ApplicationUnpaused_m27FF0915F00186BA7100E52AC6AE88C091C0780F(L_3, NULL);
+		// ApplicationLifecycle.ApplicationIsShuttingDown += CancelAllUploads;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_4, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 12)), NULL);
+		ApplicationLifecycle_add_ApplicationIsShuttingDown_mE93555EA23F56C0AAB33C00DC9F5632C04C50039(L_4, NULL);
+		// ApplicationLifecycle.ApplicationIsUnloading += CancelAllUploads;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_5, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 12)), NULL);
+		ApplicationLifecycle_add_ApplicationIsUnloading_m42C84B8B44BEFB23E5091A09BCD38BEF8070CC15(L_5, NULL);
+		// NativeLogger.Initialize();
+		il2cpp_codegen_runtime_class_init_inline(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var);
+		NativeLogger_Initialize_mD0C4CCD808867104B14B1F709CCC5B0321041753(NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService::OnApplicationPaused()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadService_OnApplicationPaused_mB163A01B8EB405D645E3764A686DB27069E43DD3 (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_mFD369662BBED9064B50FD11E6C481C3CADCDB489_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mB9031E9930A29FE067EF02870D69A975399B0D2B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD553D3B7921CB53DC9C9A665F768CEA003D24740);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		// var sessions = new SessionDictionary(_sessions);
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_0 = __this->____sessions_1;
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_1 = (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*)il2cpp_codegen_object_new(Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Dictionary_2__ctor_mB9031E9930A29FE067EF02870D69A975399B0D2B(L_1, L_0, Dictionary_2__ctor_mB9031E9930A29FE067EF02870D69A975399B0D2B_RuntimeMethod_var);
+		// foreach (var session in sessions) {
+		NullCheck(L_1);
+		Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460 L_2;
+		L_2 = Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE(L_1, Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE_RuntimeMethod_var);
+		V_0 = L_2;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0079:
+			{// begin finally (depth: 1)
+				Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF((&V_0), Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF_RuntimeMethod_var);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				goto IL_006e_1;
+			}
+
+IL_0013_1:
+			{
+				// foreach (var session in sessions) {
+				KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A L_3;
+				L_3 = Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_inline((&V_0), Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_RuntimeMethod_var);
+				V_1 = L_3;
+				// if (session.Value.IsActive) {
+				RuntimeObject* L_4;
+				L_4 = KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_inline((&V_1), KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_RuntimeMethod_var);
+				NullCheck(L_4);
+				bool L_5;
+				L_5 = InterfaceFuncInvoker0< bool >::Invoke(4 /* System.Boolean Niantic.Titan.Uploader.IChunkedFileUploadSession::get_IsActive() */, IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var, L_4);
+				if (!L_5)
+				{
+					goto IL_006e_1;
+				}
+			}
+			{
+				// Log.Info($"Suspending upload for submission {session.Key.SubmissionId}");
+				il2cpp_codegen_runtime_class_init_inline(ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+				ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_6;
+				L_6 = ChunkedFileUploadService_get_Log_mAC25296E177A55E7006DE0B5AB0F8BE1D00E1E97_inline(NULL);
+				RuntimeObject* L_7;
+				L_7 = KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_inline((&V_1), KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_RuntimeMethod_var);
+				NullCheck(L_7);
+				String_t* L_8;
+				L_8 = InterfaceFuncInvoker0< String_t* >::Invoke(1 /* System.String Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_SubmissionId() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_7);
+				String_t* L_9;
+				L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralD553D3B7921CB53DC9C9A665F768CEA003D24740, L_8, NULL);
+				NullCheck(L_6);
+				ChannelLogger_Info_mF504DE96ED32615BEC9214F51572206CB88CD86B(L_6, L_9, NULL);
+				// _suspendedSessions.Add(session.Key, session.Value);
+				Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_10 = __this->____suspendedSessions_2;
+				RuntimeObject* L_11;
+				L_11 = KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_inline((&V_1), KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_RuntimeMethod_var);
+				RuntimeObject* L_12;
+				L_12 = KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_inline((&V_1), KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_RuntimeMethod_var);
+				NullCheck(L_10);
+				Dictionary_2_Add_mFD369662BBED9064B50FD11E6C481C3CADCDB489(L_10, L_11, L_12, Dictionary_2_Add_mFD369662BBED9064B50FD11E6C481C3CADCDB489_RuntimeMethod_var);
+				// session.Value.Pause();
+				RuntimeObject* L_13;
+				L_13 = KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_inline((&V_1), KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_RuntimeMethod_var);
+				NullCheck(L_13);
+				InterfaceActionInvoker0::Invoke(8 /* System.Void Niantic.Titan.Uploader.IChunkedFileUploadSession::Pause() */, IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var, L_13);
+			}
+
+IL_006e_1:
+			{
+				// foreach (var session in sessions) {
+				bool L_14;
+				L_14 = Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19((&V_0), Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19_RuntimeMethod_var);
+				if (L_14)
+				{
+					goto IL_0013_1;
+				}
+			}
+			{
+				goto IL_0087;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0087:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService::OnApplicationUnpaused()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadService_OnApplicationUnpaused_m4542ECF08550E79C3C309536917FFCF55BFC5AA3 (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mB97A7EDE0263EF308A85FC6646BCB14D5D9C9620_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6CBD4DAA2392016FFCC63DA6EFB4E3B483120D86);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		// var sessions = Interlocked.Exchange(ref _suspendedSessions, new SessionDictionary());
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8** L_0 = (&__this->____suspendedSessions_2);
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_1 = (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*)il2cpp_codegen_object_new(Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Dictionary_2__ctor_mB97A7EDE0263EF308A85FC6646BCB14D5D9C9620(L_1, Dictionary_2__ctor_mB97A7EDE0263EF308A85FC6646BCB14D5D9C9620_RuntimeMethod_var);
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_2;
+		L_2 = InterlockedExchangeImpl<Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*>(L_0, L_1);
+		// foreach (var session in sessions) {
+		NullCheck(L_2);
+		Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460 L_3;
+		L_3 = Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE(L_2, Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE_RuntimeMethod_var);
+		V_0 = L_3;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0057:
+			{// begin finally (depth: 1)
+				Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF((&V_0), Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF_RuntimeMethod_var);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				goto IL_004c_1;
+			}
+
+IL_0018_1:
+			{
+				// foreach (var session in sessions) {
+				KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A L_4;
+				L_4 = Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_inline((&V_0), Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_RuntimeMethod_var);
+				V_1 = L_4;
+				// Log.Info($"Resuming upload for submission {session.Key.SubmissionId}");
+				il2cpp_codegen_runtime_class_init_inline(ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+				ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_5;
+				L_5 = ChunkedFileUploadService_get_Log_mAC25296E177A55E7006DE0B5AB0F8BE1D00E1E97_inline(NULL);
+				RuntimeObject* L_6;
+				L_6 = KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_inline((&V_1), KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_RuntimeMethod_var);
+				NullCheck(L_6);
+				String_t* L_7;
+				L_7 = InterfaceFuncInvoker0< String_t* >::Invoke(1 /* System.String Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_SubmissionId() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_6);
+				String_t* L_8;
+				L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral6CBD4DAA2392016FFCC63DA6EFB4E3B483120D86, L_7, NULL);
+				NullCheck(L_5);
+				ChannelLogger_Info_mF504DE96ED32615BEC9214F51572206CB88CD86B(L_5, L_8, NULL);
+				// session.Value.Resume();
+				RuntimeObject* L_9;
+				L_9 = KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_inline((&V_1), KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_RuntimeMethod_var);
+				NullCheck(L_9);
+				InterfaceActionInvoker0::Invoke(9 /* System.Void Niantic.Titan.Uploader.IChunkedFileUploadSession::Resume() */, IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var, L_9);
+			}
+
+IL_004c_1:
+			{
+				// foreach (var session in sessions) {
+				bool L_10;
+				L_10 = Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19((&V_0), Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19_RuntimeMethod_var);
+				if (L_10)
+				{
+					goto IL_0018_1;
+				}
+			}
+			{
+				goto IL_0065;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0065:
+	{
+		// }
+		return;
+	}
+}
+// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadService::IsSessionActive(Niantic.Titan.Uploader.IChunkedFileUploadRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChunkedFileUploadService_IsSessionActive_m8FCAE272095844CFD8204C8BE8110774BE1BB089 (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, RuntimeObject* ___uploadRequest0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m8F85F8953DED3178E382F07D603940C97464AE6E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return _sessions.ContainsKey(uploadRequest);
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_0 = __this->____sessions_1;
+		RuntimeObject* L_1 = ___uploadRequest0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_ContainsKey_m8F85F8953DED3178E382F07D603940C97464AE6E(L_0, L_1, Dictionary_2_ContainsKey_m8F85F8953DED3178E382F07D603940C97464AE6E_RuntimeMethod_var);
+		return L_2;
+	}
+}
+// Niantic.Titan.Uploader.IChunkedFileUploadSession Niantic.Titan.Uploader.ChunkedFileUploadService::CreateSession(Niantic.Titan.Uploader.IChunkedFileUploadRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ChunkedFileUploadService_CreateSession_mC97F48BEDF654E052D0181CF24C649869DE7958D (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, RuntimeObject* ___uploadRequest0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m0FF6AD75640DCF2F743F2CF42F5C45E351DD91DC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass17_0_U3CCreateSessionU3Eb__0_mB0EE2DADE5B9FF6BD957D03B0D74FA155753C269_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC* V_0 = NULL;
+	ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* V_1 = NULL;
+	{
+		U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC* L_0 = (U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass17_0__ctor_mFEFFAE81C0BA7CFEAD8149D1BD8F642144F61139(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC* L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_0 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_0), (void*)__this);
+		U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC* L_2 = V_0;
+		RuntimeObject* L_3 = ___uploadRequest0;
+		NullCheck(L_2);
+		L_2->___uploadRequest_1 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___uploadRequest_1), (void*)L_3);
+		// var session = new ChunkedFileUploadSession(uploadRequest, UploadWorkerThreadCount);
+		U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC* L_4 = V_0;
+		NullCheck(L_4);
+		RuntimeObject* L_5 = L_4->___uploadRequest_1;
+		uint32_t L_6;
+		L_6 = ChunkedFileUploadService_get_UploadWorkerThreadCount_m6CDE65C66B15D3499E1B092A89440D7FE5575C72_inline(__this, NULL);
+		ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* L_7 = (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A*)il2cpp_codegen_object_new(ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		ChunkedFileUploadSession__ctor_mE4446E67D6A5586810FE45D30679F8D7FF2BF45D(L_7, L_5, L_6, NULL);
+		V_1 = L_7;
+		// session.Disposing += () => _sessions.Remove(uploadRequest);
+		ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* L_8 = V_1;
+		U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass17_0_U3CCreateSessionU3Eb__0_mB0EE2DADE5B9FF6BD957D03B0D74FA155753C269_RuntimeMethod_var), NULL);
+		NullCheck(L_8);
+		ChunkedFileUploadSession_add_Disposing_mE00A07218A8CF8BD5615ADEF4EF11723D00032B4(L_8, L_10, NULL);
+		// _sessions[uploadRequest] = session;
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_11 = __this->____sessions_1;
+		U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC* L_12 = V_0;
+		NullCheck(L_12);
+		RuntimeObject* L_13 = L_12->___uploadRequest_1;
+		ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* L_14 = V_1;
+		NullCheck(L_11);
+		Dictionary_2_set_Item_m0FF6AD75640DCF2F743F2CF42F5C45E351DD91DC(L_11, L_13, L_14, Dictionary_2_set_Item_m0FF6AD75640DCF2F743F2CF42F5C45E351DD91DC_RuntimeMethod_var);
+		// return session;
+		ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* L_15 = V_1;
+		return L_15;
+	}
+}
+// System.Threading.Tasks.Task`1<Niantic.Titan.Uploader.UploadResult> Niantic.Titan.Uploader.ChunkedFileUploadService::UploadFileToCloudStorage(Niantic.Titan.Uploader.IChunkedFileUploadRequest,System.Action`3<System.String,System.String,System.Single>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856* ChunkedFileUploadService_UploadFileToCloudStorage_m376BB1A35C788C76DDABD0A4D786808252B60A62 (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, RuntimeObject* ___uploadRequest0, Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8* ___onChunkUploadPercentageUpdate1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_Create_m270B01E4F237A5001EE9C8DA76F0F1DF3B78B6D3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_Start_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_m9722CC48D025C095AE9EA029E4619CE3FB51F03D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_get_Task_m07A60A8884E1E70E64CF27F6F3CC5E2CEB559386_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50 L_0;
+		L_0 = AsyncTaskMethodBuilder_1_Create_m270B01E4F237A5001EE9C8DA76F0F1DF3B78B6D3(AsyncTaskMethodBuilder_1_Create_m270B01E4F237A5001EE9C8DA76F0F1DF3B78B6D3_RuntimeMethod_var);
+		(&V_0)->___U3CU3Et__builder_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&(&V_0)->___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&(&V_0)->___U3CU3Et__builder_1))->___m_coreState_1))->___m_defaultContextAction_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&(&V_0)->___U3CU3Et__builder_1))->___m_task_2), (void*)NULL);
+		#endif
+		(&V_0)->___U3CU3E4__this_4 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this_4), (void*)__this);
+		RuntimeObject* L_1 = ___uploadRequest0;
+		(&V_0)->___uploadRequest_3 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___uploadRequest_3), (void*)L_1);
+		Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8* L_2 = ___onChunkUploadPercentageUpdate1;
+		(&V_0)->___onChunkUploadPercentageUpdate_2 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___onChunkUploadPercentageUpdate_2), (void*)L_2);
+		(&V_0)->___U3CU3E1__state_0 = (-1);
+		AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* L_3 = (&(&V_0)->___U3CU3Et__builder_1);
+		AsyncTaskMethodBuilder_1_Start_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_m9722CC48D025C095AE9EA029E4619CE3FB51F03D(L_3, (&V_0), AsyncTaskMethodBuilder_1_Start_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_m9722CC48D025C095AE9EA029E4619CE3FB51F03D_RuntimeMethod_var);
+		AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* L_4 = (&(&V_0)->___U3CU3Et__builder_1);
+		Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856* L_5;
+		L_5 = AsyncTaskMethodBuilder_1_get_Task_m07A60A8884E1E70E64CF27F6F3CC5E2CEB559386(L_4, AsyncTaskMethodBuilder_1_get_Task_m07A60A8884E1E70E64CF27F6F3CC5E2CEB559386_RuntimeMethod_var);
+		return L_5;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService::CancelUploadBySubmissionId(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadService_CancelUploadBySubmissionId_m61DAD91963860CD2694AA00501AE8538C244B38C (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, String_t* ___submissionId0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		// foreach (var iter in _sessions) {
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_0 = __this->____sessions_1;
+		NullCheck(L_0);
+		Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460 L_1;
+		L_1 = Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE(L_0, Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0043:
+			{// begin finally (depth: 1)
+				Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF((&V_0), Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF_RuntimeMethod_var);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				goto IL_0038_1;
+			}
+
+IL_000e_1:
+			{
+				// foreach (var iter in _sessions) {
+				KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A L_2;
+				L_2 = Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_inline((&V_0), Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_RuntimeMethod_var);
+				V_1 = L_2;
+				// if (iter.Key.SubmissionId == submissionId) {
+				RuntimeObject* L_3;
+				L_3 = KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_inline((&V_1), KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_RuntimeMethod_var);
+				NullCheck(L_3);
+				String_t* L_4;
+				L_4 = InterfaceFuncInvoker0< String_t* >::Invoke(1 /* System.String Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_SubmissionId() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_3);
+				String_t* L_5 = ___submissionId0;
+				bool L_6;
+				L_6 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_4, L_5, NULL);
+				if (!L_6)
+				{
+					goto IL_0038_1;
+				}
+			}
+			{
+				// iter.Value.Cancel();
+				RuntimeObject* L_7;
+				L_7 = KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_inline((&V_1), KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_RuntimeMethod_var);
+				NullCheck(L_7);
+				InterfaceActionInvoker0::Invoke(10 /* System.Void Niantic.Titan.Uploader.IChunkedFileUploadSession::Cancel() */, IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var, L_7);
+				// break;
+				goto IL_0051;
+			}
+
+IL_0038_1:
+			{
+				// foreach (var iter in _sessions) {
+				bool L_8;
+				L_8 = Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19((&V_0), Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19_RuntimeMethod_var);
+				if (L_8)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0051;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0051:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService::CancelAllUploads()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadService_CancelAllUploads_mEF3BBEFA6EA3481F9A6B7780DB025144A9C6CAA5 (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, const RuntimeMethod* method) 
+{
+	{
+		// CancelAllUploadsInternal(true);
+		ChunkedFileUploadService_CancelAllUploadsInternal_m90DFB3269C2052EA3B063DD4BD4F9C079C8A5F95(__this, (bool)1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService::CancelAllUploadsInternal(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadService_CancelAllUploadsInternal_m90DFB3269C2052EA3B063DD4BD4F9C079C8A5F95 (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, bool ___suppressWarning0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mB9031E9930A29FE067EF02870D69A975399B0D2B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5F058D8CD37D55F1AF4E0B7853D21F857898A918);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	RuntimeObject* V_2 = NULL;
+	{
+		// var sessionsToCancel = new SessionDictionary(_sessions);
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_0 = __this->____sessions_1;
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_1 = (Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8*)il2cpp_codegen_object_new(Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Dictionary_2__ctor_mB9031E9930A29FE067EF02870D69A975399B0D2B(L_1, L_0, Dictionary_2__ctor_mB9031E9930A29FE067EF02870D69A975399B0D2B_RuntimeMethod_var);
+		// foreach (var sessionToCancel in sessionsToCancel) {
+		NullCheck(L_1);
+		Enumerator_t9E3D4998C7B873AEB9FCC897E6E9A522811B8460 L_2;
+		L_2 = Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE(L_1, Dictionary_2_GetEnumerator_m753A1D8746937C6AF9DF268E2975908A2D8D78BE_RuntimeMethod_var);
+		V_0 = L_2;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_006c:
+			{// begin finally (depth: 1)
+				Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF((&V_0), Enumerator_Dispose_mC96CD2A8D9AE988C92767D05B92DF19285D13FAF_RuntimeMethod_var);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				goto IL_0061_1;
+			}
+
+IL_0013_1:
+			{
+				// foreach (var sessionToCancel in sessionsToCancel) {
+				KeyValuePair_2_tF43F02694082D72E2AEE1C53B402411221E9330A L_3;
+				L_3 = Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_inline((&V_0), Enumerator_get_Current_m09E96F5ECAFB11613180320955876656606536D1_RuntimeMethod_var);
+				V_1 = L_3;
+				// var session = sessionToCancel.Value;
+				RuntimeObject* L_4;
+				L_4 = KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_inline((&V_1), KeyValuePair_2_get_Value_m41C1A2E63B034418638C85C3CE6123F206206C50_RuntimeMethod_var);
+				V_2 = L_4;
+				// if (session.IsActive || session.IsPaused) {
+				RuntimeObject* L_5 = V_2;
+				NullCheck(L_5);
+				bool L_6;
+				L_6 = InterfaceFuncInvoker0< bool >::Invoke(4 /* System.Boolean Niantic.Titan.Uploader.IChunkedFileUploadSession::get_IsActive() */, IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var, L_5);
+				if (L_6)
+				{
+					goto IL_0033_1;
+				}
+			}
+			{
+				RuntimeObject* L_7 = V_2;
+				NullCheck(L_7);
+				bool L_8;
+				L_8 = InterfaceFuncInvoker0< bool >::Invoke(3 /* System.Boolean Niantic.Titan.Uploader.IChunkedFileUploadSession::get_IsPaused() */, IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var, L_7);
+				if (!L_8)
+				{
+					goto IL_0061_1;
+				}
+			}
+
+IL_0033_1:
+			{
+				// if (!suppressWarning) {
+				bool L_9 = ___suppressWarning0;
+				if (L_9)
+				{
+					goto IL_005b_1;
+				}
+			}
+			{
+				// Log.Warning($"Cancelling upload for submission '{sessionToCancel.Key.SubmissionId}'");
+				il2cpp_codegen_runtime_class_init_inline(ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+				ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_10;
+				L_10 = ChunkedFileUploadService_get_Log_mAC25296E177A55E7006DE0B5AB0F8BE1D00E1E97_inline(NULL);
+				RuntimeObject* L_11;
+				L_11 = KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_inline((&V_1), KeyValuePair_2_get_Key_m6F151E71061F998841F9844CA3A19F0FD5870313_RuntimeMethod_var);
+				NullCheck(L_11);
+				String_t* L_12;
+				L_12 = InterfaceFuncInvoker0< String_t* >::Invoke(1 /* System.String Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_SubmissionId() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_11);
+				String_t* L_13;
+				L_13 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral5F058D8CD37D55F1AF4E0B7853D21F857898A918, L_12, _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D, NULL);
+				NullCheck(L_10);
+				ChannelLogger_Warning_m373598FD562FEF936BFFD3E98A6B923D71C470CB(L_10, L_13, NULL);
+			}
+
+IL_005b_1:
+			{
+				// session.Cancel();
+				RuntimeObject* L_14 = V_2;
+				NullCheck(L_14);
+				InterfaceActionInvoker0::Invoke(10 /* System.Void Niantic.Titan.Uploader.IChunkedFileUploadSession::Cancel() */, IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var, L_14);
+			}
+
+IL_0061_1:
+			{
+				// foreach (var sessionToCancel in sessionsToCancel) {
+				bool L_15;
+				L_15 = Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19((&V_0), Enumerator_MoveNext_mE37A7B0AAE1159F8E7D503623F56288F1DC11D19_RuntimeMethod_var);
+				if (L_15)
+				{
+					goto IL_0013_1;
+				}
+			}
+			{
+				goto IL_007a;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_007a:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadService__cctor_m0C15AC685D061AD1DBF15CABB6AC4CA6908F06E4 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE1A522FBA49BDFBD60EA366BA456858B72544C2C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// new ChannelLogger(Constants.LOG_CHANNEL);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_0 = (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF*)il2cpp_codegen_object_new(ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		ChannelLogger__ctor_m858326D7CE3B9D110D00A02BA9FE76BC38DE6512(L_0, _stringLiteralE1A522FBA49BDFBD60EA366BA456858B72544C2C, NULL);
+		((ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_StaticFields*)il2cpp_codegen_static_fields_for(ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var))->___U3CLogU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_StaticFields*)il2cpp_codegen_static_fields_for(ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var))->___U3CLogU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass17_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0__ctor_mFEFFAE81C0BA7CFEAD8149D1BD8F642144F61139 (U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass17_0::<CreateSession>b__0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0_U3CCreateSessionU3Eb__0_mB0EE2DADE5B9FF6BD957D03B0D74FA155753C269 (U3CU3Ec__DisplayClass17_0_t8CC54F422C647AE3CC7216FD591E75BF7A241EBC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_m64D5993CDCB307C9BAE3E7E7D5D2231912C0B624_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// session.Disposing += () => _sessions.Remove(uploadRequest);
+		ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* L_0 = __this->___U3CU3E4__this_0;
+		NullCheck(L_0);
+		Dictionary_2_tB63CB982E67CD53459F065F13CCAD3DA5321FDD8* L_1 = L_0->____sessions_1;
+		RuntimeObject* L_2 = __this->___uploadRequest_1;
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = Dictionary_2_Remove_m64D5993CDCB307C9BAE3E7E7D5D2231912C0B624(L_1, L_2, Dictionary_2_Remove_m64D5993CDCB307C9BAE3E7E7D5D2231912C0B624_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass18_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_m5DF0F84C9679B496C2C24609123C9F48956FA2B6 (U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService/<>c__DisplayClass18_0::<UploadFileToCloudStorage>b__0(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CUploadFileToCloudStorageU3Eb__0_m972C406F8602FAB9BE9D384B1430734A8E4264D4 (U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C* __this, float ___progress0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8* G_B2_0 = NULL;
+	Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8* G_B1_0 = NULL;
+	{
+		// onChunkUploadPercentageUpdate?.Invoke(
+		//   uploadRequest.SubmissionId,
+		//   uploadRequest.Context,
+		//   progress);
+		Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8* L_0 = __this->___onChunkUploadPercentageUpdate_0;
+		Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		RuntimeObject* L_2 = __this->___uploadRequest_1;
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(1 /* System.String Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_SubmissionId() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_2);
+		RuntimeObject* L_4 = __this->___uploadRequest_1;
+		NullCheck(L_4);
+		String_t* L_5;
+		L_5 = InterfaceFuncInvoker0< String_t* >::Invoke(3 /* System.String Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_Context() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_4);
+		float L_6 = ___progress0;
+		NullCheck(G_B2_0);
+		Action_3_Invoke_m941BE7DBD39307683D47E7445D4E09CDA1B6BBFE_inline(G_B2_0, L_3, L_5, L_6, NULL);
+		// };
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadFileToCloudStorageU3Ed__18_MoveNext_m5FDEA442290C827D7B8EDBDD6DDE460EA985586D (U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_mC8AFF66FCE4D397C9ED726E45A451F12F68065F2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetResult_m1A953BA90FB271FA9BB0CF75D4A79EE252459E09_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfiguredTaskAwaitable_1_GetAwaiter_m749FE382423DFEA14C8F6A4A3C78DD5770732C76_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfiguredTaskAwaiter_GetResult_m4FAD4E22CDD41F29252E07EC439092C8B2B19B9B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfiguredTaskAwaiter_get_IsCompleted_m163553DF59F0AB3C1F2335293455DF075A4D202F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ConfigureAwait_m351359280D7DAA3C867CAF0C7D9EFF600F8BCE02_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass18_0_U3CUploadFileToCloudStorageU3Eb__0_m972C406F8602FAB9BE9D384B1430734A8E4264D4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA73C767BD5557493B08AD33943BDC53FC73FE823);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCAC4A517B754545BFB63570F29893D05D49905A9);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* V_1 = NULL;
+	int32_t V_2 = 0;
+	ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	ConfiguredTaskAwaitable_1_t83E43BB2F39794110024FAD423366A1E5287FA64 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* L_1 = __this->___U3CU3E4__this_4;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0055_1;
+			}
+		}
+		{
+			U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C* L_3 = (U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C_il2cpp_TypeInfo_var);
+			NullCheck(L_3);
+			U3CU3Ec__DisplayClass18_0__ctor_m5DF0F84C9679B496C2C24609123C9F48956FA2B6(L_3, NULL);
+			__this->___U3CU3E8__1_5 = L_3;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1_5), (void*)L_3);
+			U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C* L_4 = __this->___U3CU3E8__1_5;
+			Action_3_tA4B5F1CB2FBF4684DDF0515DAB275878B08167E8* L_5 = __this->___onChunkUploadPercentageUpdate_2;
+			NullCheck(L_4);
+			L_4->___onChunkUploadPercentageUpdate_0 = L_5;
+			Il2CppCodeGenWriteBarrier((void**)(&L_4->___onChunkUploadPercentageUpdate_0), (void*)L_5);
+			U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C* L_6 = __this->___U3CU3E8__1_5;
+			RuntimeObject* L_7 = __this->___uploadRequest_3;
+			NullCheck(L_6);
+			L_6->___uploadRequest_1 = L_7;
+			Il2CppCodeGenWriteBarrier((void**)(&L_6->___uploadRequest_1), (void*)L_7);
+			// using var session = CreateSession(uploadRequest);
+			ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* L_8 = V_1;
+			U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C* L_9 = __this->___U3CU3E8__1_5;
+			NullCheck(L_9);
+			RuntimeObject* L_10 = L_9->___uploadRequest_1;
+			NullCheck(L_8);
+			RuntimeObject* L_11;
+			L_11 = ChunkedFileUploadService_CreateSession_mC97F48BEDF654E052D0181CF24C649869DE7958D(L_8, L_10, NULL);
+			__this->___U3CsessionU3E5__2_6 = L_11;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsessionU3E5__2_6), (void*)L_11);
+		}
+
+IL_0055_1:
+		{
+		}
+		{
+			auto __finallyBlock = il2cpp::utils::Finally([&]
+			{
+
+FINALLY_012d_1:
+				{// begin finally (depth: 2)
+					{
+						int32_t L_12 = V_0;
+						if ((((int32_t)L_12) >= ((int32_t)0)))
+						{
+							goto IL_0144_1;
+						}
+					}
+					{
+						RuntimeObject* L_13 = __this->___U3CsessionU3E5__2_6;
+						if (!L_13)
+						{
+							goto IL_0144_1;
+						}
+					}
+					{
+						RuntimeObject* L_14 = __this->___U3CsessionU3E5__2_6;
+						NullCheck(L_14);
+						InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_14);
+					}
+
+IL_0144_1:
+					{
+						return;
+					}
+				}// end finally (depth: 2)
+			});
+			try
+			{// begin try (depth: 2)
+				{
+					int32_t L_15 = V_0;
+					if (!L_15)
+					{
+						goto IL_00e3_2;
+					}
+				}
+				{
+					// session.ProgressUpdated += progress => {
+					//   onChunkUploadPercentageUpdate?.Invoke(
+					//     uploadRequest.SubmissionId,
+					//     uploadRequest.Context,
+					//     progress);
+					// };
+					RuntimeObject* L_16 = __this->___U3CsessionU3E5__2_6;
+					U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C* L_17 = __this->___U3CU3E8__1_5;
+					Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_18 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+					NullCheck(L_18);
+					Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_18, L_17, (intptr_t)((void*)U3CU3Ec__DisplayClass18_0_U3CUploadFileToCloudStorageU3Eb__0_m972C406F8602FAB9BE9D384B1430734A8E4264D4_RuntimeMethod_var), NULL);
+					NullCheck(L_16);
+					InterfaceActionInvoker1< Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* >::Invoke(5 /* System.Void Niantic.Titan.Uploader.IChunkedFileUploadSession::add_ProgressUpdated(System.Action`1<System.Single>) */, IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var, L_16, L_18);
+					// Log.Info($"Started GCS uploader upload for submissionId {uploadRequest.SubmissionId}");
+					il2cpp_codegen_runtime_class_init_inline(ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+					ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_19;
+					L_19 = ChunkedFileUploadService_get_Log_mAC25296E177A55E7006DE0B5AB0F8BE1D00E1E97_inline(NULL);
+					U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C* L_20 = __this->___U3CU3E8__1_5;
+					NullCheck(L_20);
+					RuntimeObject* L_21 = L_20->___uploadRequest_1;
+					NullCheck(L_21);
+					String_t* L_22;
+					L_22 = InterfaceFuncInvoker0< String_t* >::Invoke(1 /* System.String Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_SubmissionId() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_21);
+					String_t* L_23;
+					L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralCAC4A517B754545BFB63570F29893D05D49905A9, L_22, NULL);
+					NullCheck(L_19);
+					ChannelLogger_Info_mF504DE96ED32615BEC9214F51572206CB88CD86B(L_19, L_23, NULL);
+					// var sessionUploadAsyncResult = await session.UploadAsync().ConfigureAwait(false);
+					RuntimeObject* L_24 = __this->___U3CsessionU3E5__2_6;
+					NullCheck(L_24);
+					Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856* L_25;
+					L_25 = InterfaceFuncInvoker0< Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856* >::Invoke(7 /* System.Threading.Tasks.Task`1<Niantic.Titan.Uploader.UploadResult> Niantic.Titan.Uploader.IChunkedFileUploadSession::UploadAsync() */, IChunkedFileUploadSession_t9EA4FDF251AE67B0F95A3EDC7DC5FBA731D4B2F5_il2cpp_TypeInfo_var, L_24);
+					NullCheck(L_25);
+					ConfiguredTaskAwaitable_1_t83E43BB2F39794110024FAD423366A1E5287FA64 L_26;
+					L_26 = Task_1_ConfigureAwait_m351359280D7DAA3C867CAF0C7D9EFF600F8BCE02(L_25, (bool)0, Task_1_ConfigureAwait_m351359280D7DAA3C867CAF0C7D9EFF600F8BCE02_RuntimeMethod_var);
+					V_4 = L_26;
+					ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540 L_27;
+					L_27 = ConfiguredTaskAwaitable_1_GetAwaiter_m749FE382423DFEA14C8F6A4A3C78DD5770732C76_inline((&V_4), ConfiguredTaskAwaitable_1_GetAwaiter_m749FE382423DFEA14C8F6A4A3C78DD5770732C76_RuntimeMethod_var);
+					V_3 = L_27;
+					bool L_28;
+					L_28 = ConfiguredTaskAwaiter_get_IsCompleted_m163553DF59F0AB3C1F2335293455DF075A4D202F((&V_3), ConfiguredTaskAwaiter_get_IsCompleted_m163553DF59F0AB3C1F2335293455DF075A4D202F_RuntimeMethod_var);
+					if (L_28)
+					{
+						goto IL_00ff_2;
+					}
+				}
+				{
+					int32_t L_29 = 0;
+					V_0 = L_29;
+					__this->___U3CU3E1__state_0 = L_29;
+					ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540 L_30 = V_3;
+					__this->___U3CU3Eu__1_7 = L_30;
+					Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_7))->___m_task_0), (void*)NULL);
+					AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* L_31 = (&__this->___U3CU3Et__builder_1);
+					AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_mC8AFF66FCE4D397C9ED726E45A451F12F68065F2(L_31, (&V_3), __this, AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540_TisU3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401_mC8AFF66FCE4D397C9ED726E45A451F12F68065F2_RuntimeMethod_var);
+					goto IL_018e;
+				}
+
+IL_00e3_2:
+				{
+					ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540 L_32 = __this->___U3CU3Eu__1_7;
+					V_3 = L_32;
+					ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540* L_33 = (&__this->___U3CU3Eu__1_7);
+					il2cpp_codegen_initobj(L_33, sizeof(ConfiguredTaskAwaiter_tC6A96704B4457E346DA9AAD70B1AF706360EF540));
+					int32_t L_34 = (-1);
+					V_0 = L_34;
+					__this->___U3CU3E1__state_0 = L_34;
+				}
+
+IL_00ff_2:
+				{
+					int32_t L_35;
+					L_35 = ConfiguredTaskAwaiter_GetResult_m4FAD4E22CDD41F29252E07EC439092C8B2B19B9B((&V_3), ConfiguredTaskAwaiter_GetResult_m4FAD4E22CDD41F29252E07EC439092C8B2B19B9B_RuntimeMethod_var);
+					// Log.Info($"Finished GCS uploader upload for submissionId {uploadRequest.SubmissionId}");
+					il2cpp_codegen_runtime_class_init_inline(ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+					ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_36;
+					L_36 = ChunkedFileUploadService_get_Log_mAC25296E177A55E7006DE0B5AB0F8BE1D00E1E97_inline(NULL);
+					U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C* L_37 = __this->___U3CU3E8__1_5;
+					NullCheck(L_37);
+					RuntimeObject* L_38 = L_37->___uploadRequest_1;
+					NullCheck(L_38);
+					String_t* L_39;
+					L_39 = InterfaceFuncInvoker0< String_t* >::Invoke(1 /* System.String Niantic.Titan.Uploader.IChunkedFileUploadRequest::get_SubmissionId() */, IChunkedFileUploadRequest_tAB32AC5F48538AC8EEBC9A14E5F72805B5539EB6_il2cpp_TypeInfo_var, L_38);
+					String_t* L_40;
+					L_40 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA73C767BD5557493B08AD33943BDC53FC73FE823, L_39, NULL);
+					NullCheck(L_36);
+					ChannelLogger_Info_mF504DE96ED32615BEC9214F51572206CB88CD86B(L_36, L_40, NULL);
+					// return sessionUploadAsyncResult;
+					V_2 = L_35;
+					goto IL_016c;
+				}
+			}// end try (depth: 2)
+			catch(Il2CppExceptionWrapper& e)
+			{
+				__finallyBlock.StoreException(e.ex);
+			}
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0145;
+		}
+		throw e;
+	}
+
+CATCH_0145:
+	{// begin catch(System.Exception)
+		V_5 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		__this->___U3CU3E8__1_5 = (U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1_5), (void*)(U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C*)NULL);
+		__this->___U3CsessionU3E5__2_6 = (RuntimeObject*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsessionU3E5__2_6), (void*)(RuntimeObject*)NULL);
+		AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* L_41 = (&__this->___U3CU3Et__builder_1);
+		Exception_t* L_42 = V_5;
+		AsyncTaskMethodBuilder_1_SetException_m6190A58E358B6484F441ED43A324E11079D47482(L_41, L_42, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_SetException_m6190A58E358B6484F441ED43A324E11079D47482_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_018e;
+	}// end catch (depth: 1)
+
+IL_016c:
+	{
+		// }
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		__this->___U3CU3E8__1_5 = (U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E8__1_5), (void*)(U3CU3Ec__DisplayClass18_0_tCDC882D4228ED369434990CD826B032BE20C201C*)NULL);
+		__this->___U3CsessionU3E5__2_6 = (RuntimeObject*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsessionU3E5__2_6), (void*)(RuntimeObject*)NULL);
+		AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* L_43 = (&__this->___U3CU3Et__builder_1);
+		int32_t L_44 = V_2;
+		AsyncTaskMethodBuilder_1_SetResult_m1A953BA90FB271FA9BB0CF75D4A79EE252459E09(L_43, L_44, AsyncTaskMethodBuilder_1_SetResult_m1A953BA90FB271FA9BB0CF75D4A79EE252459E09_RuntimeMethod_var);
+	}
+
+IL_018e:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CUploadFileToCloudStorageU3Ed__18_MoveNext_m5FDEA442290C827D7B8EDBDD6DDE460EA985586D_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401*>(__this + _offset);
+	U3CUploadFileToCloudStorageU3Ed__18_MoveNext_m5FDEA442290C827D7B8EDBDD6DDE460EA985586D(_thisAdjusted, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadService/<UploadFileToCloudStorage>d__18::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadFileToCloudStorageU3Ed__18_SetStateMachine_m3FEF298EF4DA5E4D8908A876EC94E2EB23430A8E (U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetStateMachine_m8E968F01916102F8AC8692AB6BBC5C0C95C34B4F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* L_0 = (&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___stateMachine0;
+		AsyncTaskMethodBuilder_1_SetStateMachine_m8E968F01916102F8AC8692AB6BBC5C0C95C34B4F(L_0, L_1, AsyncTaskMethodBuilder_1_SetStateMachine_m8E968F01916102F8AC8692AB6BBC5C0C95C34B4F_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CUploadFileToCloudStorageU3Ed__18_SetStateMachine_m3FEF298EF4DA5E4D8908A876EC94E2EB23430A8E_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+{
+	U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CUploadFileToCloudStorageU3Ed__18_t4C08C4B2414F2E3F6E91CE49D11B0DB7D710E401*>(__this + _offset);
+	U3CUploadFileToCloudStorageU3Ed__18_SetStateMachine_m3FEF298EF4DA5E4D8908A876EC94E2EB23430A8E(_thisAdjusted, ___stateMachine0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadSession::get_IsComplete()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChunkedFileUploadSession_get_IsComplete_m4DF43D6CF77B6DCD33EF1636251F540617253B73 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsComplete { get; private set; }
+		bool L_0 = __this->___U3CIsCompleteU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::set_IsComplete(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsComplete_m6CB60680E75AE044E4102E7D7D2906BC5BD25F31 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsComplete { get; private set; }
+		bool L_0 = ___value0;
+		__this->___U3CIsCompleteU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadSession::get_IsSuccessful()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChunkedFileUploadSession_get_IsSuccessful_mB9EC372514C705C146A7187ECEA25B27A41E32F4 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsSuccessful { get; private set; }
+		bool L_0 = __this->___U3CIsSuccessfulU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::set_IsSuccessful(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsSuccessful_mBB55374771F60451D7C7B35B88A6EBE151713EFC (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsSuccessful { get; private set; }
+		bool L_0 = ___value0;
+		__this->___U3CIsSuccessfulU3Ek__BackingField_3 = L_0;
+		return;
+	}
+}
+// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadSession::get_IsCanceled()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChunkedFileUploadSession_get_IsCanceled_m5009C0FA2F2AFE1D096BDCA69FF48A44C26E57A7 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsCanceled { get; private set; }
+		bool L_0 = __this->___U3CIsCanceledU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::set_IsCanceled(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsCanceled_m2F57B50E6985F0BE1C317B7CB3304039CF5D6DC5 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsCanceled { get; private set; }
+		bool L_0 = ___value0;
+		__this->___U3CIsCanceledU3Ek__BackingField_4 = L_0;
+		return;
+	}
+}
+// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadSession::get_IsPaused()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChunkedFileUploadSession_get_IsPaused_mC8F73300C0B6E674F7A5CE47A84226D1229A3157 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsPaused { get; private set; }
+		bool L_0 = __this->___U3CIsPausedU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::set_IsPaused(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsPaused_mF1A68074216BCC83A34D65CED498AD81845191CA (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsPaused { get; private set; }
+		bool L_0 = ___value0;
+		__this->___U3CIsPausedU3Ek__BackingField_5 = L_0;
+		return;
+	}
+}
+// System.Boolean Niantic.Titan.Uploader.ChunkedFileUploadSession::get_IsActive()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChunkedFileUploadSession_get_IsActive_m6F3FF4E2DD88DA22062BEA2693EE860AF7DE6033 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsActive { get; private set; }
+		bool L_0 = __this->___U3CIsActiveU3Ek__BackingField_6;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::set_IsActive(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsActive_mB455BF071C6C9A1464D8736F2DB9F234968D757B (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsActive { get; private set; }
+		bool L_0 = ___value0;
+		__this->___U3CIsActiveU3Ek__BackingField_6 = L_0;
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::add_ProgressUpdated(System.Action`1<System.Single>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_add_ProgressUpdated_mE5B759DE9BD24AF6B337D26F08F6CAF8028F1DD7 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_0 = NULL;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_1 = NULL;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_2 = NULL;
+	{
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_0 = __this->___ProgressUpdated_7;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_2 = V_1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)Castclass((RuntimeObject*)L_4, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var));
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A** L_5 = (&__this->___ProgressUpdated_7);
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_6 = V_2;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_7 = V_1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_9 = V_0;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)L_9) == ((RuntimeObject*)(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::remove_ProgressUpdated(System.Action`1<System.Single>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_remove_ProgressUpdated_m791BEAC97484F1F76258A546496B73BEC8F9E96A (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_0 = NULL;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_1 = NULL;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_2 = NULL;
+	{
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_0 = __this->___ProgressUpdated_7;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_2 = V_1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)Castclass((RuntimeObject*)L_4, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var));
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A** L_5 = (&__this->___ProgressUpdated_7);
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_6 = V_2;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_7 = V_1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_9 = V_0;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)L_9) == ((RuntimeObject*)(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::add_Disposing(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_add_Disposing_mE00A07218A8CF8BD5615ADEF4EF11723D00032B4 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___Disposing_8;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_5 = (&__this->___Disposing_8);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::remove_Disposing(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_remove_Disposing_m52EFF782C027833060874381DC1EA6D46467B1B8 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___Disposing_8;
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07** L_5 = (&__this->___Disposing_8);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8;
+		L_8 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>(L_5, L_6, L_7);
+		V_0 = L_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_10))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::.ctor(Niantic.Titan.Uploader.IChunkedFileUploadRequest,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession__ctor_mE4446E67D6A5586810FE45D30679F8D7FF2BF45D (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, RuntimeObject* ___uploadRequest0, uint32_t ___uploadWorkerThreadCount1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// internal ChunkedFileUploadSession(
+		//   IChunkedFileUploadRequest uploadRequest,
+		//   uint uploadWorkerThreadCount) {
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// _client = new ChunkedFileUploadClient(uploadRequest);
+		RuntimeObject* L_0 = ___uploadRequest0;
+		ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD* L_1 = (ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD*)il2cpp_codegen_object_new(ChunkedFileUploadClient_t92B0A96E0D38F58E1F39569514B45D30C3FCBFAD_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		ChunkedFileUploadClient__ctor_m65693D85DDD85FD71D815BCB0D0267CF827EB27B(L_1, L_0, NULL);
+		__this->____client_0 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____client_0), (void*)L_1);
+		// _uploadWorkerThreadCount = uploadWorkerThreadCount;
+		uint32_t L_2 = ___uploadWorkerThreadCount1;
+		__this->____uploadWorkerThreadCount_1 = L_2;
+		// IsActive = true;
+		ChunkedFileUploadSession_set_IsActive_mB455BF071C6C9A1464D8736F2DB9F234968D757B_inline(__this, (bool)1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::.ctor(Niantic.Titan.Uploader.IChunkedFileUploadClient)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession__ctor_m5A6135075420C0CA1219B2850EA26258FDBE3C01 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, RuntimeObject* ___client0, const RuntimeMethod* method) 
+{
+	{
+		// internal ChunkedFileUploadSession(IChunkedFileUploadClient client) {
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// _client = client;
+		RuntimeObject* L_0 = ___client0;
+		__this->____client_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____client_0), (void*)L_0);
+		// IsActive = true;
+		ChunkedFileUploadSession_set_IsActive_mB455BF071C6C9A1464D8736F2DB9F234968D757B_inline(__this, (bool)1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_Dispose_m4E1FAABFB07D2BE92AD46FEEB6E6B3A51890DA9B (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
+	RuntimeObject* G_B5_0 = NULL;
+	RuntimeObject* G_B4_0 = NULL;
+	{
+		// Disposing?.Invoke();
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___Disposing_8;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000c;
+		}
+	}
+	{
+		goto IL_0011;
+	}
+
+IL_000c:
+	{
+		NullCheck(G_B2_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B2_0, NULL);
+	}
+
+IL_0011:
+	{
+		// Disposing = null;
+		__this->___Disposing_8 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Disposing_8), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
+		// _client?.Dispose();
+		RuntimeObject* L_2 = __this->____client_0;
+		RuntimeObject* L_3 = L_2;
+		G_B4_0 = L_3;
+		if (L_3)
+		{
+			G_B5_0 = L_3;
+			goto IL_0024;
+		}
+	}
+	{
+		goto IL_0029;
+	}
+
+IL_0024:
+	{
+		NullCheck(G_B5_0);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, G_B5_0);
+	}
+
+IL_0029:
+	{
+		// _client = null;
+		__this->____client_0 = (RuntimeObject*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____client_0), (void*)(RuntimeObject*)NULL);
+		// }
+		return;
+	}
+}
+// System.Threading.Tasks.Task`1<Niantic.Titan.Uploader.UploadResult> Niantic.Titan.Uploader.ChunkedFileUploadSession::UploadAsync()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856* ChunkedFileUploadSession_UploadAsync_mC352250A8F0FEEECA30EC8B6D0DE0E3B5393277F (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_Create_m270B01E4F237A5001EE9C8DA76F0F1DF3B78B6D3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m121717528A797E11095349FC8A84BC7570AE5775_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_get_Task_m07A60A8884E1E70E64CF27F6F3CC5E2CEB559386_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50_il2cpp_TypeInfo_var);
+		AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50 L_0;
+		L_0 = AsyncTaskMethodBuilder_1_Create_m270B01E4F237A5001EE9C8DA76F0F1DF3B78B6D3(AsyncTaskMethodBuilder_1_Create_m270B01E4F237A5001EE9C8DA76F0F1DF3B78B6D3_RuntimeMethod_var);
+		(&V_0)->___U3CU3Et__builder_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&(&V_0)->___U3CU3Et__builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&(&V_0)->___U3CU3Et__builder_1))->___m_coreState_1))->___m_defaultContextAction_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&(&V_0)->___U3CU3Et__builder_1))->___m_task_2), (void*)NULL);
+		#endif
+		(&V_0)->___U3CU3E4__this_2 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this_2), (void*)__this);
+		(&V_0)->___U3CU3E1__state_0 = (-1);
+		AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* L_1 = (&(&V_0)->___U3CU3Et__builder_1);
+		AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m121717528A797E11095349FC8A84BC7570AE5775(L_1, (&V_0), AsyncTaskMethodBuilder_1_Start_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m121717528A797E11095349FC8A84BC7570AE5775_RuntimeMethod_var);
+		AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* L_2 = (&(&V_0)->___U3CU3Et__builder_1);
+		Task_1_t7C8CC407D8214571522F95B99BBF449C8624F856* L_3;
+		L_3 = AsyncTaskMethodBuilder_1_get_Task_m07A60A8884E1E70E64CF27F6F3CC5E2CEB559386(L_2, AsyncTaskMethodBuilder_1_get_Task_m07A60A8884E1E70E64CF27F6F3CC5E2CEB559386_RuntimeMethod_var);
+		return L_3;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::OnProgressUpdated(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_OnProgressUpdated_mABCA71568C7FC43E08AB454585E9BD543472EB83 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, float ___progress0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass32_0_U3COnProgressUpdatedU3Eb__0_m855D41639C15B8FA8ACFDC9B859EBE18B16D6BDE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3* V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3* L_0 = (U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass32_0__ctor_m5F9CB963C8E7A1141445C81640D84E5ADF670198(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3* L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_0 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_0), (void*)__this);
+		U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3* L_2 = V_0;
+		float L_3 = ___progress0;
+		NullCheck(L_2);
+		L_2->___progress_1 = L_3;
+		// if (ProgressUpdated != null) {
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_4 = __this->___ProgressUpdated_7;
+		if (!L_4)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		// UnitySynchronizationContext.RunOnMainThread(() => ProgressUpdated.Invoke(progress));
+		U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3* L_5 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass32_0_U3COnProgressUpdatedU3Eb__0_m855D41639C15B8FA8ACFDC9B859EBE18B16D6BDE_RuntimeMethod_var), NULL);
+		UnitySynchronizationContext_RunOnMainThread_m487702490101AA8198D07843F9955FA8AF8B14B4(L_6, NULL);
+	}
+
+IL_002d:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::Pause()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_Pause_m9D9A87C6A8A85EB657CEA1FF108B40A8C759C9E6 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadClient_t3F9635DBEBBE8058489EA3A96A29AF7551E3F8A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	{
+		// IsPaused = true;
+		ChunkedFileUploadSession_set_IsPaused_mF1A68074216BCC83A34D65CED498AD81845191CA_inline(__this, (bool)1, NULL);
+		// IsActive = false;
+		ChunkedFileUploadSession_set_IsActive_mB455BF071C6C9A1464D8736F2DB9F234968D757B_inline(__this, (bool)0, NULL);
+		// _client?.PauseUpload();
+		RuntimeObject* L_0 = __this->____client_0;
+		RuntimeObject* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0019;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0019:
+	{
+		NullCheck(G_B2_0);
+		InterfaceActionInvoker0::Invoke(2 /* System.Void Niantic.Titan.Uploader.IChunkedFileUploadClient::PauseUpload() */, IChunkedFileUploadClient_t3F9635DBEBBE8058489EA3A96A29AF7551E3F8A7_il2cpp_TypeInfo_var, G_B2_0);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::Resume()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_Resume_m0246D2E50D65E3CD2D7699A4E98945F07232649E (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadClient_t3F9635DBEBBE8058489EA3A96A29AF7551E3F8A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	{
+		// IsPaused = false;
+		ChunkedFileUploadSession_set_IsPaused_mF1A68074216BCC83A34D65CED498AD81845191CA_inline(__this, (bool)0, NULL);
+		// IsActive = true;
+		ChunkedFileUploadSession_set_IsActive_mB455BF071C6C9A1464D8736F2DB9F234968D757B_inline(__this, (bool)1, NULL);
+		// _client?.ResumeUpload();
+		RuntimeObject* L_0 = __this->____client_0;
+		RuntimeObject* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0019;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0019:
+	{
+		NullCheck(G_B2_0);
+		InterfaceActionInvoker0::Invoke(3 /* System.Void Niantic.Titan.Uploader.IChunkedFileUploadClient::ResumeUpload() */, IChunkedFileUploadClient_t3F9635DBEBBE8058489EA3A96A29AF7551E3F8A7_il2cpp_TypeInfo_var, G_B2_0);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::Cancel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_Cancel_mA0F620E23EB85F0670D51A636A70597843A65700 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadClient_t3F9635DBEBBE8058489EA3A96A29AF7551E3F8A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* G_B2_0 = NULL;
+	RuntimeObject* G_B1_0 = NULL;
+	{
+		// IsCanceled = true;
+		ChunkedFileUploadSession_set_IsCanceled_m2F57B50E6985F0BE1C317B7CB3304039CF5D6DC5_inline(__this, (bool)1, NULL);
+		// _client?.CancelUpload();
+		RuntimeObject* L_0 = __this->____client_0;
+		RuntimeObject* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		NullCheck(G_B2_0);
+		InterfaceActionInvoker0::Invoke(1 /* System.Void Niantic.Titan.Uploader.IChunkedFileUploadClient::CancelUpload() */, IChunkedFileUploadClient_t3F9635DBEBBE8058489EA3A96A29AF7551E3F8A7_il2cpp_TypeInfo_var, G_B2_0);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession::<UploadAsync>b__31_0(System.Threading.Tasks.Task`1<System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_U3CUploadAsyncU3Eb__31_0_mAC3560DF414DE005440E9B12460B2486BC77EF69 (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ___task0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_get_Result_m48902D0529EDB4646DFE6B5A7631AE15911E87B9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* G_B4_0 = NULL;
+	ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* G_B1_0 = NULL;
+	ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* G_B2_0 = NULL;
+	ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* G_B3_0 = NULL;
+	int32_t G_B5_0 = 0;
+	ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* G_B5_1 = NULL;
+	{
+		// IsActive = false;
+		ChunkedFileUploadSession_set_IsActive_mB455BF071C6C9A1464D8736F2DB9F234968D757B_inline(__this, (bool)0, NULL);
+		// IsComplete = !IsCanceled;
+		bool L_0;
+		L_0 = ChunkedFileUploadSession_get_IsCanceled_m5009C0FA2F2AFE1D096BDCA69FF48A44C26E57A7_inline(__this, NULL);
+		ChunkedFileUploadSession_set_IsComplete_m6CB60680E75AE044E4102E7D7D2906BC5BD25F31_inline(__this, (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0), NULL);
+		// IsSuccessful =
+		//   task.IsCompleted &&
+		//   !task.IsFaulted &&
+		//   !task.IsCanceled &&
+		//   task.Result;
+		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_1 = ___task0;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831(L_1, NULL);
+		G_B1_0 = __this;
+		if (!L_2)
+		{
+			G_B4_0 = __this;
+			goto IL_0037;
+		}
+	}
+	{
+		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_3 = ___task0;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = Task_get_IsFaulted_mC0AD3EA4EAF3B47C1F5FE9624541F0A00B9426D9(L_3, NULL);
+		G_B2_0 = G_B1_0;
+		if (L_4)
+		{
+			G_B4_0 = G_B1_0;
+			goto IL_0037;
+		}
+	}
+	{
+		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_5 = ___task0;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = Task_get_IsCanceled_m96A8D3F85158A9CB3AEA50A00A55BE4E0F0E21FA(L_5, NULL);
+		G_B3_0 = G_B2_0;
+		if (L_6)
+		{
+			G_B4_0 = G_B2_0;
+			goto IL_0037;
+		}
+	}
+	{
+		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_7 = ___task0;
+		NullCheck(L_7);
+		bool L_8;
+		L_8 = Task_1_get_Result_m48902D0529EDB4646DFE6B5A7631AE15911E87B9(L_7, Task_1_get_Result_m48902D0529EDB4646DFE6B5A7631AE15911E87B9_RuntimeMethod_var);
+		G_B5_0 = ((int32_t)(L_8));
+		G_B5_1 = G_B3_0;
+		goto IL_0038;
+	}
+
+IL_0037:
+	{
+		G_B5_0 = 0;
+		G_B5_1 = G_B4_0;
+	}
+
+IL_0038:
+	{
+		NullCheck(G_B5_1);
+		ChunkedFileUploadSession_set_IsSuccessful_mBB55374771F60451D7C7B35B88A6EBE151713EFC_inline(G_B5_1, (bool)G_B5_0, NULL);
+		// })
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadAsyncU3Ed__31_MoveNext_m5884D1CF4DAA620E27953CAE60CE372963A5A679 (U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t12D515BBBDB69A29DC0C4812555D0A8A51D6B856_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m9E12A46382D4DF9BA5195FFDE0609727846B3DD0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetResult_m1A953BA90FB271FA9BB0CF75D4A79EE252459E09_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadSession_OnProgressUpdated_mABCA71568C7FC43E08AB454585E9BD543472EB83_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadSession_U3CUploadAsyncU3Eb__31_0_mAC3560DF414DE005440E9B12460B2486BC77EF69_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IChunkedFileUploadClient_t3F9635DBEBBE8058489EA3A96A29AF7551E3F8A7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_ContinueWith_mBD33AE3971992759A43EF4B06D8458C7BC548E3B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* V_1 = NULL;
+	int32_t V_2 = 0;
+	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Exception_t* V_5 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	int32_t G_B10_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0078_1;
+			}
+		}
+		{
+			// await _client.UploadAsync(OnProgressUpdated, _uploadWorkerThreadCount)
+			//   .ContinueWith(
+			//     task => {
+			//       IsActive = false;
+			//       IsComplete = !IsCanceled;
+			//       IsSuccessful =
+			//         task.IsCompleted &&
+			//         !task.IsFaulted &&
+			//         !task.IsCanceled &&
+			//         task.Result;
+			//     })
+			//   .ConfigureAwait(false);
+			ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* L_3 = V_1;
+			NullCheck(L_3);
+			RuntimeObject* L_4 = L_3->____client_0;
+			ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* L_5 = V_1;
+			Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_6 = (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)il2cpp_codegen_object_new(Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
+			NullCheck(L_6);
+			Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859(L_6, L_5, (intptr_t)((void*)ChunkedFileUploadSession_OnProgressUpdated_mABCA71568C7FC43E08AB454585E9BD543472EB83_RuntimeMethod_var), NULL);
+			ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* L_7 = V_1;
+			NullCheck(L_7);
+			uint32_t L_8 = L_7->____uploadWorkerThreadCount_1;
+			NullCheck(L_4);
+			Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_9;
+			L_9 = InterfaceFuncInvoker2< Task_1_t824317F4B958F7512E8F7300511752937A6C6043*, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*, uint32_t >::Invoke(0 /* System.Threading.Tasks.Task`1<System.Boolean> Niantic.Titan.Uploader.IChunkedFileUploadClient::UploadAsync(System.Action`1<System.Single>,System.UInt32) */, IChunkedFileUploadClient_t3F9635DBEBBE8058489EA3A96A29AF7551E3F8A7_il2cpp_TypeInfo_var, L_4, L_6, L_8);
+			ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* L_10 = V_1;
+			Action_1_t12D515BBBDB69A29DC0C4812555D0A8A51D6B856* L_11 = (Action_1_t12D515BBBDB69A29DC0C4812555D0A8A51D6B856*)il2cpp_codegen_object_new(Action_1_t12D515BBBDB69A29DC0C4812555D0A8A51D6B856_il2cpp_TypeInfo_var);
+			NullCheck(L_11);
+			Action_1__ctor_m8DB17142BC5CB34C561C3A08FF3390CC83C7D94F(L_11, L_10, (intptr_t)((void*)ChunkedFileUploadSession_U3CUploadAsyncU3Eb__31_0_mAC3560DF414DE005440E9B12460B2486BC77EF69_RuntimeMethod_var), NULL);
+			NullCheck(L_9);
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_12;
+			L_12 = Task_1_ContinueWith_mBD33AE3971992759A43EF4B06D8458C7BC548E3B(L_9, L_11, Task_1_ContinueWith_mBD33AE3971992759A43EF4B06D8458C7BC548E3B_RuntimeMethod_var);
+			NullCheck(L_12);
+			ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C L_13;
+			L_13 = Task_ConfigureAwait_m0DD682B1D29B85067C993734C12E26554D6CBFF4(L_12, (bool)0, NULL);
+			V_4 = L_13;
+			ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 L_14;
+			L_14 = ConfiguredTaskAwaitable_GetAwaiter_m3F163D24211147E68FC5799A7D2D2BE7C07A60B5_inline((&V_4), NULL);
+			V_3 = L_14;
+			bool L_15;
+			L_15 = ConfiguredTaskAwaiter_get_IsCompleted_mB189574F29658A59CC4C890B70538A9C5E835850((&V_3), NULL);
+			if (L_15)
+			{
+				goto IL_0094_1;
+			}
+		}
+		{
+			int32_t L_16 = 0;
+			V_0 = L_16;
+			__this->___U3CU3E1__state_0 = L_16;
+			ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 L_17 = V_3;
+			__this->___U3CU3Eu__1_3 = L_17;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* L_18 = (&__this->___U3CU3Et__builder_1);
+			AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m9E12A46382D4DF9BA5195FFDE0609727846B3DD0(L_18, (&V_3), __this, AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_TisU3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840_m9E12A46382D4DF9BA5195FFDE0609727846B3DD0_RuntimeMethod_var);
+			goto IL_00e2;
+		}
+
+IL_0078_1:
+		{
+			ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 L_19 = __this->___U3CU3Eu__1_3;
+			V_3 = L_19;
+			ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618* L_20 = (&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_20, sizeof(ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618));
+			int32_t L_21 = (-1);
+			V_0 = L_21;
+			__this->___U3CU3E1__state_0 = L_21;
+		}
+
+IL_0094_1:
+		{
+			ConfiguredTaskAwaiter_GetResult_mD51FDD775D0CF7511FEE2B6C144DB003DE73AC26((&V_3), NULL);
+			// return IsCanceled
+			//   ? UploadResult.Cancelled
+			//   : IsSuccessful
+			//     ? UploadResult.Succeeded
+			//     : UploadResult.Failed;
+			ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* L_22 = V_1;
+			NullCheck(L_22);
+			bool L_23;
+			L_23 = ChunkedFileUploadSession_get_IsCanceled_m5009C0FA2F2AFE1D096BDCA69FF48A44C26E57A7_inline(L_22, NULL);
+			if (L_23)
+			{
+				goto IL_00b1_1;
+			}
+		}
+		{
+			ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* L_24 = V_1;
+			NullCheck(L_24);
+			bool L_25;
+			L_25 = ChunkedFileUploadSession_get_IsSuccessful_mB9EC372514C705C146A7187ECEA25B27A41E32F4_inline(L_24, NULL);
+			if (L_25)
+			{
+				goto IL_00ae_1;
+			}
+		}
+		{
+			G_B10_0 = 1;
+			goto IL_00b2_1;
+		}
+
+IL_00ae_1:
+		{
+			G_B10_0 = 0;
+			goto IL_00b2_1;
+		}
+
+IL_00b1_1:
+		{
+			G_B10_0 = 2;
+		}
+
+IL_00b2_1:
+		{
+			V_2 = G_B10_0;
+			goto IL_00ce;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00b5;
+		}
+		throw e;
+	}
+
+CATCH_00b5:
+	{// begin catch(System.Exception)
+		V_5 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* L_26 = (&__this->___U3CU3Et__builder_1);
+		Exception_t* L_27 = V_5;
+		AsyncTaskMethodBuilder_1_SetException_m6190A58E358B6484F441ED43A324E11079D47482(L_26, L_27, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AsyncTaskMethodBuilder_1_SetException_m6190A58E358B6484F441ED43A324E11079D47482_RuntimeMethod_var)));
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_00e2;
+	}// end catch (depth: 1)
+
+IL_00ce:
+	{
+		// }
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* L_28 = (&__this->___U3CU3Et__builder_1);
+		int32_t L_29 = V_2;
+		AsyncTaskMethodBuilder_1_SetResult_m1A953BA90FB271FA9BB0CF75D4A79EE252459E09(L_28, L_29, AsyncTaskMethodBuilder_1_SetResult_m1A953BA90FB271FA9BB0CF75D4A79EE252459E09_RuntimeMethod_var);
+	}
+
+IL_00e2:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CUploadAsyncU3Ed__31_MoveNext_m5884D1CF4DAA620E27953CAE60CE372963A5A679_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840*>(__this + _offset);
+	U3CUploadAsyncU3Ed__31_MoveNext_m5884D1CF4DAA620E27953CAE60CE372963A5A679(_thisAdjusted, method);
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession/<UploadAsync>d__31::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUploadAsyncU3Ed__31_SetStateMachine_mB2AE77F96A1CC638A6A50414142530717AAD0A31 (U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncTaskMethodBuilder_1_SetStateMachine_m8E968F01916102F8AC8692AB6BBC5C0C95C34B4F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AsyncTaskMethodBuilder_1_t6E842C312063A2EC796A4F8F119D0CEDAA8FED50* L_0 = (&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___stateMachine0;
+		AsyncTaskMethodBuilder_1_SetStateMachine_m8E968F01916102F8AC8692AB6BBC5C0C95C34B4F(L_0, L_1, AsyncTaskMethodBuilder_1_SetStateMachine_m8E968F01916102F8AC8692AB6BBC5C0C95C34B4F_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CUploadAsyncU3Ed__31_SetStateMachine_mB2AE77F96A1CC638A6A50414142530717AAD0A31_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+{
+	U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CUploadAsyncU3Ed__31_tB3142A1096FD5FF150EBFDC252764F98514FD840*>(__this + _offset);
+	U3CUploadAsyncU3Ed__31_SetStateMachine_mB2AE77F96A1CC638A6A50414142530717AAD0A31(_thisAdjusted, ___stateMachine0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession/<>c__DisplayClass32_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0__ctor_m5F9CB963C8E7A1141445C81640D84E5ADF670198 (U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.ChunkedFileUploadSession/<>c__DisplayClass32_0::<OnProgressUpdated>b__0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0_U3COnProgressUpdatedU3Eb__0_m855D41639C15B8FA8ACFDC9B859EBE18B16D6BDE (U3CU3Ec__DisplayClass32_0_t20986E1034998121FA19BEC8620B7DBC29907AB3* __this, const RuntimeMethod* method) 
+{
+	{
+		// UnitySynchronizationContext.RunOnMainThread(() => ProgressUpdated.Invoke(progress));
+		ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* L_0 = __this->___U3CU3E4__this_0;
+		NullCheck(L_0);
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_1 = L_0->___ProgressUpdated_7;
+		float L_2 = __this->___progress_1;
+		NullCheck(L_1);
+		Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_inline(L_1, L_2, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_NativeLogger_HandleNativeLog_mE4D4F63BB37FBA2EEC0F1A59E32B17E81E2C8E13(int32_t ___logPriority0, char* ___message1)
+{
+	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Marshaling of parameter '___message1' to managed representation
+	String_t* ____message1_unmarshaled = NULL;
+	____message1_unmarshaled = il2cpp_codegen_marshal_string_result(___message1);
+
+	// Managed method invocation
+	NativeLogger_HandleNativeLog_mE4D4F63BB37FBA2EEC0F1A59E32B17E81E2C8E13(___logPriority0, ____message1_unmarshaled, NULL);
+
+}
+// Niantic.Titan.Uploader.Internal.ChannelLogger Niantic.Titan.Uploader.NativeLogger::get_Log()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* NativeLogger_get_Log_m37CB7D279B165718D4D1E372E9A725BADE4C1535 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private static ChannelLogger Log { get; } =
+		il2cpp_codegen_runtime_class_init_inline(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_0 = ((NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_StaticFields*)il2cpp_codegen_static_fields_for(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var))->___U3CLogU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.NativeLogger::Initialize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeLogger_Initialize_mD0C4CCD808867104B14B1F709CCC5B0321041753 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeLogger_HandleNativeLog_mE4D4F63BB37FBA2EEC0F1A59E32B17E81E2C8E13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!hasInit) {
+		il2cpp_codegen_runtime_class_init_inline(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var);
+		bool L_0 = ((NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_StaticFields*)il2cpp_codegen_static_fields_for(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var))->___hasInit_1;
+		if (L_0)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		// hasInit = true;
+		il2cpp_codegen_runtime_class_init_inline(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var);
+		((NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_StaticFields*)il2cpp_codegen_static_fields_for(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var))->___hasInit_1 = (bool)1;
+		// Native.Logger_Initialize(HandleNativeLog);
+		LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* L_1 = (LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA*)il2cpp_codegen_object_new(LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		LogCallback__ctor_mBF449BFBB19AC037CBD4430F0D32C72575F59464(L_1, NULL, (intptr_t)((void*)NativeLogger_HandleNativeLog_mE4D4F63BB37FBA2EEC0F1A59E32B17E81E2C8E13_RuntimeMethod_var), NULL);
+		Native_Logger_Initialize_m171735208F6A3206179FECF8818E0D9C5331D63C(L_1, NULL);
+	}
+
+IL_001e:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.NativeLogger::Disable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeLogger_Disable_m37A650EB510DB8CDD2FD8635A2B8C5BBD49C09D7 (const RuntimeMethod* method) 
+{
+	{
+		// Native.Logger_Initialize(null);
+		Native_Logger_Initialize_m171735208F6A3206179FECF8818E0D9C5331D63C((LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA*)NULL, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.NativeLogger::HandleNativeLog(Niantic.Titan.Uploader.Internal.ChannelLogger/LogLevel,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeLogger_HandleNativeLog_mE4D4F63BB37FBA2EEC0F1A59E32B17E81E2C8E13 (int32_t ___logPriority0, String_t* ___message1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Log.LogMessage(logPriority, message);
+		il2cpp_codegen_runtime_class_init_inline(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_0;
+		L_0 = NativeLogger_get_Log_m37CB7D279B165718D4D1E372E9A725BADE4C1535_inline(NULL);
+		int32_t L_1 = ___logPriority0;
+		String_t* L_2 = ___message1;
+		NullCheck(L_0);
+		ChannelLogger_LogMessage_m77AF6FBC771DE2C9B0F9DEB0E7B68B4CEA2A3912(L_0, L_1, L_2, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.NativeLogger::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeLogger__cctor_m67990FFA13AB434C6B94DD3534E0FD65FDB9A5C5 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral634FD00ACA377643630CCBAC54101FE8E718CE84);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// new ChannelLogger(Constants.NATIVE_LOG_CHANNEL);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_0 = (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF*)il2cpp_codegen_object_new(ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		ChannelLogger__ctor_m858326D7CE3B9D110D00A02BA9FE76BC38DE6512(L_0, _stringLiteral634FD00ACA377643630CCBAC54101FE8E718CE84, NULL);
+		((NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_StaticFields*)il2cpp_codegen_static_fields_for(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var))->___U3CLogU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_StaticFields*)il2cpp_codegen_static_fields_for(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var))->___U3CLogU3Ek__BackingField_0), (void*)L_0);
+		// private static bool hasInit = false;
+		((NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_StaticFields*)il2cpp_codegen_static_fields_for(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var))->___hasInit_1 = (bool)0;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.Titan.Uploader.NativeLogger/Native::Logger_Initialize(Niantic.Titan.Uploader.NativeLogger/Native/LogCallback)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_Logger_Initialize_m171735208F6A3206179FECF8818E0D9C5331D63C (LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* ___logCallback0, const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_geouploader_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("geouploader"), "Logger_Initialize", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___logCallback0' to native representation
+	Il2CppMethodPointer ____logCallback0_marshaled = NULL;
+	____logCallback0_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___logCallback0));
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_geouploader_INTERNAL
+	reinterpret_cast<PInvokeFunc>(Logger_Initialize)(____logCallback0_marshaled);
+	#else
+	il2cppPInvokeFunc(____logCallback0_marshaled);
+	#endif
+
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void LogCallback_Invoke_m768C4B551882170EF14643CB6225F702350B4267_Multicast(LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* __this, int32_t ___logLevel0, String_t* ___message1, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* currentDelegate = reinterpret_cast<LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, String_t*, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___logLevel0, ___message1, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void LogCallback_Invoke_m768C4B551882170EF14643CB6225F702350B4267_OpenInst(LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* __this, int32_t ___logLevel0, String_t* ___message1, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (int32_t, String_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___logLevel0, ___message1, method);
+}
+void LogCallback_Invoke_m768C4B551882170EF14643CB6225F702350B4267_OpenStatic(LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* __this, int32_t ___logLevel0, String_t* ___message1, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (int32_t, String_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___logLevel0, ___message1, method);
+}
+void LogCallback_Invoke_m768C4B551882170EF14643CB6225F702350B4267_OpenStaticInvoker(LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* __this, int32_t ___logLevel0, String_t* ___message1, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< int32_t, String_t* >::Invoke(__this->___method_ptr_0, method, NULL, ___logLevel0, ___message1);
+}
+void LogCallback_Invoke_m768C4B551882170EF14643CB6225F702350B4267_ClosedStaticInvoker(LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* __this, int32_t ___logLevel0, String_t* ___message1, const RuntimeMethod* method)
+{
+	InvokerActionInvoker3< RuntimeObject*, int32_t, String_t* >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___logLevel0, ___message1);
+}
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA (LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* __this, int32_t ___logLevel0, String_t* ___message1, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t, char*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
+	// Marshaling of parameter '___message1' to native representation
+	char* ____message1_marshaled = NULL;
+	____message1_marshaled = il2cpp_codegen_marshal_string(___message1);
+
+	// Native function invocation
+	il2cppPInvokeFunc(___logLevel0, ____message1_marshaled);
+
+	// Marshaling cleanup of parameter '___message1' native representation
+	il2cpp_codegen_marshal_free(____message1_marshaled);
+	____message1_marshaled = NULL;
+
+}
+// System.Void Niantic.Titan.Uploader.NativeLogger/Native/LogCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LogCallback__ctor_mBF449BFBB19AC037CBD4430F0D32C72575F59464 (LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 2;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&LogCallback_Invoke_m768C4B551882170EF14643CB6225F702350B4267_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&LogCallback_Invoke_m768C4B551882170EF14643CB6225F702350B4267_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&LogCallback_Invoke_m768C4B551882170EF14643CB6225F702350B4267_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___object0 == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&LogCallback_Invoke_m768C4B551882170EF14643CB6225F702350B4267_Multicast;
+}
+// System.Void Niantic.Titan.Uploader.NativeLogger/Native/LogCallback::Invoke(Niantic.Titan.Uploader.Internal.ChannelLogger/LogLevel,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LogCallback_Invoke_m768C4B551882170EF14643CB6225F702350B4267 (LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* __this, int32_t ___logLevel0, String_t* ___message1, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, String_t*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___logLevel0, ___message1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult Niantic.Titan.Uploader.NativeLogger/Native/LogCallback::BeginInvoke(Niantic.Titan.Uploader.Internal.ChannelLogger/LogLevel,System.String,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LogCallback_BeginInvoke_mDA457718D95507228EA92E83F035B3F3C2D2CA04 (LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* __this, int32_t ___logLevel0, String_t* ___message1, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback2, RuntimeObject* ___object3, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LogLevel_t5186EB299DA356C0F9974D8730DF9118687019F9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(LogLevel_t5186EB299DA356C0F9974D8730DF9118687019F9_il2cpp_TypeInfo_var, &___logLevel0);
+	__d_args[1] = ___message1;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+}
+// System.Void Niantic.Titan.Uploader.NativeLogger/Native/LogCallback::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LogCallback_EndInvoke_m13D17007A4E2EE68ECD11628BD5BBD784DE88B53 (LogCallback_t2D441296E68DB06EC74D2118536124B75DD386CA* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::add_ApplicationGainedFocus(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_add_ApplicationGainedFocus_m9586BD6C8E68E8B46895D91B85547E7E8C73475D (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationGainedFocus_0;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationGainedFocus_0), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::remove_ApplicationGainedFocus(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_remove_ApplicationGainedFocus_m85D1E0A2FD1C0D0C929089560D3F171922E4FE7A (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationGainedFocus_0;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationGainedFocus_0), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::add_ApplicationLostFocus(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_add_ApplicationLostFocus_m8D68DDDFE831B3BAA3DC5A4EEB72D559CCDACE3B (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationLostFocus_1;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationLostFocus_1), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::remove_ApplicationLostFocus(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_remove_ApplicationLostFocus_m45281102D138D62CB9F85CDD9DF6BB76D9AB1369 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationLostFocus_1;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationLostFocus_1), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::add_ApplicationPaused(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_add_ApplicationPaused_m73509C7AD02F07D1B94EF121E82F190B86F0EB9C (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationPaused_2;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationPaused_2), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::remove_ApplicationPaused(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_remove_ApplicationPaused_mF70459551C259B1792661308D393848BEF9F30E7 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationPaused_2;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationPaused_2), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::add_ApplicationUnpaused(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_add_ApplicationUnpaused_m27FF0915F00186BA7100E52AC6AE88C091C0780F (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationUnpaused_3;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationUnpaused_3), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::remove_ApplicationUnpaused(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_remove_ApplicationUnpaused_m8A51A80914E3D5C4CC3D9583DC6041780EE53D98 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationUnpaused_3;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationUnpaused_3), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::add_ApplicationIsShuttingDown(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_add_ApplicationIsShuttingDown_mE93555EA23F56C0AAB33C00DC9F5632C04C50039 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationIsShuttingDown_4;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationIsShuttingDown_4), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::remove_ApplicationIsShuttingDown(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_remove_ApplicationIsShuttingDown_m9039BA86008AD7BB7F048E6E5F1A690AFECD7808 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationIsShuttingDown_4;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationIsShuttingDown_4), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::add_ApplicationIsUnloading(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_add_ApplicationIsUnloading_m42C84B8B44BEFB23E5091A09BCD38BEF8070CC15 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationIsUnloading_5;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationIsUnloading_5), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::remove_ApplicationIsUnloading(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_remove_ApplicationIsUnloading_m5E68F7649F0AB807E38C4A01CBAEE1485FF45F5B (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_1 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* V_2 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationIsUnloading_5;
+		V_0 = L_0;
+	}
+
+IL_0006:
+	{
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
+		V_1 = L_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Delegate_t* L_4;
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
+		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7;
+		L_7 = InterlockedCompareExchangeImpl<Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*>((&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationIsUnloading_5), L_5, L_6);
+		V_0 = L_7;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_8) == ((RuntimeObject*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)L_9))))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// Niantic.Titan.Uploader.Internal.ChannelLogger Niantic.Titan.Uploader.Internal.ApplicationLifecycle::get_Log()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* ApplicationLifecycle_get_Log_m0CA54FE80F35765220104F8DCBD995BB66EDEDC1 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private static ChannelLogger Log { get; } =
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___U3CLogU3Ek__BackingField_6;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::Initialize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_Initialize_m967A8A38398C300C413DFBF1C7626A47ADA9FFF4 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_OnApplicationIsShuttingDown_mD61042EC70BD85376AF4053DEF6D5D3FA10CF88E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_OnApplicationUnloading_m844E2A20E9EDB007E5FA350366402DA1F6A56463_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisAppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA_mAFF784CC53B662F1FD5E8F4B2239F0DDCAA727D1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// var gameObject = new GameObject {
+		//   hideFlags = HideFlags.HideAndDontSave | HideFlags.HideInInspector
+		// };
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = L_0;
+		NullCheck(L_1);
+		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_1, ((int32_t)63), NULL);
+		// _ = gameObject.AddComponent<AppLifecycleHook>();
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = L_1;
+		NullCheck(L_2);
+		AppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA* L_3;
+		L_3 = GameObject_AddComponent_TisAppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA_mAFF784CC53B662F1FD5E8F4B2239F0DDCAA727D1(L_2, GameObject_AddComponent_TisAppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA_mAFF784CC53B662F1FD5E8F4B2239F0DDCAA727D1_RuntimeMethod_var);
+		// UnityObject.DontDestroyOnLoad(gameObject);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_2, NULL);
+		// Application.quitting += OnApplicationIsShuttingDown;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_4, NULL, (intptr_t)((void*)ApplicationLifecycle_OnApplicationIsShuttingDown_mD61042EC70BD85376AF4053DEF6D5D3FA10CF88E_RuntimeMethod_var), NULL);
+		Application_add_quitting_m5767AC63F23ABFD5BC3D60710906643BA536CCC5(L_4, NULL);
+		// Application.unloading += OnApplicationUnloading;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_5, NULL, (intptr_t)((void*)ApplicationLifecycle_OnApplicationUnloading_m844E2A20E9EDB007E5FA350366402DA1F6A56463_RuntimeMethod_var), NULL);
+		Application_add_unloading_mC9667BD2FEAFE20C5D08183FF450F3FE27D27131(L_5, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::OnApplicationIsShuttingDown()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_OnApplicationIsShuttingDown_mD61042EC70BD85376AF4053DEF6D5D3FA10CF88E (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral456E79E729CD3B37971F071A1D8642A11FE5D51F);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
+	{
+		// Log.Info("Application is shutting down");
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_0;
+		L_0 = ApplicationLifecycle_get_Log_m0CA54FE80F35765220104F8DCBD995BB66EDEDC1_inline(NULL);
+		NullCheck(L_0);
+		ChannelLogger_Info_mF504DE96ED32615BEC9214F51572206CB88CD86B(L_0, _stringLiteral456E79E729CD3B37971F071A1D8642A11FE5D51F, NULL);
+		// ApplicationIsShuttingDown?.Invoke();
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationIsShuttingDown_4;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = L_1;
+		G_B1_0 = L_2;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			goto IL_0019;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0019:
+	{
+		NullCheck(G_B2_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B2_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::OnApplicationUnloading()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_OnApplicationUnloading_m844E2A20E9EDB007E5FA350366402DA1F6A56463 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFD2A0B0B117B9D59D70EB595A62A2FE88E65743E);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
+	{
+		// Log.Info("Application is unloading");
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_0;
+		L_0 = ApplicationLifecycle_get_Log_m0CA54FE80F35765220104F8DCBD995BB66EDEDC1_inline(NULL);
+		NullCheck(L_0);
+		ChannelLogger_Info_mF504DE96ED32615BEC9214F51572206CB88CD86B(L_0, _stringLiteralFD2A0B0B117B9D59D70EB595A62A2FE88E65743E, NULL);
+		// ApplicationIsUnloading?.Invoke();
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationIsUnloading_5;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = L_1;
+		G_B1_0 = L_2;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			goto IL_0019;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0019:
+	{
+		NullCheck(G_B2_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B2_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::OnApplicationFocusChanged(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_OnApplicationFocusChanged_mEE848534D6242F82EFCA0E042AEF6533E5395EC0 (bool ___hasFocus0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55EA20DC091CA397E51C3EB989766E5B4D02935C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral80F13ED5AAA2375ACD1C8F21AFEB8A3D88D1E49B);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B3_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B6_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B5_0 = NULL;
+	{
+		// if (hasFocus) {
+		bool L_0 = ___hasFocus0;
+		if (!L_0)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// Log.LogTrace("Application gained focus");
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_1;
+		L_1 = ApplicationLifecycle_get_Log_m0CA54FE80F35765220104F8DCBD995BB66EDEDC1_inline(NULL);
+		NullCheck(L_1);
+		ChannelLogger_LogTrace_m3DB711F0EE6F1B5E90F037CD7556745FAFE26E54(L_1, _stringLiteral80F13ED5AAA2375ACD1C8F21AFEB8A3D88D1E49B, NULL);
+		// ApplicationGainedFocus?.Invoke();
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationGainedFocus_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = L_2;
+		G_B2_0 = L_3;
+		if (L_3)
+		{
+			G_B3_0 = L_3;
+			goto IL_001c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001c:
+	{
+		NullCheck(G_B3_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B3_0, NULL);
+		return;
+	}
+
+IL_0022:
+	{
+		// Log.LogTrace("Application lost focus");
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_4;
+		L_4 = ApplicationLifecycle_get_Log_m0CA54FE80F35765220104F8DCBD995BB66EDEDC1_inline(NULL);
+		NullCheck(L_4);
+		ChannelLogger_LogTrace_m3DB711F0EE6F1B5E90F037CD7556745FAFE26E54(L_4, _stringLiteral55EA20DC091CA397E51C3EB989766E5B4D02935C, NULL);
+		// ApplicationLostFocus?.Invoke();
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationLostFocus_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = L_5;
+		G_B5_0 = L_6;
+		if (L_6)
+		{
+			G_B6_0 = L_6;
+			goto IL_003b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_003b:
+	{
+		NullCheck(G_B6_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B6_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::OnApplicationPauseChanged(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle_OnApplicationPauseChanged_m409D86AC0FC7481F40F833F96BD858499894FB1A (bool ___isPaused0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8DEBEEEAA971E88219143BEC864CA0EBB88F24A4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE961A6B0FE8750CD0FF8E98723DDE3037E801C95);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B3_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B6_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B5_0 = NULL;
+	{
+		// if (isPaused) {
+		bool L_0 = ___isPaused0;
+		if (!L_0)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// Log.Info("Application paused");
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_1;
+		L_1 = ApplicationLifecycle_get_Log_m0CA54FE80F35765220104F8DCBD995BB66EDEDC1_inline(NULL);
+		NullCheck(L_1);
+		ChannelLogger_Info_mF504DE96ED32615BEC9214F51572206CB88CD86B(L_1, _stringLiteral8DEBEEEAA971E88219143BEC864CA0EBB88F24A4, NULL);
+		// ApplicationPaused?.Invoke();
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationPaused_2;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = L_2;
+		G_B2_0 = L_3;
+		if (L_3)
+		{
+			G_B3_0 = L_3;
+			goto IL_001c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001c:
+	{
+		NullCheck(G_B3_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B3_0, NULL);
+		return;
+	}
+
+IL_0022:
+	{
+		// Log.Info("Application unpaused");
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_4;
+		L_4 = ApplicationLifecycle_get_Log_m0CA54FE80F35765220104F8DCBD995BB66EDEDC1_inline(NULL);
+		NullCheck(L_4);
+		ChannelLogger_Info_mF504DE96ED32615BEC9214F51572206CB88CD86B(L_4, _stringLiteralE961A6B0FE8750CD0FF8E98723DDE3037E801C95, NULL);
+		// ApplicationUnpaused?.Invoke();
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___ApplicationUnpaused_3;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = L_5;
+		G_B5_0 = L_6;
+		if (L_6)
+		{
+			G_B6_0 = L_6;
+			goto IL_003b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_003b:
+	{
+		NullCheck(G_B6_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B6_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationLifecycle__cctor_m74A75632814DB263760DE26482B9679AAFE472A3 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2A2B45A4027AC936B0549C3C35C0B1F76490B137);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// new ChannelLogger(Constants.LIFECYCLE_LOG_CHANNEL);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_0 = (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF*)il2cpp_codegen_object_new(ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		ChannelLogger__ctor_m858326D7CE3B9D110D00A02BA9FE76BC38DE6512(L_0, _stringLiteral2A2B45A4027AC936B0549C3C35C0B1F76490B137, NULL);
+		((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___U3CLogU3Ek__BackingField_6 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___U3CLogU3Ek__BackingField_6), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle/AppLifecycleHook::OnApplicationFocus(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppLifecycleHook_OnApplicationFocus_m41446614D3BDC4B671147893D3225053C103BDF3 (AppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA* __this, bool ___hasFocus0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// OnApplicationFocusChanged(hasFocus);
+		bool L_0 = ___hasFocus0;
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		ApplicationLifecycle_OnApplicationFocusChanged_mEE848534D6242F82EFCA0E042AEF6533E5395EC0(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle/AppLifecycleHook::OnApplicationPause(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppLifecycleHook_OnApplicationPause_m5188BD5E458C0784E35780DF1F7E824EC7E55F2E (AppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA* __this, bool ___pauseStatus0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// OnApplicationPauseChanged(pauseStatus);
+		bool L_0 = ___pauseStatus0;
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		ApplicationLifecycle_OnApplicationPauseChanged_m409D86AC0FC7481F40F833F96BD858499894FB1A(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ApplicationLifecycle/AppLifecycleHook::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppLifecycleHook__ctor_m21ADBE0A70E909517239C7FE55293AD36A222EBA (AppLifecycleHook_tB974A7730A3114BFA3F1EF1176E1B0438A1CFECA* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String Niantic.Titan.Uploader.Internal.ChannelLogger::get_ChannelName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChannelLogger_get_ChannelName_mC4BEE7C80F2C32520AC70886D81E5F9EE05495BA (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string ChannelName { get; }
+		String_t* L_0 = __this->___U3CChannelNameU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger__ctor_m858326D7CE3B9D110D00A02BA9FE76BC38DE6512 (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, String_t* ___logChannel0, const RuntimeMethod* method) 
+{
+	{
+		// public ChannelLogger(string logChannel) {
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// ChannelName = logChannel;
+		String_t* L_0 = ___logChannel0;
+		__this->___U3CChannelNameU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CChannelNameU3Ek__BackingField_0), (void*)L_0);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::Fatal(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger_Fatal_mA9516CD4DD8604D712738FD65F81595A02F20264 (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (MaxLogLevel != LogLevel.Off)
+		int32_t L_0 = __this->___MaxLogLevel_1;
+		if (!L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		// Debug.LogError(message);
+		String_t* L_1 = ___message0;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+	}
+
+IL_000e:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::Error(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger_Error_mA1A19AF9DD5C7DAF84B5156667CF98A15CD7AFA2 (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (MaxLogLevel != LogLevel.Off && MaxLogLevel <= LogLevel.Error)
+		int32_t L_0 = __this->___MaxLogLevel_1;
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_1 = __this->___MaxLogLevel_1;
+		if ((((int32_t)L_1) > ((int32_t)2)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		// Debug.LogError(message);
+		String_t* L_2 = ___message0;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_2, NULL);
+	}
+
+IL_0017:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::Warning(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger_Warning_m373598FD562FEF936BFFD3E98A6B923D71C470CB (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (MaxLogLevel != LogLevel.Off && MaxLogLevel <= LogLevel.Warning)
+		int32_t L_0 = __this->___MaxLogLevel_1;
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_1 = __this->___MaxLogLevel_1;
+		if ((((int32_t)L_1) > ((int32_t)3)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		// Debug.LogWarning(message);
+		String_t* L_2 = ___message0;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_2, NULL);
+	}
+
+IL_0017:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::Info(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger_Info_mF504DE96ED32615BEC9214F51572206CB88CD86B (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (MaxLogLevel != LogLevel.Off && MaxLogLevel <= LogLevel.Info)
+		int32_t L_0 = __this->___MaxLogLevel_1;
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_1 = __this->___MaxLogLevel_1;
+		if ((((int32_t)L_1) > ((int32_t)4)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		// Debug.Log(message);
+		String_t* L_2 = ___message0;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
+	}
+
+IL_0017:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::Verbose(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger_Verbose_m0C30EE23A556F1F6044D0E95A760D57837C080C2 (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (MaxLogLevel != LogLevel.Off && MaxLogLevel <= LogLevel.Verbose)
+		int32_t L_0 = __this->___MaxLogLevel_1;
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_1 = __this->___MaxLogLevel_1;
+		if ((((int32_t)L_1) > ((int32_t)5)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		// Debug.Log(message);
+		String_t* L_2 = ___message0;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
+	}
+
+IL_0017:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::LogTrace(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger_LogTrace_m3DB711F0EE6F1B5E90F037CD7556745FAFE26E54 (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, String_t* ___message0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (MaxLogLevel == LogLevel.Trace)
+		int32_t L_0 = __this->___MaxLogLevel_1;
+		if ((!(((uint32_t)L_0) == ((uint32_t)6))))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		// Debug.Log(message);
+		String_t* L_1 = ___message0;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
+	}
+
+IL_000f:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.ChannelLogger::LogMessage(Niantic.Titan.Uploader.Internal.ChannelLogger/LogLevel,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelLogger_LogMessage_m77AF6FBC771DE2C9B0F9DEB0E7B68B4CEA2A3912 (ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* __this, int32_t ___logLevel0, String_t* ___message1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (MaxLogLevel != LogLevel.Off && MaxLogLevel <= logLevel)
+		int32_t L_0 = __this->___MaxLogLevel_1;
+		if (!L_0)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		int32_t L_1 = __this->___MaxLogLevel_1;
+		int32_t L_2 = ___logLevel0;
+		if ((((int32_t)L_1) > ((int32_t)L_2)))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		// if (logLevel == LogLevel.Error)
+		int32_t L_3 = ___logLevel0;
+		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		// Error(message);
+		String_t* L_4 = ___message1;
+		ChannelLogger_Error_mA1A19AF9DD5C7DAF84B5156667CF98A15CD7AFA2(__this, L_4, NULL);
+		return;
+	}
+
+IL_001d:
+	{
+		// } else if (logLevel == LogLevel.Warning)
+		int32_t L_5 = ___logLevel0;
+		if ((!(((uint32_t)L_5) == ((uint32_t)3))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		// Warning(message);
+		String_t* L_6 = ___message1;
+		ChannelLogger_Warning_m373598FD562FEF936BFFD3E98A6B923D71C470CB(__this, L_6, NULL);
+		return;
+	}
+
+IL_0029:
+	{
+		// Debug.Log(message);
+		String_t* L_7 = ___message1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_7, NULL);
+	}
+
+IL_002f:
+	{
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.IntPtr Niantic.Titan.Uploader.Internal.DelegateHandle::get_FunctionPointer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DelegateHandle_get_FunctionPointer_m44A7E6C1CC1F1EEF335DDF4686DF6194847D0226 (DelegateHandle_t178FA19A89EB38DCE6D7F7D67EE046349705FB1A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// public IntPtr FunctionPointer => _delegatePointer == IntPtr.Zero
+		//   ? _delegatePointer = Marshal.GetFunctionPointerForDelegate(_delegate)
+		//   : _delegatePointer;
+		intptr_t L_0 = __this->____delegatePointer_1;
+		intptr_t L_1 = ((IntPtr_t_StaticFields*)il2cpp_codegen_static_fields_for(IntPtr_t_il2cpp_TypeInfo_var))->___Zero_1;
+		bool L_2;
+		L_2 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271(L_0, L_1, NULL);
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		intptr_t L_3 = __this->____delegatePointer_1;
+		return L_3;
+	}
+
+IL_0019:
+	{
+		Delegate_t* L_4 = __this->____delegate_0;
+		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		intptr_t L_5;
+		L_5 = Marshal_GetFunctionPointerForDelegate_mEFF0CF3BFDD35C4EFDE471D48182C149EE7B99E2(L_4, NULL);
+		intptr_t L_6 = L_5;
+		V_0 = L_6;
+		__this->____delegatePointer_1 = L_6;
+		intptr_t L_7 = V_0;
+		return L_7;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.DelegateHandle::.ctor(System.Delegate)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateHandle__ctor_mC15E020E899A42CD71B760B32C5CD9CC37B75763 (DelegateHandle_t178FA19A89EB38DCE6D7F7D67EE046349705FB1A* __this, Delegate_t* ___delegate0, const RuntimeMethod* method) 
+{
+	{
+		// public DelegateHandle(Delegate @delegate) {
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// _delegate = @delegate;
+		Delegate_t* L_0 = ___delegate0;
+		__this->____delegate_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____delegate_0), (void*)L_0);
+		// _gcHandle = GCHandle.Alloc(@delegate);
+		Delegate_t* L_1 = ___delegate0;
+		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_2;
+		L_2 = GCHandle_Alloc_m845AB5ED62859B099C023F34C05BEAEDB4AFE27D(L_1, NULL);
+		__this->____gcHandle_2 = L_2;
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.DelegateHandle::ReleaseUnmanagedResources()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateHandle_ReleaseUnmanagedResources_m2D67F3F260DB7D2D4B764CD892747B064D5CD1D5 (DelegateHandle_t178FA19A89EB38DCE6D7F7D67EE046349705FB1A* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (!_isDisposed) {
+		bool L_0 = __this->____isDisposed_3;
+		if (L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		// _gcHandle.Free();
+		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_1 = (&__this->____gcHandle_2);
+		GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3(L_1, NULL);
+		// _isDisposed = true;
+		__this->____isDisposed_3 = (bool)1;
+	}
+
+IL_001a:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.DelegateHandle::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateHandle_Dispose_m59463724A77D4A2B47403470C17465498B7F19F4 (DelegateHandle_t178FA19A89EB38DCE6D7F7D67EE046349705FB1A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// ReleaseUnmanagedResources();
+		DelegateHandle_ReleaseUnmanagedResources_m2D67F3F260DB7D2D4B764CD892747B064D5CD1D5(__this, NULL);
+		// GC.SuppressFinalize(this);
+		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
+		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.DelegateHandle::Finalize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateHandle_Finalize_mAE6D8EAFD07DA96017B45D2F4CADECAD6ACD15FF (DelegateHandle_t178FA19A89EB38DCE6D7F7D67EE046349705FB1A* __this, const RuntimeMethod* method) 
+{
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0008:
+			{// begin finally (depth: 1)
+				// }
+				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			// ReleaseUnmanagedResources();
+			DelegateHandle_ReleaseUnmanagedResources_m2D67F3F260DB7D2D4B764CD892747B064D5CD1D5(__this, NULL);
+			goto IL_000f;
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_000f:
+	{
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.Titan.Uploader.Internal.UnitySynchronizationContext::CaptureSynchronizationContext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySynchronizationContext_CaptureSynchronizationContext_m642A67DC08D5200816C07DEE68D31D0A1A3BD056 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// _synchronizationContext = SynchronizationContext.Current;
+		SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* L_0;
+		L_0 = SynchronizationContext_get_Current_m8DE6D3020745B7955249A2470A23EC0ECBB02A82(NULL);
+		((UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_StaticFields*)il2cpp_codegen_static_fields_for(UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_il2cpp_TypeInfo_var))->____synchronizationContext_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_StaticFields*)il2cpp_codegen_static_fields_for(UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_il2cpp_TypeInfo_var))->____synchronizationContext_0), (void*)L_0);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.UnitySynchronizationContext::RunOnMainThread(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySynchronizationContext_RunOnMainThread_m487702490101AA8198D07843F9955FA8AF8B14B4 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (SynchronizationContext.Current == _synchronizationContext) {
+		SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* L_0;
+		L_0 = SynchronizationContext_get_Current_m8DE6D3020745B7955249A2470A23EC0ECBB02A82(NULL);
+		SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* L_1 = ((UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_StaticFields*)il2cpp_codegen_static_fields_for(UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_il2cpp_TypeInfo_var))->____synchronizationContext_0;
+		if ((!(((RuntimeObject*)(SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0*)L_0) == ((RuntimeObject*)(SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0*)L_1))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// action.Invoke();
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___action0;
+		NullCheck(L_2);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_2, NULL);
+		return;
+	}
+
+IL_0013:
+	{
+		// PostToMainThread(action);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___action0;
+		UnitySynchronizationContext_PostToMainThread_m6E35E7536D6A02E23BBDEB8B6388547BE21170BE(L_3, NULL);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.UnitySynchronizationContext::PostToMainThread(System.Action)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySynchronizationContext_PostToMainThread_m6E35E7536D6A02E23BBDEB8B6388547BE21170BE (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___action0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass3_0_U3CPostToMainThreadU3Eb__0_mFC0271A889B6F80B2801AE716CEAC95E56326535_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761* V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761* L_0 = (U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CU3Ec__DisplayClass3_0__ctor_m8FFBFC0C2AF9E41649EF131040872DBDBDF8AE1C(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761* L_1 = V_0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___action0;
+		NullCheck(L_1);
+		L_1->___action_0 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___action_0), (void*)L_2);
+		// _synchronizationContext.Post(_ => action.Invoke(), null);
+		SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* L_3 = ((UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_StaticFields*)il2cpp_codegen_static_fields_for(UnitySynchronizationContext_t44D34DC31656DAE10BD68A392F3AF130833C5EE1_il2cpp_TypeInfo_var))->____synchronizationContext_0;
+		U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761* L_4 = V_0;
+		SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E* L_5 = (SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E*)il2cpp_codegen_object_new(SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		SendOrPostCallback__ctor_mE6F9D9606A00C3C18AEA057422ECF4106C80DA37(L_5, L_4, (intptr_t)((void*)U3CU3Ec__DisplayClass3_0_U3CPostToMainThreadU3Eb__0_mFC0271A889B6F80B2801AE716CEAC95E56326535_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		VirtualActionInvoker2< SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E*, RuntimeObject* >::Invoke(5 /* System.Void System.Threading.SynchronizationContext::Post(System.Threading.SendOrPostCallback,System.Object) */, L_3, L_5, NULL);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Niantic.Titan.Uploader.Internal.UnitySynchronizationContext/<>c__DisplayClass3_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m8FFBFC0C2AF9E41649EF131040872DBDBDF8AE1C (U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.UnitySynchronizationContext/<>c__DisplayClass3_0::<PostToMainThread>b__0(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CPostToMainThreadU3Eb__0_mFC0271A889B6F80B2801AE716CEAC95E56326535 (U3CU3Ec__DisplayClass3_0_t6E36FF9813F1131C6612473A59D0E74D81795761* __this, RuntimeObject* ____0, const RuntimeMethod* method) 
+{
+	{
+		// _synchronizationContext.Post(_ => action.Invoke(), null);
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = __this->___action_0;
+		NullCheck(L_0);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_0, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void UploadProgressDelegate_Invoke_mBCAD7CF7A3B96D8FB0A122D6B1CB730C6BF023BE_Multicast(UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* __this, float ___progress0, int32_t ___callbackId1, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* currentDelegate = reinterpret_cast<UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, float, int32_t, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___progress0, ___callbackId1, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void UploadProgressDelegate_Invoke_mBCAD7CF7A3B96D8FB0A122D6B1CB730C6BF023BE_OpenInst(UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* __this, float ___progress0, int32_t ___callbackId1, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (float, int32_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___progress0, ___callbackId1, method);
+}
+void UploadProgressDelegate_Invoke_mBCAD7CF7A3B96D8FB0A122D6B1CB730C6BF023BE_OpenStatic(UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* __this, float ___progress0, int32_t ___callbackId1, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (float, int32_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___progress0, ___callbackId1, method);
+}
+void UploadProgressDelegate_Invoke_mBCAD7CF7A3B96D8FB0A122D6B1CB730C6BF023BE_OpenStaticInvoker(UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* __this, float ___progress0, int32_t ___callbackId1, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< float, int32_t >::Invoke(__this->___method_ptr_0, method, NULL, ___progress0, ___callbackId1);
+}
+void UploadProgressDelegate_Invoke_mBCAD7CF7A3B96D8FB0A122D6B1CB730C6BF023BE_ClosedStaticInvoker(UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* __this, float ___progress0, int32_t ___callbackId1, const RuntimeMethod* method)
+{
+	InvokerActionInvoker3< RuntimeObject*, float, int32_t >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___progress0, ___callbackId1);
+}
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF (UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* __this, float ___progress0, int32_t ___callbackId1, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(float, int32_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
+	// Native function invocation
+	il2cppPInvokeFunc(___progress0, ___callbackId1);
+
+}
+// System.Void Niantic.Titan.Uploader.Internal.UploadProgressDelegate::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadProgressDelegate__ctor_mE0C096E0DBA95FFBAC16FE90310D5C1C7DD2EA16 (UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 2;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&UploadProgressDelegate_Invoke_mBCAD7CF7A3B96D8FB0A122D6B1CB730C6BF023BE_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&UploadProgressDelegate_Invoke_mBCAD7CF7A3B96D8FB0A122D6B1CB730C6BF023BE_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&UploadProgressDelegate_Invoke_mBCAD7CF7A3B96D8FB0A122D6B1CB730C6BF023BE_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___object0 == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&UploadProgressDelegate_Invoke_mBCAD7CF7A3B96D8FB0A122D6B1CB730C6BF023BE_Multicast;
+}
+// System.Void Niantic.Titan.Uploader.Internal.UploadProgressDelegate::Invoke(System.Single,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadProgressDelegate_Invoke_mBCAD7CF7A3B96D8FB0A122D6B1CB730C6BF023BE (UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* __this, float ___progress0, int32_t ___callbackId1, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, float, int32_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___progress0, ___callbackId1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult Niantic.Titan.Uploader.Internal.UploadProgressDelegate::BeginInvoke(System.Single,System.Int32,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UploadProgressDelegate_BeginInvoke_m4BC2FEB701AAB00325A8674179B28A72ED28582C (UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* __this, float ___progress0, int32_t ___callbackId1, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback2, RuntimeObject* ___object3, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &___progress0);
+	__d_args[1] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___callbackId1);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+}
+// System.Void Niantic.Titan.Uploader.Internal.UploadProgressDelegate::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadProgressDelegate_EndInvoke_m51FE2935B1AB80160F529F9343C61FCC6AAA1EF1 (UploadProgressDelegate_tE46E2A748903B96C5439AFB4727AE156763E2EEF* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void UploadCompleteDelegate_Invoke_mE17FB6BFA2F28532D1BD56D1639784C957C326BD_Multicast(UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* __this, bool ___success0, int32_t ___callbackId1, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* currentDelegate = reinterpret_cast<UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, bool, int32_t, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___success0, ___callbackId1, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void UploadCompleteDelegate_Invoke_mE17FB6BFA2F28532D1BD56D1639784C957C326BD_OpenInst(UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* __this, bool ___success0, int32_t ___callbackId1, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (bool, int32_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___success0, ___callbackId1, method);
+}
+void UploadCompleteDelegate_Invoke_mE17FB6BFA2F28532D1BD56D1639784C957C326BD_OpenStatic(UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* __this, bool ___success0, int32_t ___callbackId1, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (bool, int32_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___success0, ___callbackId1, method);
+}
+void UploadCompleteDelegate_Invoke_mE17FB6BFA2F28532D1BD56D1639784C957C326BD_OpenStaticInvoker(UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* __this, bool ___success0, int32_t ___callbackId1, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< bool, int32_t >::Invoke(__this->___method_ptr_0, method, NULL, ___success0, ___callbackId1);
+}
+void UploadCompleteDelegate_Invoke_mE17FB6BFA2F28532D1BD56D1639784C957C326BD_ClosedStaticInvoker(UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* __this, bool ___success0, int32_t ___callbackId1, const RuntimeMethod* method)
+{
+	InvokerActionInvoker3< RuntimeObject*, bool, int32_t >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___success0, ___callbackId1);
+}
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB (UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* __this, bool ___success0, int32_t ___callbackId1, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t, int32_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
+	// Native function invocation
+	il2cppPInvokeFunc(static_cast<int32_t>(___success0), ___callbackId1);
+
+}
+// System.Void Niantic.Titan.Uploader.Internal.UploadCompleteDelegate::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadCompleteDelegate__ctor_m85FFD6CA73EB0EBEBA9708B3FD7C815A51489B81 (UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 2;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&UploadCompleteDelegate_Invoke_mE17FB6BFA2F28532D1BD56D1639784C957C326BD_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&UploadCompleteDelegate_Invoke_mE17FB6BFA2F28532D1BD56D1639784C957C326BD_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&UploadCompleteDelegate_Invoke_mE17FB6BFA2F28532D1BD56D1639784C957C326BD_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___object0 == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&UploadCompleteDelegate_Invoke_mE17FB6BFA2F28532D1BD56D1639784C957C326BD_Multicast;
+}
+// System.Void Niantic.Titan.Uploader.Internal.UploadCompleteDelegate::Invoke(System.Boolean,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadCompleteDelegate_Invoke_mE17FB6BFA2F28532D1BD56D1639784C957C326BD (UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* __this, bool ___success0, int32_t ___callbackId1, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, bool, int32_t, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___success0, ___callbackId1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult Niantic.Titan.Uploader.Internal.UploadCompleteDelegate::BeginInvoke(System.Boolean,System.Int32,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UploadCompleteDelegate_BeginInvoke_mE5F35531CA866AD51297517B6527C6B6B7770F9F (UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* __this, bool ___success0, int32_t ___callbackId1, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback2, RuntimeObject* ___object3, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &___success0);
+	__d_args[1] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___callbackId1);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+}
+// System.Void Niantic.Titan.Uploader.Internal.UploadCompleteDelegate::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadCompleteDelegate_EndInvoke_mDA6DD5486A237DD69A87C4F80A466A39A33531F0 (UploadCompleteDelegate_t8A96DE783DCDC6DA748AAC41F1C33061E2CF45EB* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UploadCallbackScope_UploadProgressCallback_mA2F6F71D236FC06059DC7398ADD562FC7862134A(float ___progress0, int32_t ___callbackId1)
+{
+	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	UploadCallbackScope_UploadProgressCallback_mA2F6F71D236FC06059DC7398ADD562FC7862134A(___progress0, ___callbackId1, NULL);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_UploadCallbackScope_UploadCompleteCallback_m94B019EB19A889B570947EFBF0D195AC4A7E078E(int32_t ___success0, int32_t ___callbackId1)
+{
+	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	// Managed method invocation
+	UploadCallbackScope_UploadCompleteCallback_m94B019EB19A889B570947EFBF0D195AC4A7E078E(static_cast<bool>(___success0), ___callbackId1, NULL);
+
+}
+// System.Int32 Niantic.Titan.Uploader.Internal.UploadCallbackScope::get_Id()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UploadCallbackScope_get_Id_m8B24F88F7C1B73C521CDBA753FC1FD0180FF2285 (UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int Id { get; }
+		int32_t L_0 = __this->___U3CIdU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+// System.Threading.Tasks.Task`1<System.Boolean> Niantic.Titan.Uploader.Internal.UploadCallbackScope::get_Task()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* UploadCallbackScope_get_Task_m0A5E691EC9E1952DC6A39BBA00ED5FF0B9E4274D (UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public Task<bool> Task { get => _tcs.Task; }
+		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_0 = __this->____tcs_2;
+		NullCheck(L_0);
+		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_1;
+		L_1 = TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_inline(L_0, TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_RuntimeMethod_var);
+		return L_1;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.UploadCallbackScope::.ctor(System.Action`1<System.Single>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadCallbackScope__ctor_m220592810D943C2F9A31A19AC1B530F19E5EB46C (UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* __this, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1__ctor_m8B45657B899BBC1E2F287FC119B8EC38083EF30A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private UploadCallbackScope(Action<float> onProgress) {
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		// Id = Interlocked.Increment(ref _currentScopeId);
+		il2cpp_codegen_runtime_class_init_inline(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309((&((UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_StaticFields*)il2cpp_codegen_static_fields_for(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var))->____currentScopeId_0), NULL);
+		__this->___U3CIdU3Ek__BackingField_4 = L_0;
+		// _onProgress = onProgress;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_1 = ___onProgress0;
+		__this->____onProgress_3 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____onProgress_3), (void*)L_1);
+		// _tcs = new TaskCompletionSource<bool>(
+		//   TaskCreationOptions.RunContinuationsAsynchronously);
+		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_2 = (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14*)il2cpp_codegen_object_new(TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		TaskCompletionSource_1__ctor_m8B45657B899BBC1E2F287FC119B8EC38083EF30A(L_2, ((int32_t)64), TaskCompletionSource_1__ctor_m8B45657B899BBC1E2F287FC119B8EC38083EF30A_RuntimeMethod_var);
+		__this->____tcs_2 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____tcs_2), (void*)L_2);
+		// }
+		return;
+	}
+}
+// Niantic.Titan.Uploader.Internal.UploadCallbackScope Niantic.Titan.Uploader.Internal.UploadCallbackScope::Create(System.Action`1<System.Single>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* UploadCallbackScope_Create_mA530220038F40B7FA870904799F027A2E489BC92 (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConcurrentDictionary_2_TryAdd_m2DA3A0ABB5A41D404CAE49AD70B96A6B5E7FA8F2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* V_0 = NULL;
+	{
+		// var scope = new UploadCallbackScope(onProgress);
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_0 = ___onProgress0;
+		UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* L_1 = (UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3*)il2cpp_codegen_object_new(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		UploadCallbackScope__ctor_m220592810D943C2F9A31A19AC1B530F19E5EB46C(L_1, L_0, NULL);
+		V_0 = L_1;
+		// var addSuccess = _scopes.TryAdd(scope.Id, scope);
+		il2cpp_codegen_runtime_class_init_inline(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D* L_2 = ((UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_StaticFields*)il2cpp_codegen_static_fields_for(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var))->____scopes_1;
+		UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* L_3 = V_0;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = UploadCallbackScope_get_Id_m8B24F88F7C1B73C521CDBA753FC1FD0180FF2285_inline(L_3, NULL);
+		UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* L_5 = V_0;
+		NullCheck(L_2);
+		bool L_6;
+		L_6 = ConcurrentDictionary_2_TryAdd_m2DA3A0ABB5A41D404CAE49AD70B96A6B5E7FA8F2(L_2, L_4, L_5, ConcurrentDictionary_2_TryAdd_m2DA3A0ABB5A41D404CAE49AD70B96A6B5E7FA8F2_RuntimeMethod_var);
+		// return scope;
+		UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* L_7 = V_0;
+		return L_7;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.UploadCallbackScope::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadCallbackScope_Dispose_m771A19FBB21BEEACD373EA15F220C9896AB04958 (UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConcurrentDictionary_2_TryRemove_m301AEFECA5AB21D3156386BECF3CC15A8708DB7E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* V_0 = NULL;
+	TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* G_B2_0 = NULL;
+	TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* G_B1_0 = NULL;
+	{
+		// var removeSuccess = _scopes.TryRemove(Id, out _);
+		il2cpp_codegen_runtime_class_init_inline(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D* L_0 = ((UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_StaticFields*)il2cpp_codegen_static_fields_for(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var))->____scopes_1;
+		int32_t L_1;
+		L_1 = UploadCallbackScope_get_Id_m8B24F88F7C1B73C521CDBA753FC1FD0180FF2285_inline(__this, NULL);
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = ConcurrentDictionary_2_TryRemove_m301AEFECA5AB21D3156386BECF3CC15A8708DB7E(L_0, L_1, (&V_0), ConcurrentDictionary_2_TryRemove_m301AEFECA5AB21D3156386BECF3CC15A8708DB7E_RuntimeMethod_var);
+		// _tcs?.TrySetResult(false);
+		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_3 = __this->____tcs_2;
+		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_4 = L_3;
+		G_B1_0 = L_4;
+		if (L_4)
+		{
+			G_B2_0 = L_4;
+			goto IL_001e;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001e:
+	{
+		NullCheck(G_B2_0);
+		bool L_5;
+		L_5 = TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1(G_B2_0, (bool)0, TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.UploadCallbackScope::UploadProgressCallback(System.Single,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadCallbackScope_UploadProgressCallback_mA2F6F71D236FC06059DC7398ADD562FC7862134A (float ___progress0, int32_t ___callbackId1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConcurrentDictionary_2_TryGetValue_m145B534F9AE9F8BC65E67A62C9A11EF6E421AB41_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* V_0 = NULL;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* G_B3_0 = NULL;
+	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* G_B2_0 = NULL;
+	{
+		// if (_scopes.TryGetValue(callbackId, out var scope)) {
+		il2cpp_codegen_runtime_class_init_inline(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D* L_0 = ((UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_StaticFields*)il2cpp_codegen_static_fields_for(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var))->____scopes_1;
+		int32_t L_1 = ___callbackId1;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = ConcurrentDictionary_2_TryGetValue_m145B534F9AE9F8BC65E67A62C9A11EF6E421AB41(L_0, L_1, (&V_0), ConcurrentDictionary_2_TryGetValue_m145B534F9AE9F8BC65E67A62C9A11EF6E421AB41_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		// scope._onProgress?.Invoke(progress);
+		UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* L_3 = V_0;
+		NullCheck(L_3);
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_4 = L_3->____onProgress_3;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_5 = L_4;
+		G_B2_0 = L_5;
+		if (L_5)
+		{
+			G_B3_0 = L_5;
+			goto IL_001a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001a:
+	{
+		float L_6 = ___progress0;
+		NullCheck(G_B3_0);
+		Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_inline(G_B3_0, L_6, NULL);
+		return;
+	}
+
+IL_0021:
+	{
+		// throw new InvalidOperationException($"Couldn't find callback id '{callbackId}' in {nameof(UploadProgressCallback)}");
+		int32_t L_7 = ___callbackId1;
+		int32_t L_8 = L_7;
+		RuntimeObject* L_9 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_8);
+		String_t* L_10;
+		L_10 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF5DB226C47A4E53B8999A1D8290EE49389E01244)), L_9, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9F5970FF2D79B31DD81A8857D8C2DCD453E2DA50)), NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_11 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_11);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_11, L_10, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UploadCallbackScope_UploadProgressCallback_mA2F6F71D236FC06059DC7398ADD562FC7862134A_RuntimeMethod_var)));
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.UploadCallbackScope::UploadCompleteCallback(System.Boolean,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadCallbackScope_UploadCompleteCallback_m94B019EB19A889B570947EFBF0D195AC4A7E078E (bool ___success0, int32_t ___callbackId1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConcurrentDictionary_2_TryGetValue_m145B534F9AE9F8BC65E67A62C9A11EF6E421AB41_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* V_0 = NULL;
+	TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* G_B3_0 = NULL;
+	TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* G_B2_0 = NULL;
+	{
+		// if (_scopes.TryGetValue(callbackId, out var scope)) {
+		il2cpp_codegen_runtime_class_init_inline(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D* L_0 = ((UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_StaticFields*)il2cpp_codegen_static_fields_for(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var))->____scopes_1;
+		int32_t L_1 = ___callbackId1;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = ConcurrentDictionary_2_TryGetValue_m145B534F9AE9F8BC65E67A62C9A11EF6E421AB41(L_0, L_1, (&V_0), ConcurrentDictionary_2_TryGetValue_m145B534F9AE9F8BC65E67A62C9A11EF6E421AB41_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// scope._tcs?.TrySetResult(success);
+		UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* L_3 = V_0;
+		NullCheck(L_3);
+		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_4 = L_3->____tcs_2;
+		TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* L_5 = L_4;
+		G_B2_0 = L_5;
+		if (L_5)
+		{
+			G_B3_0 = L_5;
+			goto IL_001a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001a:
+	{
+		bool L_6 = ___success0;
+		NullCheck(G_B3_0);
+		bool L_7;
+		L_7 = TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1(G_B3_0, L_6, TaskCompletionSource_1_TrySetResult_m3B4D8D267C1B26945C3C417057DEB50C56B689B1_RuntimeMethod_var);
+		return;
+	}
+
+IL_0022:
+	{
+		// throw new InvalidOperationException($"Couldn't find callback id '{callbackId}' in {nameof(UploadCompleteCallback)}");
+		int32_t L_8 = ___callbackId1;
+		int32_t L_9 = L_8;
+		RuntimeObject* L_10 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_9);
+		String_t* L_11;
+		L_11 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF5DB226C47A4E53B8999A1D8290EE49389E01244)), L_10, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0062BDB7606D5B26FEAED5B6DAAA5E80A587D6DC)), NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_12 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		NullCheck(L_12);
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_12, L_11, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UploadCallbackScope_UploadCompleteCallback_m94B019EB19A889B570947EFBF0D195AC4A7E078E_RuntimeMethod_var)));
+	}
+}
+// System.Void Niantic.Titan.Uploader.Internal.UploadCallbackScope::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadCallbackScope__cctor_m1F54282945FFB95E2A6255DAAE76088BA2F9EA54 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConcurrentDictionary_2__ctor_m68A530CD77F2A9C5F3890808C81F64DEFEBD6BC3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private static readonly ConcurrentDictionary<int, UploadCallbackScope>
+		//   _scopes = new ConcurrentDictionary<int, UploadCallbackScope>();
+		ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D* L_0 = (ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D*)il2cpp_codegen_object_new(ConcurrentDictionary_2_tB864620F02E436FF22837AC7A4D6DA6AEF7C991D_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		ConcurrentDictionary_2__ctor_m68A530CD77F2A9C5F3890808C81F64DEFEBD6BC3(L_0, ConcurrentDictionary_2__ctor_m68A530CD77F2A9C5F3890808C81F64DEFEBD6BC3_RuntimeMethod_var);
+		((UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_StaticFields*)il2cpp_codegen_static_fields_for(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var))->____scopes_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_StaticFields*)il2cpp_codegen_static_fields_for(UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3_il2cpp_TypeInfo_var))->____scopes_1), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t HandleRef_get_Handle_m2055005E349E895499E1B3B826C89228FFAC4C17_inline (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F* __this, const RuntimeMethod* method) 
+{
+	{
+		intptr_t L_0 = __this->____handle_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UploadCallbackScope_get_Id_m8B24F88F7C1B73C521CDBA753FC1FD0180FF2285_inline (UploadCallbackScope_tAE5C02B4ABB980B19370BB7CE0BDC23B189E79C3* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int Id { get; }
+		int32_t L_0 = __this->___U3CIdU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChunkedFileUploadRequest_set_Chunks_m50AC9E0BD93637958F5F3B1B7C9E286B66039934_inline (ChunkedFileUploadRequest_t15B9B895259C6A47B0D15A90D80696B22F9BA6B9* __this, ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public ReadOnlyCollection<IChunkInfo> Chunks { get; private set; }
+		ReadOnlyCollection_1_t8F311ABA8771E5775A74CF4629550522A94F4998* L_0 = ___value0;
+		__this->___U3CChunksU3Ek__BackingField_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CChunksU3Ek__BackingField_5), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* ChunkedFileUploadService_get_Log_mAC25296E177A55E7006DE0B5AB0F8BE1D00E1E97_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private static ChannelLogger Log { get; } =
+		il2cpp_codegen_runtime_class_init_inline(ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_0 = ((ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_StaticFields*)il2cpp_codegen_static_fields_for(ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688_il2cpp_TypeInfo_var))->___U3CLogU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t ChunkedFileUploadService_get_UploadWorkerThreadCount_m6CDE65C66B15D3499E1B092A89440D7FE5575C72_inline (ChunkedFileUploadService_tF585C8020ED862E5A361D461B1125F2171600688* __this, const RuntimeMethod* method) 
+{
+	{
+		// public uint UploadWorkerThreadCount { get; set; } =
+		uint32_t L_0 = __this->___U3CUploadWorkerThreadCountU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsActive_mB455BF071C6C9A1464D8736F2DB9F234968D757B_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsActive { get; private set; }
+		bool L_0 = ___value0;
+		__this->___U3CIsActiveU3Ek__BackingField_6 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsPaused_mF1A68074216BCC83A34D65CED498AD81845191CA_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsPaused { get; private set; }
+		bool L_0 = ___value0;
+		__this->___U3CIsPausedU3Ek__BackingField_5 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsCanceled_m2F57B50E6985F0BE1C317B7CB3304039CF5D6DC5_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsCanceled { get; private set; }
+		bool L_0 = ___value0;
+		__this->___U3CIsCanceledU3Ek__BackingField_4 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ChunkedFileUploadSession_get_IsCanceled_m5009C0FA2F2AFE1D096BDCA69FF48A44C26E57A7_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsCanceled { get; private set; }
+		bool L_0 = __this->___U3CIsCanceledU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsComplete_m6CB60680E75AE044E4102E7D7D2906BC5BD25F31_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsComplete { get; private set; }
+		bool L_0 = ___value0;
+		__this->___U3CIsCompleteU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChunkedFileUploadSession_set_IsSuccessful_mBB55374771F60451D7C7B35B88A6EBE151713EFC_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsSuccessful { get; private set; }
+		bool L_0 = ___value0;
+		__this->___U3CIsSuccessfulU3Ek__BackingField_3 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ConfiguredTaskAwaitable_GetAwaiter_m3F163D24211147E68FC5799A7D2D2BE7C07A60B5_inline (ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C* __this, const RuntimeMethod* method) 
+{
+	{
+		ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 L_0 = __this->___m_configuredTaskAwaiter_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ChunkedFileUploadSession_get_IsSuccessful_mB9EC372514C705C146A7187ECEA25B27A41E32F4_inline (ChunkedFileUploadSession_t463FA1FF3CB660203D445CF92DA5A8F2E3E5059A* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool IsSuccessful { get; private set; }
+		bool L_0 = __this->___U3CIsSuccessfulU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* NativeLogger_get_Log_m37CB7D279B165718D4D1E372E9A725BADE4C1535_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private static ChannelLogger Log { get; } =
+		il2cpp_codegen_runtime_class_init_inline(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_0 = ((NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_StaticFields*)il2cpp_codegen_static_fields_for(NativeLogger_tD2B2A62FC0970E85C75B5435AA6F6D31838F5017_il2cpp_TypeInfo_var))->___U3CLogU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* ApplicationLifecycle_get_Log_m0CA54FE80F35765220104F8DCBD995BB66EDEDC1_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// private static ChannelLogger Log { get; } =
+		il2cpp_codegen_runtime_class_init_inline(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var);
+		ChannelLogger_t3BC0D3C77E8DEF2F81EB993CA1188820F4B3EEEF* L_0 = ((ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationLifecycle_tFB33F60D4E27EC3296592B87AFEA8C5268E018F8_il2cpp_TypeInfo_var))->___U3CLogU3Ek__BackingField_6;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4 ConfiguredTaskAwaitable_1_GetAwaiter_m3D8C463996184A1FE94D1B59A379F3ACB425C7CF_gshared_inline (ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C* __this, const RuntimeMethod* method) 
+{
+	{
+		ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4 L_0 = (ConfiguredTaskAwaiter_tADFEF9AE6CB4E22E17B1DFA386EE3D86DB8955E4)__this->___m_configuredTaskAwaiter_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_mB407E755F3B4C51C54D24338D00A352E5B16E7F3_gshared_inline (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->____currentValue_3;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) 
+{
+	{
+		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 L_0 = (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230)__this->____current_3;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Value_mC6BD8075F9C9DDEF7B4D731E5C38EC19103988E7_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->___value_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->___key_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_mCCB27455CFC6A92DE481D9B3F0215D861DD1A8C5_gshared_inline (Action_3_t850613A5C1D9CA712ADADCE36ED2E7D25DF3B109* __this, RuntimeObject* ___arg10, RuntimeObject* ___arg21, float ___arg32, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, float, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, ___arg32, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredTaskAwaiter_tDED7237EFF0427AECED9D7549E9AF9F7E568C39B ConfiguredTaskAwaitable_1_GetAwaiter_m447B2323EADC587DE0ABFEA2FEF3AF3342F75186_gshared_inline (ConfiguredTaskAwaitable_1_tE948E6A9D82D7E1E26885E7CE5ED6256AA5BBBD8* __this, const RuntimeMethod* method) 
+{
+	{
+		ConfiguredTaskAwaiter_tDED7237EFF0427AECED9D7549E9AF9F7E568C39B L_0 = (ConfiguredTaskAwaiter_tDED7237EFF0427AECED9D7549E9AF9F7E568C39B)__this->___m_configuredTaskAwaiter_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_gshared_inline (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, float ___obj0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, float, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* TaskCompletionSource_1_get_Task_m068E06095F165AE266E15C328CBDA1543429EC66_gshared_inline (TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* __this, const RuntimeMethod* method) 
+{
+	{
+		Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_0 = (Task_1_t824317F4B958F7512E8F7300511752937A6C6043*)__this->____task_0;
+		return L_0;
+	}
+}
